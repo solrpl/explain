@@ -1,0 +1,36 @@
+
+2.9735632 = (MATCH) sum of:
+  1.3638688 = (MATCH) sum of:
+    0.6819344 = (MATCH) weight(text:xxxx in 5) [DefaultSimilarity], result of:
+      0.6819344 = score(doc=5,freq=2.0 = termFreq=2.0
+), product of:
+        0.49468645 = queryWeight, product of:
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.31718484 = queryNorm
+        1.3785185 = fieldWeight in 5, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.625 = fieldNorm(doc=5)
+    0.6819344 = (MATCH) weight(text:xxxx in 5) [DefaultSimilarity], result of:
+      0.6819344 = score(doc=5,freq=2.0 = termFreq=2.0
+), product of:
+        0.49468645 = queryWeight, product of:
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.31718484 = queryNorm
+        1.3785185 = fieldWeight in 5, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.625 = fieldNorm(doc=5)
+  1.6096944 = (MATCH) weight(id:6 in 5) [DefaultSimilarity], result of:
+    1.6096944 = score(doc=5,freq=1.0 = termFreq=1.0
+), product of:
+      0.71454227 = queryWeight, product of:
+        2.252763 = idf(docFreq=1, maxDocs=7)
+        0.31718484 = queryNorm
+      2.252763 = fieldWeight in 5, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.252763 = idf(docFreq=1, maxDocs=7)
+        1.0 = fieldNorm(doc=5)

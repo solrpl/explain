@@ -1,0 +1,12 @@
+# q=*:* AND _query_:"price:0.0"
+2.5420532 = (MATCH) sum of:
+  0.4275203 = (MATCH) MatchAllDocsQuery, product of:
+    0.4275203 = queryNorm
+  2.114533 = (MATCH) weight(price:`#8;#0;#0;#0;#0; in 0) [BM25Similarity], result of:
+    2.114533 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+      2.114533 = idf(docFreq=3, maxDocs=28)
+      1.0 = tfNorm, computed from:
+        1.0 = termFreq=1.0
+        1.2 = parameter k1
+        0.0 = parameter b (norms omitted for field)

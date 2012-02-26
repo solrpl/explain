@@ -1,0 +1,5 @@
+
+2.236068 = (MATCH) FunctionQuery(tf(a_t,cow)), product of:
+  2.236068 = tf(a_t,cow)=2.236068
+  1.0 = boost
+  1.0 = queryNorm

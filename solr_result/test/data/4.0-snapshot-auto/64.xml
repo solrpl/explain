@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">16850</int>
+</lst>
+<result name="response" numFound="0" start="0">
+</result>
+<lst name="spellcheck">
+  <lst name="suggestions">
+    <lst name="lucenejavt">
+      <int name="numFound">1</int>
+      <int name="startOffset">10</int>
+      <int name="endOffset">20</int>
+      <arr name="suggestion">
+        <str>lucenejava</str>
+      </arr>
+    </lst>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">lowerfilt:lucenejavt</str>
+  <str name="querystring">lowerfilt:lucenejavt</str>
+  <str name="parsedquery">lowerfilt:lucenejavt</str>
+  <str name="parsedquery_toString">lowerfilt:lucenejavt</str>
+  <lst name="explain"/>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">4.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">4.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

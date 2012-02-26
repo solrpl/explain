@@ -1,0 +1,46 @@
+1.6506158 = (MATCH) sum of:
+  1.6184365 = (MATCH) sum of:
+    0.23120521 = (MATCH) max of:
+      0.23120521 = (MATCH) weight(name:1gb^20.0 in 7), product of:
+        0.3779532 = queryWeight(name:1gb^20.0), product of:
+          20.0 = boost
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.007723043 = queryNorm
+        0.61172974 = (MATCH) fieldWeight(name:1gb in 7), product of:
+          1.0 = tf(termFreq(name:1gb)=1)
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.25 = fieldNorm(field=name, doc=7)
+    0.23120521 = (MATCH) max of:
+      0.23120521 = (MATCH) weight(name:184^20.0 in 7), product of:
+        0.3779532 = queryWeight(name:184^20.0), product of:
+          20.0 = boost
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.007723043 = queryNorm
+        0.61172974 = (MATCH) fieldWeight(name:184 in 7), product of:
+          1.0 = tf(termFreq(name:184)=1)
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.25 = fieldNorm(field=name, doc=7)
+    0.23120521 = (MATCH) max of:
+      0.23120521 = (MATCH) weight(name:pin^20.0 in 7), product of:
+        0.3779532 = queryWeight(name:pin^20.0), product of:
+          20.0 = boost
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.007723043 = queryNorm
+        0.61172974 = (MATCH) fieldWeight(name:pin in 7), product of:
+          1.0 = tf(termFreq(name:pin)=1)
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.25 = fieldNorm(field=name, doc=7)
+    0.92482084 = (MATCH) max of:
+      0.92482084 = (MATCH) weight(name:"1gb 184"^20.0 in 7), product of:
+        0.7559064 = queryWeight(name:"1gb 184"^20.0), product of:
+          20.0 = boost
+          4.893838 = idf(name: 1gb=3 184=3)
+          0.007723043 = queryNorm
+        1.2234595 = fieldWeight(name:"1gb 184" in 7), product of:
+          1.0 = tf(phraseFreq=1.0)
+          4.893838 = idf(name: 1gb=3 184=3)
+          0.25 = fieldNorm(field=name, doc=7)
+  0.032179344 = (MATCH) FunctionQuery(div(const(1.0),strdist(literal(corsair),str(manu_exact), dist=org.apache.lucene.search.spell.LevensteinDistance))), product of:
+    4.1666665 = div(const(1.0),strdist(corsair,str(manu_exact)=Corsair Microsystems Inc., dist=org.apache.lucene.search.spell.LevensteinDistance))
+    1.0 = boost
+    0.007723043 = queryNorm

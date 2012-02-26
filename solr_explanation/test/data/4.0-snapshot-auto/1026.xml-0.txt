@@ -1,0 +1,5 @@
+
+2.7182817 = (MATCH) FunctionQuery(exp(const(1))), product of:
+  2.7182817 = exp(const(1))
+  1.0 = boost
+  1.0 = queryNorm

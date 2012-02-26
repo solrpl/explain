@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="1" start="0" maxScore="11.0">
+  <doc>
+    <float name="id">6.0</float>
+    <str name="a_t">cow cow cow cow cow</str>
+    <float name="score">11.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}sumtotaltermfreq('a_t')</str>
+  <str name="querystring">{!func}sumtotaltermfreq('a_t')</str>
+  <str name="parsedquery">FunctionQuery(sumtotaltermfreq(a_t))</str>
+  <str name="parsedquery_toString">sumtotaltermfreq(a_t)</str>
+  <lst name="explain">
+    <str name="6.0">
+11.0 = (MATCH) FunctionQuery(sumtotaltermfreq(a_t)), product of:
+  11.0 = sumtotaltermfreq(a_t)=11
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <arr name="filter_queries">
+    <str>id:6</str>
+  </arr>
+  <arr name="parsed_filter_queries">
+    <str>id:6.0</str>
+  </arr>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

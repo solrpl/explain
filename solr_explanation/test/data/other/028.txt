@@ -1,0 +1,52 @@
+7.115965 = (MATCH) sum of:
+  7.07271 = (MATCH) sum of:
+    1.5284812 = (MATCH) max of:
+      1.5284812 = (MATCH) weight(loc_adm_lvl2:niedersachsen in 1435950) [DefaultSimilarity], result of:
+        1.5284812 = score(doc=1435950,freq=1.0 = termFreq=1
+), product of:
+          0.25712737 = queryWeight, product of:
+            5.944452 = idf(docFreq=32455, maxDocs=4556623)
+            0.04325502 = queryNorm
+          5.944452 = fieldWeight in 1435950, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1
+            5.944452 = idf(docFreq=32455, maxDocs=4556623)
+            1.0 = fieldNorm(doc=1435950)
+    5.544229 = (MATCH) max of:
+      5.544229 = (MATCH) weight(loc_adm_lvl4:northeim in 1435950) [DefaultSimilarity], result of:
+        5.544229 = score(doc=1435950,freq=1.0 = termFreq=1
+), product of:
+          0.48970985 = queryWeight, product of:
+            11.321457 = idf(docFreq=149, maxDocs=4556623)
+            0.04325502 = queryNorm
+          11.321457 = fieldWeight in 1435950, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1
+            11.321457 = idf(docFreq=149, maxDocs=4556623)
+            1.0 = fieldNorm(doc=1435950)
+      4.3785243 = (MATCH) weight(loc_adm_lvl3:northeim in 1435950) [DefaultSimilarity], result of:
+        4.3785243 = score(doc=1435950,freq=1.0 = termFreq=1
+), product of:
+          0.43519324 = queryWeight, product of:
+            10.061104 = idf(docFreq=528, maxDocs=4556623)
+            0.04325502 = queryNorm
+          10.061104 = fieldWeight in 1435950, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1
+            10.061104 = idf(docFreq=528, maxDocs=4556623)
+            1.0 = fieldNorm(doc=1435950)
+      3.5466254 = (MATCH) weight(name:northeim in 1435950) [DefaultSimilarity], result of:
+        3.5466254 = score(doc=1435950,freq=1.0 = termFreq=1
+), product of:
+          0.55391216 = queryWeight, product of:
+            12.805732 = idf(docFreq=33, maxDocs=4556623)
+            0.04325502 = queryNorm
+          6.402866 = fieldWeight in 1435950, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1
+            12.805732 = idf(docFreq=33, maxDocs=4556623)
+            0.5 = fieldNorm(doc=1435950)
+  0.04325502 = (MATCH) FunctionQuery(max(max(strdist(literal(Northeim),str(country), dist=org.apache.lucene.search.spell.LevensteinDistance),strdist(literal(Niedersachsen),str(country), dist=org.apache.lucene.search.spell.LevensteinDistance)),strdist(literal(DEU),str(country), dist=org.apache.lucene.search.spell.LevensteinDistance))), product of:
+    1.0 = max(max(strdist(Northeim,str(country)=DEU, dist=org.apache.lucene.search.spell.LevensteinDistance),strdist(Niedersachsen,str(country)=DEU, dist=org.apache.lucene.search.spell.LevensteinDistance)),strdist(DEU,str(country)=DEU, dist=org.apache.lucene.search.spell.LevensteinDistance))
+    1.0 = boost
+    0.04325502 = queryNorm

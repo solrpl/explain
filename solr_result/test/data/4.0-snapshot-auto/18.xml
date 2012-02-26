@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">68</int>
+</lst>
+<result name="response" numFound="0" start="0">
+</result>
+<lst name="debug">
+  <str name="rawquerystring">+id:42 +subword:"foo bar"~90</str>
+  <str name="querystring">+id:42 +subword:"foo bar"~90</str>
+  <str name="parsedquery">+id:42 +PhraseQuery(subword:"foo bar"~90)</str>
+  <str name="parsedquery_toString">+id:`#8;#0;#0;#0;* +subword:"foo bar"~90</str>
+  <lst name="explain"/>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">68.0</double>
+    <lst name="prepare">
+      <double name="time">3.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">65.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">65.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

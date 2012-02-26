@@ -1,0 +1,5 @@
+
+0.87758255 = (MATCH) FunctionQuery(cos(const(0.5))), product of:
+  0.87758255 = cos(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

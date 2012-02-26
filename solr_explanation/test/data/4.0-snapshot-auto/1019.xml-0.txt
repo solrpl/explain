@@ -1,0 +1,5 @@
+
+2.0 = (MATCH) FunctionQuery(cbrt(const(8))), product of:
+  2.0 = cbrt(const(8))
+  1.0 = boost
+  1.0 = queryNorm

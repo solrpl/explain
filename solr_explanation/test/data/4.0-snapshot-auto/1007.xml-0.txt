@@ -1,0 +1,5 @@
+
+543210.0 = (MATCH) FunctionQuery(FileFloatSource(field=CoMpleX fieldName _extf,keyField=id,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  543210.0 = float(CoMpleX fieldName _extf{type=file,properties=})=543210.0
+  1.0 = boost
+  1.0 = queryNorm

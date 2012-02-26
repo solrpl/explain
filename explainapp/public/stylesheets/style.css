@@ -1,0 +1,301 @@
+/*
+ * css reset
+ */
+html,body,div,span,applet,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,
+img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,form,fieldset,label,legend,table,caption,tbody,
+tfoot,thead,tr,th,td,object,article,aside,dialog,figure,footer,header,hgroup,nav,section
+{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline}
+
+article,aside,dialog,figure,footer,header,hgroup,nav,section {display:block}
+
+:focus {outline:0}
+
+ol,ul {list-style:none}
+
+table {border-collapse:separate;border-spacing:0}
+
+caption,th,td {text-align:left;font-weight:normal}
+
+blockquote:before, blockquote:after, q:before, q:after {content:""}
+
+blockquote,q {quotes:"" ""}
+
+* {margin:0;padding:0}
+
+button::-moz-focus-inner {border:0;outline:0;padding:0}
+
+button {-moz-box-sizing:content-box;-ms-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+
+button {overflow:visible;width:0}
+
+button[type] {width:auto}
+
+
+/*
+ * typography
+ */
+body {font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;font-size:87.5%}
+
+h1,h2,h3,h4,h5,h6 {font-weight:normal}
+
+h1 {font-size:1.6em;line-height:1;margin-bottom:0.5em}
+h2 {font-size:1.6em;margin-bottom:0.75em}
+h3 {font-size:1.2em;line-height:1;margin-bottom:1em}
+h4 {font-size:1.1em;line-height:1.25;margin-bottom:1.25em}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em}
+h6 {font-size:1em;font-weight:bold}
+
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {margin:0}
+
+p {margin:0 0 1.5em;color:#333}
+
+a                {text-decoration:underline}
+a:focus, a:hover {text-decoration:none}
+
+blockquote      {margin:1.5em;font-style:italic}
+strong          {font-weight:bold}
+em,dfn          {font-style:italic}
+dfn             {font-weight:bold}
+sup,sub         {line-height:0}
+abbr,acronym    {border-bottom:1px dotted #666}
+address         {margin:0 0 1.5em;font-style:italic}
+del             {color:#666}
+pre             {margin:1.5em 0;white-space:pre}
+pre,code,tt     {font:1em 'andale mono','lucida console', monospace;line-height:1.5}
+
+li ul, li ol {margin:0 1.5em}
+ul, ol       {margin:0 1.5em 1.5em 1.5em}
+ul           {list-style-type:disc}
+ol           {list-style-type:decimal}
+dl           {margin: 0 0 1.5em 0}
+dl dt        {font-weight:bold}
+dd           {margin-left:1.5em}
+
+
+/*
+ * misc classes
+ */
+.hidden {display:none}
+
+       .clearfix:after,        form div.fe:after    {content:".";display:block;height:0;line-height:0;clear:both;visibility:hidden}
+       .clearfix,              form div.fe          {display:inline-table}
+/*\*/
+* html .clearfix,       * html form div.fe          {height:1%}
+       .clearfix,              form div.fe          {display:block}
+/**/
+       .clearfix,              form div.fe          {min-height:1px}
+
+
+/*
+ * layout
+ */
+body {background:#16212c;color:#f0f0f0}
+
+#wrapper {background:#234 url('../images/sprite.png') repeat-x 0 -300px;text-align:center}
+
+header, nav, section {position:relative;margin:0 100px;min-width:710px;width:auto !important;width:710px;color:#16212b;text-align:left}
+             section {min-width:670px;width:auto !important;width:670px} /* 600 - padding */
+
+header                      {height:100px}
+header h1, header h2        {display:block;position:absolute}
+header h1                   {top:15px;left:0;font-size:3em}
+header h2                   {top:60px;left:70px;font-size:1.2em}
+header hgroup span,
+header hgroup a             {display:block;text-decoration:none;color:#fff;text-shadow:#000 4px 4px 8px}
+header hgroup span sup      {vertical-align: super; font-size: 50% }
+header h1 strong            {font-weight:normal;color:#e80}
+header h1 a:hover           {text-decoration:underline}
+    
+.auto-hint { color: #aaaaaa }
+
+nav {
+                height:35px;
+         margin-bottom:15px;
+            background:url('../images/sprite.png') repeat-x 0 -50px;
+    -moz-border-radius:8px/8px;
+         border-radius:8px/8px;
+       -moz-box-shadow:0px 8px 10px #16212c;
+    -webkit-box-shadow:0px 8px 10px #16212c;
+            box-shadow:0px 8px 10px #16212c
+}
+
+nav ul                                  {position:absolute;top:0;left:20px;margin:0px;padding:0;height:35px;list-style:none;background:#123}
+nav li, nav a, nav span                 {display:block}
+nav li                                  {float:left}
+nav a, nav span                         {height:35px;padding:0 20px;font-size:1.35em;font-weight:bold;line-height:33px;font-size:1.35em;text-decoration:none;color:#123;background:url('../images/sprite.png') repeat-x 0 -50px;text-shadow:#666 1px 1px 4px}
+nav a:hover                             {text-decoration:underline}
+nav span                                {margin-left:1px;margin-right:1px;background-position:0px -120px;color:#eee}
+
+nav li.item-paypal input                {border:0}
+
+section {
+         margin-bottom:20px;
+               padding:20px 20px 35px 20px;
+            background:#fff;
+    -moz-border-radius:8px/8px;
+         border-radius:8px/8px;
+       -moz-box-shadow:0px 8px 10px #16212c;
+    -webkit-box-shadow:0px 8px 10px #16212c;
+            box-shadow:0px 8px 10px #16212c;
+}
+
+section h1              {padding-bottom:0.2em;margin-bottom:1.2em;color:#aaa;font-size:1.6em;border-bottom:1px solid #ccc}
+
+body.show section h1    {margin-bottom:0}
+
+section h2,
+section h3          {color:#234}
+section p a,
+section p a:visited {padding:2px 4px;color:#234;border:1px dotted #e0e0e0}
+section p a:hover   {background:#234;color:#fff;border:1px solid #123}
+
+/* forms */
+form                    {display:block;margin:0 auto}
+
+form#contact            {max-width:500px}
+
+form .fe                {margin:0;padding:10px 0;background:#fff;border-bottom:1px solid #d0d8d9}
+form .fe-first          {padding-top:0}
+form .fe-last           {border:0}
+
+label, input,       textarea       {display:block;width:99%;margin:0;padding:0;font-size:1.1em;color:#123}
+label                              {padding-bottom:0.35em}
+       input,       textarea       {padding:0.25em 0.5%;line-height:1.2em;border:1px solid #aaa}
+       input:hover, textarea:hover,
+       input:focus, textarea:focus {border-color:#666}
+                    textarea       {height:300px}
+
+.fe_is_public       {position:relative}
+.fe_is_public input {position:absolute;top:12px;left:5px;width:auto}
+.fe_is_public label {width:auto;margin-left:30px;padding-bottom:0}
+
+* html             .fe_is_public input {top:10px;border:0}
+*:first-child+html .fe_is_public input {top:10px;border:0}
+
+form label a {color:#222}
+
+form .fe-buttons                    {padding:5px 0 0 0}
+form .fe-buttons button             {display:block;float:right;margin-left:5px;border:1px solid #d0d8d8;background:#e5ecf9}
+form .fe-buttons button span        {display:block;padding:5px 25px;color:#123}
+form .fe-buttons button:hover       {background:#234;border-color:123}
+form .fe-buttons button:hover span  {color:#fff;cursor:pointer}
+
+form p.nfo-required {font-size:0.8em;color:#888}
+
+form sup.fe-required {font-size:1.2em;color:#800}
+
+div.explain-form            {margin-bottom:5px;text-align:center}
+div.explain-form a          {padding:0 1em 0.5em 1em;border:1px solid #ccc;background:#f8f8f8;color:#666;text-decoration:none;-moz-border-radius:0 0 4px 4px;border-radius:0 0 4px 4px}
+div.explain-form a span     {font-size:0.9em;position:relative;top:0.2em}
+div.explain-form a:hover    {background:#e5ecf9}
+
+#explain-form               {margin:0;padding:10px;background:#e5ecf9;border:1px solid #ccc;border-top:0;text-align:left}
+#explain-form h3            {font-size:1em;margin-bottom:0.35em;color:#234}
+#explain-form ul            {list-style:none;margin:0 0 15px 10px}
+#explain-form li,
+#explain-form input,
+#explain-form label         {display:inline;width:auto;font-size:0.95em}
+#explain-form li            {margin:0 15px 0 0}
+#explain-form input         {position:relative;top:2px}
+#explain-form .fe-buttons   {padding:0;background:none;border:none}
+#explain-form button        {float:none;margin:0}
+
+* html             #explain-form input {border:0}
+*:first-child+html #explain-form input {border:0}
+
+#new-explain div.fe-buttons             {text-align:center;padding:15px 0}
+#new-explain div.fe-buttons input       {display:block;margin:0 auto;width:160px;font-weight:bold;cursor:pointer;border:1px dotted #ccc;color:#234;background:none}
+#new-explain div.fe-buttons input:hover {background:#e80;border-color:#a60;color:#fff}
+
+body div.messages                {padding:10px 0}
+body div.messages p              {padding:8px 12px;margin-bottom:10px;border:1px solid #ccc}
+body div.messages p.err          {border-color:#800;background:#fee}
+body div.messages p.warn         {border-color:#d90;background:#ffe}
+
+body.show .result-found p.parse-error {padding:1em;font-size:1.1em;font-weight:bold;color:#a00}
+
+.result                         {margin:0;padding:0}
+ .result-found,
+ .result-perf,
+ .result-unassigned             {min-height:50px;height:auto !important;height:50px;margin:0;padding:0;border:1px solid #ccc;overflow:auto}
+
+.result .tabs ul                {margin:0;padding:0;list-style:none}
+.result .tabs li                {display:block;float:left;margin-right:1px}
+.result .tabs a                 {display:block;padding:4px 12px;background:#cfcfcf;color:#fff;text-decoration:none;font-weight:bold}
+.result .tabs a:hover           {color:#234}
+.result .tabs a.current,
+.result .tabs a.current:hover   {background:#234;color:#fff}
+
+.result .tabs .html a {
+    -moz-border-radius:4px 0px 0px 0px;
+         border-radius:4px 0px 0px 0px
+}
+
+.result .tabs .text a {
+    -moz-border-radius:0px 4px 0px 0px;
+         border-radius:0px 4px 0px 0px
+}
+
+/* main result */
+.result .doc                          {margin:5px 5px 15px 5px;padding-bottom:15px;border-bottom:1px solid #ccc}
+
+.result .doc .doc-fields              {margin-bottom:10px}
+.result .doc table                    {border-collapse:collapse;width:100%}
+.result .doc td, th                   {padding:2px 4px;border:1px solid #234}
+.result .doc thead th                 {font-weight:bold;background:#234;color:#fff}
+.result .doc tr.even                  {background:#f0f0f0}
+.result .doc .df-name                 {width:33%}
+.result .doc tbody td.df-name         {font-style:italic}
+
+.result .doc .doc-explain .key-nfo          {margin-bottom:5px}
+.result .doc .doc-explain .key-nfo span     {font-size:1.1em;color#234;font-weight:bold}
+.result .doc .doc-explain .key-nfo .name    {font-style:italic}
+.result .doc .doc-explain .key-nfo .sep     {font-weight:normal}
+
+.result .doc .doc-explain .explain ul       {list-style:none}
+.result .doc .doc-explain .explain li       {padding:1px 0}
+
+.result .doc .doc-explain .chart      {width:650px;height:400px}
+
+body.wide .result .doc .doc-explain          {min-height:410px;height:auto !important;height:410px;position:relative}
+body.wide .result .doc .doc-explain .explain {margin-right:660px}
+body.wide .result .doc .doc-explain .chart   {position:absolute;top:0px;right:0px}
+
+/*
+    .result-found
+    .result-perf
+    .result-unassigned
+*/
+
+/* for "help" */
+p.slogan         {font-style:italic}
+p strong         {color:#234}
+
+ul.colors        {list-style:none;width:60%}
+ul.colors li     {padding:4px 6px;border-bottom:1px solid #fff}
+ul.colors li.c-1 {background:#fff}
+ul.colors li.c-2 {background:#fe8}
+ul.colors li.c-3 {background:#e80;color:#fff}
+ul.colors li.c-4 {background:#800;color:#fff}
+
+/* history */
+p.msg                   {padding:1em;border:1px dotted #e0e0e0}
+p.msg-error             {color:#800}
+
+div.history             {margin-bottom:20px}
+div.history ul          {margin:0;padding:0;list-style:none}
+div.history li          {display:block;float:left;margin:0 10px 10px 0}
+div.history li a        {display:block;width:260px;height:20px;line-height:20px;border:1px dotted #ccc;text-align:center;overflow:hidden;text-decoration:none;font-size:0.9em;font-weight:bold;color:#234}
+div.history li a:hover  {border:1px solid #a60;background:#e80;color:#fff}
+
+div.paginator           {position:relative;height:3em}
+div.paginator a         {position:absolute;top:0;font-size:1.1em;color:#234}
+div.paginator a.older   {right:0}
+div.paginator a.newer   {left:0}
+
+footer                  {padding-top:15px;background:url('../images/sprite.png') repeat-x 0 -155px}
+footer div              {padding-top:10px;background:#16212c}
+footer p                {text-shadow:#101921 0px 2px 6px}
+footer p,
+footer a                {color:#2c4054}
+footer a:hover          {color:#e80}

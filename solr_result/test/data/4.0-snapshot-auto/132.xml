@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<lst name="terms">
+  <lst name="standardfilt">
+    <int name="snake">3</int>
+    <int name="shark">2</int>
+    <int name="spider">1</int>
+  </lst>
+</lst>
+</response>

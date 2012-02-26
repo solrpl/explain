@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="3" start="0">
+  <doc>
+    <str name="id">0</str>
+    <arr name="int_f">
+      <int>0</int>
+    </arr>
+    <arr name="float_f">
+      <float>0.0</float>
+    </arr>
+    <arr name="long_f">
+      <long>0</long>
+    </arr>
+    <arr name="double_f">
+      <double>0.0</double>
+    </arr>
+    <arr name="byte_f">
+      <int>0</int>
+    </arr>
+    <arr name="short_f">
+      <int>0</int>
+    </arr>
+    <arr name="bool_f">
+      <bool>true</bool>
+    </arr>
+    <arr name="date_f">
+      <date>2000-01-01T00:00:00Z</date>
+    </arr>
+    <str name="content">abcdefg1 finger</str>
+    <arr name="content_ws">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_rev">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_multi">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_lower_token">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_oldstyle">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <str name="content_charfilter">abcdefg1 finger</str>
+    <str name="content_multi_bad">abcdefg1 finger</str>
+    <arr name="content_straight">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_lower">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_folding">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_stemming">
+      <str>abcdefg1 finger</str>
+    </arr>
+    <arr name="content_keyword">
+      <str>abcdefg1 finger</str>
+    </arr></doc>
+  <doc>
+    <str name="id">1</str>
+    <arr name="int_f">
+      <int>1</int>
+    </arr>
+    <arr name="float_f">
+      <float>1.0</float>
+    </arr>
+    <arr name="long_f">
+      <long>1</long>
+    </arr>
+    <arr name="double_f">
+      <double>1.0</double>
+    </arr>
+    <arr name="byte_f">
+      <int>1</int>
+    </arr>
+    <arr name="short_f">
+      <int>1</int>
+    </arr>
+    <arr name="bool_f">
+      <bool>false</bool>
+    </arr>
+    <arr name="date_f">
+      <date>2001-01-01T00:00:00Z</date>
+    </arr>
+    <str name="content">gangs hijklmn1</str>
+    <arr name="content_ws">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_rev">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_multi">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_lower_token">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_oldstyle">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <str name="content_charfilter">gangs hijklmn1</str>
+    <str name="content_multi_bad">gangs hijklmn1</str>
+    <arr name="content_straight">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_lower">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_folding">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_stemming">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_keyword">
+      <str>gangs hijklmn1</str>
+    </arr></doc>
+  <doc>
+    <str name="id">2</str>
+    <arr name="int_f">
+      <int>2</int>
+    </arr>
+    <arr name="float_f">
+      <float>2.0</float>
+    </arr>
+    <arr name="long_f">
+      <long>2</long>
+    </arr>
+    <arr name="double_f">
+      <double>2.0</double>
+    </arr>
+    <arr name="byte_f">
+      <int>2</int>
+    </arr>
+    <arr name="short_f">
+      <int>2</int>
+    </arr>
+    <arr name="bool_f">
+      <bool>true</bool>
+    </arr>
+    <arr name="date_f">
+      <date>2002-01-01T00:00:00Z</date>
+    </arr>
+    <str name="content">opqrstu1 zilly</str>
+    <arr name="content_ws">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_rev">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_multi">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_lower_token">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_oldstyle">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <str name="content_charfilter">opqrstu1 zilly</str>
+    <str name="content_multi_bad">opqrstu1 zilly</str>
+    <arr name="content_straight">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_lower">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_folding">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_stemming">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_keyword">
+      <str>opqrstu1 zilly</str>
+    </arr></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">double_f:[0 TO 2]</str>
+  <str name="querystring">double_f:[0 TO 2]</str>
+  <str name="parsedquery">double_f:[0.0 TO 2.0]</str>
+  <str name="parsedquery_toString">double_f:[0.0 TO 2.0]</str>
+  <lst name="explain">
+    <str name="0">
+1.0 = (MATCH) ConstantScore(double_f:[0.0 TO 2.0]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="1">
+1.0 = (MATCH) ConstantScore(double_f:[0.0 TO 2.0]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="2">
+1.0 = (MATCH) ConstantScore(double_f:[0.0 TO 2.0]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

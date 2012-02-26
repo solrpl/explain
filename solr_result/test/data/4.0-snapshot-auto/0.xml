@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">89</int>
+</lst>
+<lst name="index">
+  <int name="numDocs">2</int>
+  <int name="maxDoc">2</int>
+  <int name="numTerms">5</int>
+  <long name="version">1326136269411</long>
+  <int name="segmentCount">1</int>
+  <bool name="current">true</bool>
+  <bool name="hasDeletions">false</bool>
+  <str name="directory">org.apache.lucene.store.MockDirectoryWrapper:MockDirWrapper(org.apache.lucene.store.RAMDirectory@7fca7bad lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@10f1580c)</str>
+  <date name="lastModified">2012-01-09T19:11:14.481Z</date>
+</lst>
+<lst name="fields">
+  <lst name="id">
+    <str name="type">string</str>
+    <str name="schema">I-S-----------</str>
+    <str name="dynamicBase">*</str>
+    <str name="index">ITS-----------</str>
+    <int name="docs">2</int>
+    <int name="distinct">2</int>
+    <lst name="topTerms">
+      <int name="4056">1</int>
+      <int name="4055">1</int>
+    </lst>
+    <lst name="histogram">
+      <int name="1">2</int>
+    </lst>
+  </lst>
+  <lst name="project">
+    <str name="type">string</str>
+    <str name="schema">I-S-----------</str>
+    <str name="dynamicBase">*</str>
+    <str name="index">ITS-----------</str>
+    <int name="docs">2</int>
+    <int name="distinct">1</int>
+    <lst name="topTerms">
+      <int name="Solr">2</int>
+    </lst>
+    <lst name="histogram">
+      <int name="1">0</int>
+      <int name="2">1</int>
+    </lst>
+  </lst>
+  <lst name="subject">
+    <str name="type">string</str>
+    <str name="schema">I-S-----------</str>
+    <str name="dynamicBase">*</str>
+    <str name="index">ITS-----------</str>
+    <int name="docs">2</int>
+    <int name="distinct">2</int>
+    <lst name="topTerms">
+      <int name="Yonik">1</int>
+      <int name="Hoss">1</int>
+    </lst>
+    <lst name="histogram">
+      <int name="1">2</int>
+    </lst>
+  </lst>
+</lst>
+<lst name="info">
+  <lst name="key">
+    <str name="I">Indexed</str>
+    <str name="T">Tokenized</str>
+    <str name="S">Stored</str>
+    <str name="M">Multivalued</str>
+    <str name="V">TermVector Stored</str>
+    <str name="o">Store Offset With TermVector</str>
+    <str name="p">Store Position With TermVector</str>
+    <str name="O">Omit Norms</str>
+    <str name="F">Omit Term Frequencies &amp; Positions</str>
+    <str name="P">Omit Positions</str>
+    <str name="L">Lazy</str>
+    <str name="B">Binary</str>
+    <str name="f">Sort Missing First</str>
+    <str name="l">Sort Missing Last</str>
+  </lst>
+  <str name="NOTE">Document Frequency (df) is not updated when a document is marked for deletion.  df values include deleted documents.</str>
+</lst>
+</response>

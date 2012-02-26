@@ -1,0 +1,8 @@
+
+1.2422674 = (MATCH) sum of:
+  1.2422674 = (MATCH) weight(title:ipod in 1) [DefaultSimilarity], result of:
+    1.2422674 = fieldWeight in 1, product of:
+      1.4142135 = tf(freq=2.0), with freq of:
+        2.0 = termFreq=2.0
+      1.4054651 = idf(docFreq=3, maxDocs=6)
+      0.625 = fieldNorm(doc=1)

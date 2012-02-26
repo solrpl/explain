@@ -1,0 +1,370 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+ <response>
+ <lst name="responseHeader"><int name="status">0</int><int name="QTime">514</int></lst><result name="response" numFound="2348186" start="0" maxScore="89.45398"><doc><str name="site">uuhello.com</str><str name="lang">en</str><str name="url">http://uuhello.com/index.php?page=search/generatesearchboxcode</str><str name="id">aHR0cDovL3V1aGVsbG8uY29tLw*aHR0cDovL3V1aGVsbG8uY29tL2luZGV4LnBocD9wYWdlPXNlYXJjaC9nZW5lcmF0ZXNlYXJjaGJveGNvZGU</str><float name="boost">77.16</float><str name="mid">aHR0cDovL3V1aGVsbG8uY29tLw</str><float name="score">89.45398</float></doc><doc><str name="site">www.hello-online.org</str><str name="lang">en</str><str name="url">http://www.hello-online.org/index.php?/user/13960-Ro-kun/</str><str name="id">aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnLw*aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnL2luZGV4LnBocD8vdXNlci8xMzk2MC1Sby1rdW4v</str><float name="boost">40.28414</float><str name="mid">aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnLw</str><float name="score">62.25038</float></doc><doc><str name="site">www.hellocoton.fr</str><str name="lang">en</str><str name="url">http://www.hellocoton.fr/mapage/popbabe7</str><str name="id">aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyLw*aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyL21hcGFnZS9wb3BiYWJlNw</str><float name="boost">79.5</float><str name="mid">aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyLw</str><float name="score">60.721165</float></doc><doc><str name="site">walhello.info</str><str name="lang">en</str><str name="url">http://walhello.info/</str><str name="id">aHR0cDovL3dhbGhlbGxvLmluZm8v*aHR0cDovL3dhbGhlbGxvLmluZm8v</str><float name="boost">36.15408</float><str name="mid">aHR0cDovL3dhbGhlbGxvLmluZm8v</str><float name="score">46.34329</float></doc><doc><str name="site">walhello.com</str><str name="lang">en</str><str name="url">http://walhello.com/</str><str name="id">aHR0cDovL3dhbGhlbGxvLmNvbS8*aHR0cDovL3dhbGhlbGxvLmNvbS8</str><float name="boost">37.3632</float><str name="mid">aHR0cDovL3dhbGhlbGxvLmNvbS8</str><float name="score">46.22398</float></doc><doc><str name="site">www.dirhello.com</str><str name="lang">en</str><str name="url">http://www.dirhello.com/</str><str name="id">aHR0cDovL3d3dy5kaXJoZWxsby5jb20v*aHR0cDovL3d3dy5kaXJoZWxsby5jb20v</str><float name="boost">43.35952</float><str name="mid">aHR0cDovL3d3dy5kaXJoZWxsby5jb20v</str><float name="score">45.965977</float></doc><doc><str name="site">hellotxt.com</str><str name="lang">en</str><str name="url">http://hellotxt.com/</str><str name="id">aHR0cDovL2hlbGxvdHh0LmNvbS8*aHR0cDovL2hlbGxvdHh0LmNvbS8</str><float name="boost">48.98976</float><str name="mid">aHR0cDovL2hlbGxvdHh0LmNvbS8</str><float name="score">45.21082</float></doc><doc><str name="site">hellopdf.com</str><str name="lang">en</str><str name="url">http://hellopdf.com/</str><str name="id">aHR0cDovL2hlbGxvcGRmLmNvbS8*aHR0cDovL2hlbGxvcGRmLmNvbS8</str><float name="boost">44.81416</float><str name="mid">aHR0cDovL2hlbGxvcGRmLmNvbS8</str><float name="score">45.204784</float></doc><doc><str name="site">hellobar.co.uk</str><str name="lang">en</str><str name="url">http://hellobar.co.uk/</str><str name="id">aHR0cDovL2hlbGxvYmFyLmNvLnVrLw*aHR0cDovL2hlbGxvYmFyLmNvLnVrLw</str><float name="boost">46.97258</float><str name="mid">aHR0cDovL2hlbGxvYmFyLmNvLnVrLw</str><float name="score">45.172825</float></doc><doc><str name="site">www.hellopro.fr</str><str name="lang">fr</str><str name="url">http://www.hellopro.fr/evenementiel-2001721-fr-rubrique.html</str><str name="id">aHR0cDovL3d3dy5oZWxsb3Byby5mci8*aHR0cDovL3d3dy5oZWxsb3Byby5mci9ldmVuZW1lbnRpZWwtMjAwMTcyMS1mci1ydWJyaXF1ZS5odG1s</str><float name="boost">49.67418</float><str name="mid">aHR0cDovL3d3dy5oZWxsb3Byby5mci8</str><float name="score">43.127037</float></doc></result><lst name="highlighting"><lst name="aHR0cDovL3V1aGVsbG8uY29tLw*aHR0cDovL3V1aGVsbG8uY29tL2luZGV4LnBocD9wYWdlPXNlYXJjaC9nZW5lcmF0ZXNlYXJjaGJveGNvZGU">arr name="title"><str>哈络(UUHello) 一分钟电子商务，免费发布</str></arr><arr name="content"><str>哈络(UUHello) 一分钟电子商务，免费发布 网页    新闻    视频    商城    更多   医药 商务 旅游 酒店 美食 更多 new 手机 | 注册/登录 | 高级搜索 | uuhello首页 | 搜索设置 添加搜索框到您的网站 搜索类型的显示风格 文字链接 单选按钮 下拉 选择引擎     网页     新闻     视频     商城     医药     商务     旅游</str></arr><arr name="ngramurl"><str>uu&lt;b&gt;hello&lt;/b&gt;.com</str></arr></lst><lst name="aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnLw*aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnL2luZGV4LnBocD8vdXNlci8xMzk2MC1Sby1rdW4v"><arr name="title"><str>Ro-kun - Viewing Profile - &lt;b&gt;Hello&lt;/b&gt;!Online </str></arr><arr name="content"><str>Ro-kun - Viewing Profile - &lt;b&gt;Hello&lt;/b&gt;!Online &lt;b&gt;Hello&lt;/b&gt;!Online: Ro-kun - Viewing Profile - &lt;b&gt;Hello&lt;/b&gt;</str></arr><arr name="turl"><str>http://www.&lt;b&gt;hello&lt;/b&gt;-online.org/index.php?/user/13960-Ro-kun/ </str></arr><arr name="ngramurl"><str>www.&lt;b&gt;hello&lt;/b&gt;-online.org</str></arr></lst><lst name="aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyLw*aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyL21hcGFnZS9wb3BiYWJlNw"><arr name="title"><str>popbabe7 - Découvrez son profil sur hellocoton</str></arr><arr name="content"><str> Hellocoton ! Inscrivez-vous libelul &amp;#224; popbabe7 &lt;b&gt;Hello&lt;/b&gt; &amp;amp; Bienvenue ! Le 2 avril</str></arr><arr name="ngramurl"><str>www.&lt;b&gt;hello&lt;/b&gt;coton.fr</str></arr></lst><lst name="aHR0cDovL3dhbGhlbGxvLmluZm8v*aHR0cDovL3dhbGhlbGxvLmluZm8v"><arr name="title"><str>Internet Search Engine</str></arr><arr name="description"><str>Internet Search engine, includes boolean keyword search, proximity search, string search and answers questions</str></arr><arr name="content"><str>Internet Search Engine   All languages English Dutch German French Spanish Finnish Hungarian Portuguese Italian Swedish Danish Norwegian Russian Estonian Icelandic Indonesian Latvian Polish Czech Swah</str></arr><arr name="ngramurl"><str>wal&lt;b&gt;hello&lt;/b&gt;.info</str></arr></lst><lst name="aHR0cDovL3dhbGhlbGxvLmNvbS8*aHR0cDovL3dhbGhlbGxvLmNvbS8"><arr name="title"><str>Internet Search Engine</str></arr><arr name="description"><str>Internet Search engine, includes boolean keyword search, proximity search, string search and answers questions</str></arr><arr name="content"><str>Internet Search Engine   All languages English Dutch German French Spanish Finnish Hungarian Portuguese Italian Swedish Danish Norwegian Russian Estonian Icelandic Indonesian Latvian Polish Czech Swah</str></arr><arr name="ngramurl"><str>wal&lt;b&gt;hello&lt;/b&gt;.com</str></arr></lst><lst name="aHR0cDovL3d3dy5kaXJoZWxsby5jb20v*aHR0cDovL3d3dy5kaXJoZWxsby5jb20v"><arr name="title"><str>Dir &lt;b&gt;Hello&lt;/b&gt; </str></arr><arr name="description"><str>Dir &lt;b&gt;Hello&lt;/b&gt; Web Directory is an seo friendly and human edited web directory, with quality internet resources .If you are running a quality and Family Friendly web site with quality content you</str></arr><arr name="content"><str>Dir &lt;b&gt;Hello&lt;/b&gt; Home Submit Link Latest Links Contact Dir &lt;b&gt;Hello&lt;/b&gt; Arts [52</str></arr><arr name="ngramurl"><str>www.dir&lt;b&gt;hello&lt;/b&gt;.com</str></arr></lst><lst name="aHR0cDovL2hlbGxvdHh0LmNvbS8*aHR0cDovL2hlbGxvdHh0LmNvbS8"><arr name="title"><str>Hellotxt -- Organize your life online...</str></arr><arr name="description"><str>Hellotxt Status Manager enables you to update your status across all of your social networks and microblogs with a single click</str></arr><arr name="content"><str>Hellotxt -- Organize your life online... Hellotxt Sign in | Sign up All your socials In one place... Discover Doodle doodle maps , friends or just how you feel Keep reading, sharing &amp; creating simple.</str></arr><arr name="ngramurl"><str>&lt;b&gt;hello&lt;/b&gt;txt.com</str></arr></lst><lst name="aHR0cDovL2hlbGxvcGRmLmNvbS8*aHR0cDovL2hlbGxvcGRmLmNvbS8"><arr name="title"><str>Free PDF to Word Doc Converter - easy and powerful pdf converter software.</str></arr><arr name="description"><str>Free PDF to Word Doc Converter - easy and powerful pdf conversion software, convert pdf file to word file, .pdf to .doc converter. Totally for free.</str></arr><arr name="content"><str>Free PDF to Word Doc Converter - easy and powerful pdf converter software. FREE PDF to WORD CONVERTER The world's best Free Software to convert Adobe .pdf file to Microsoft .doc file! Home Download Tu</str></arr><arr name="ngramurl"><str>&lt;b&gt;hello&lt;/b&gt;pdf.com</str></arr></lst><lst name="aHR0cDovL2hlbGxvYmFyLmNvLnVrLw*aHR0cDovL2hlbGxvYmFyLmNvLnVrLw"><arr name="title"><str>Adult Dating Online UK Dating Agencies NI England Scotland Wales Northern Ireland</str></arr><arr name="description"><str>Adult dating online UK, NI Northern Ireland. Adult dating agencies covering England, London, Scotland, Wales, Southern and Northern Ireland. Singles dating websites, online personals and introductions.</str></arr><arr name="content"><str> of the UK; England, Scotland, NI Northern Ireland &amp;amp; Wales. They also cover Southern Ireland. The &lt;b&gt;Hello&lt;/b&gt;</str></arr><arr name="ngramurl"><str>&lt;b&gt;hello&lt;/b&gt;bar.co.uk</str></arr></lst><lst name="aHR0cDovL3d3dy5oZWxsb3Byby5mci8*aHR0cDovL3d3dy5oZWxsb3Byby5mci9ldmVuZW1lbnRpZWwtMjAwMTcyMS1mci1ydWJyaXF1ZS5odG1s"><arr name="title"><str>Communication événementielle : matériel et prestataires</str></arr><arr name="content"><str>Communication événementielle : matériel et prestataires (+) Produits Sociétés Communiqués Produit Société Assurances Téléphonie Voiture de société Marketing - Ventes Comptabilité - Paie Formation Prés</str></arr><arr name="ngramurl"><str>www.&lt;b&gt;hello&lt;/b&gt;pro.fr</str></arr></lst></lst><lst name="debug"><str name="rawquerystring">hello</str><str name="querystring">hello</str><str name="parsedquery">+DisjunctionMaxQuery((content:hello^0.5 | ngramurl_front:hello^14.0 | title:hello^0.8 | ngramurl_back:hello^14.0 | turl:hello^14.1 | anchor:hello^0.06)) () (seed:true^10.0 lang:en^350.0)</str><str name="parsedquery_toString">+(content:hello^0.5 | ngramurl_front:hello^14.0 | title:hello^0.8 | ngramurl_back:hello^14.0 | turl:hello^14.1 | anchor:hello^0.06) () (seed:T^10.0 lang:en^350.0)</str><str name="QParser">ExtendedDismaxQParser</str><null name="altquerystring"/><arr name="boost_queries"><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str></arr><arr name="parsed_boost_queries"><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str><str>seed:true^10.0 lang:en^350.0</str></arr><null name="boostfuncs"/><lst name="timing"><double name="time">164.0</double><lst name="prepare"><double name="time">16.0</double><lst name="org.apache.solr.handler.component.QueryComponent"><double name="time">15.0</double></lst><lst name="org.apache.solr.handler.component.FacetComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.MoreLikeThisComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.HighlightComponent"><double name="time">1.0</double></lst><lst name="org.apache.solr.handler.component.StatsComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.DebugComponent"><double name="time">0.0</double></lst></lst><lst name="process"><double name="time">148.0</double><lst name="org.apache.solr.handler.component.QueryComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.FacetComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.MoreLikeThisComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.HighlightComponent"><double name="time">132.0</double></lst><lst name="org.apache.solr.handler.component.StatsComponent"><double name="time">0.0</double></lst><lst name="org.apache.solr.handler.component.DebugComponent"><double name="time">16.0</double></lst></lst></lst><lst name="explain"><str name="aHR0cDovL3V1aGVsbG8uY29tLw*aHR0cDovL3V1aGVsbG8uY29tL2luZGV4LnBocD9wYWdlPXNlYXJjaC9nZW5lcmF0ZXNlYXJjaGJveGNvZGU">
+ 89.45398 = (MATCH) sum of:
+   88.60756 = (MATCH) max of:
+     88.60756 = (MATCH) weight(ngramurl_back:hello^14.0 in 5559401), product of:
+       0.24622835 = queryWeight(ngramurl_back:hello^14.0), product of:
+         14.0 = boost
+         11.245603 = idf(docFreq=822, maxDocs=23174401)
+         0.001563966 = queryNorm
+       359.85928 = (MATCH) fieldWeight(ngramurl_back:hello in 5559401), product of:
+         1.0 = tf(termFreq(ngramurl_back:hello)=1)
+         11.245603 = idf(docFreq=822, maxDocs=23174401)
+         32.0 = fieldNorm(field=ngramurl_back, doc=5559401)
+   0.8464227 = (MATCH) product of:
+     1.6928453 = (MATCH) sum of:
+       1.6928453 = (MATCH) weight(lang:en^350.0 in 5559401), product of:
+         0.9626232 = queryWeight(lang:en^350.0), product of:
+           350.0 = boost
+           1.7585753 = idf(docFreq=10853340, maxDocs=23174401)
+           0.001563966 = queryNorm
+         1.7585753 = (MATCH) fieldWeight(lang:en in 5559401), product of:
+           1.0 = tf(termFreq(lang:en)=1)
+           1.7585753 = idf(docFreq=10853340, maxDocs=23174401)
+           1.0 = fieldNorm(field=lang, doc=5559401)
+     0.5 = coord(1/2)
+ </str><str name="aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnLw*aHR0cDovL3d3dy5oZWxsby1vbmxpbmUub3JnL2luZGV4LnBocD8vdXNlci8xMzk2MC1Sby1rdW4v">
+ 62.25038 = (MATCH) sum of:
+   61.403774 = (MATCH) max of:
+     0.0956781 = (MATCH) weight(content:hello^0.5 in 3040697), product of:
+       0.00419805 = queryWeight(content:hello^0.5), product of:
+         0.5 = boost
+         5.371909 = idf(docFreq=292468, maxDocs=23161994)
+         0.0015629639 = queryNorm
+       22.79108 = (MATCH) fieldWeight(content:hello in 3040697), product of:
+         2.828427 = tf(termFreq(content:hello)=8)
+         5.371909 = idf(docFreq=292468, maxDocs=23161994)
+         1.5 = fieldNorm(field=content, doc=3040697)
+     34.291862 = (MATCH) weight(ngramurl_front:hello^14.0 in 3040697), product of:
+       0.2165579 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.896852 = idf(docFreq=3168, maxDocs=23161994)
+         0.0015629639 = queryNorm
+       158.34962 = (MATCH) fieldWeight(ngramurl_front:hello in 3040697), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.896852 = idf(docFreq=3168, maxDocs=23161994)
+         16.0 = fieldNorm(field=ngramurl_front, doc=3040697)
+     1.8564291 = (MATCH) weight(title:hello^0.8 in 3040697), product of:
+       0.012044774 = queryWeight(title:hello^0.8), product of:
+         0.8 = boost
+         9.632959 = idf(docFreq=4125, maxDocs=23161994)
+         0.0015629639 = queryNorm
+       154.12735 = (MATCH) fieldWeight(title:hello in 3040697), product of:
+         1.0 = tf(termFreq(title:hello)=1)
+         9.632959 = idf(docFreq=4125, maxDocs=23161994)
+         16.0 = fieldNorm(field=title, doc=3040697)
+     44.29034 = (MATCH) weight(ngramurl_back:hello^14.0 in 3040697), product of:
+       0.24611214 = queryWeight(ngramurl_back:hello^14.0), product of:
+         14.0 = boost
+         11.2475 = idf(docFreq=820, maxDocs=23161994)
+         0.0015629639 = queryNorm
+       179.96 = (MATCH) fieldWeight(ngramurl_back:hello in 3040697), product of:
+         1.0 = tf(termFreq(ngramurl_back:hello)=1)
+         11.2475 = idf(docFreq=820, maxDocs=23161994)
+         16.0 = fieldNorm(field=ngramurl_back, doc=3040697)
+     61.403774 = (MATCH) weight(turl:hello^14.1 in 3040697), product of:
+       0.2601157 = queryWeight(turl:hello^14.1), product of:
+         14.1 = boost
+         11.803165 = idf(docFreq=470, maxDocs=23161994)
+         0.0015629639 = queryNorm
+       236.06331 = (MATCH) fieldWeight(turl:hello in 3040697), product of:
+         1.0 = tf(termFreq(turl:hello)=1)
+         11.803165 = idf(docFreq=470, maxDocs=23161994)
+         20.0 = fieldNorm(field=turl, doc=3040697)
+   0.84660566 = (MATCH) product of:
+     1.6932113 = (MATCH) sum of:
+       1.6932113 = (MATCH) weight(lang:en^350.0 in 3040697), product of:
+         0.9624188 = queryWeight(lang:en^350.0), product of:
+           350.0 = boost
+           1.7593291 = idf(docFreq=10839356, maxDocs=23161994)
+           0.0015629639 = queryNorm
+         1.7593291 = (MATCH) fieldWeight(lang:en in 3040697), product of:
+           1.0 = tf(termFreq(lang:en)=1)
+           1.7593291 = idf(docFreq=10839356, maxDocs=23161994)
+           1.0 = fieldNorm(field=lang, doc=3040697)
+     0.5 = coord(1/2)
+ </str><str name="aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyLw*aHR0cDovL3d3dy5oZWxsb2NvdG9uLmZyL21hcGFnZS9wb3BiYWJlNw">
+ 60.72116 = (MATCH) sum of:
+   59.874798 = (MATCH) max of:
+     0.03389913 = (MATCH) weight(content:hello^0.5 in 5416887), product of:
+       0.0042033615 = queryWeight(content:hello^0.5), product of:
+         0.5 = boost
+         5.376511 = idf(docFreq=291468, maxDocs=23189262)
+         0.0015636019 = queryNorm
+       8.064767 = (MATCH) fieldWeight(content:hello in 5416887), product of:
+         1.0 = tf(termFreq(content:hello)=1)
+         5.376511 = idf(docFreq=291468, maxDocs=23189262)
+         1.5 = fieldNorm(field=content, doc=5416887)
+     59.874798 = (MATCH) weight(ngramurl_front:hello^14.0 in 5416887), product of:
+       0.21635659 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.883617 = idf(docFreq=3214, maxDocs=23189262)
+         0.0015636019 = queryNorm
+       276.74127 = (MATCH) fieldWeight(ngramurl_front:hello in 5416887), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.883617 = idf(docFreq=3214, maxDocs=23189262)
+         28.0 = fieldNorm(field=ngramurl_front, doc=5416887)
+   0.84636307 = (MATCH) product of:
+     1.6927261 = (MATCH) sum of:
+       1.6927261 = (MATCH) weight(lang:en^350.0 in 5416887), product of:
+         0.9624772 = queryWeight(lang:en^350.0), product of:
+           350.0 = boost
+           1.7587181 = idf(docFreq=10858749, maxDocs=23189262)
+           0.0015636019 = queryNorm
+         1.7587181 = (MATCH) fieldWeight(lang:en in 5416887), product of:
+           1.0 = tf(termFreq(lang:en)=1)
+           1.7587181 = idf(docFreq=10858749, maxDocs=23189262)
+           1.0 = fieldNorm(field=lang, doc=5416887)
+     0.5 = coord(1/2)
+ </str><str name="aHR0cDovL3dhbGhlbGxvLmluZm8v*aHR0cDovL3dhbGhlbGxvLmluZm8v">
+ 46.34329 = (MATCH) sum of:
+   44.26033 = (MATCH) max of:
+     44.26033 = (MATCH) weight(ngramurl_back:hello^14.0 in 4953832), product of:
+       0.24607894 = queryWeight(ngramurl_back:hello^14.0), product of:
+         14.0 = boost
+         11.241395 = idf(docFreq=826, maxDocs=23189262)
+         0.0015636019 = queryNorm
+       179.86232 = (MATCH) fieldWeight(ngramurl_back:hello in 4953832), product of:
+         1.0 = tf(termFreq(ngramurl_back:hello)=1)
+         11.241395 = idf(docFreq=826, maxDocs=23189262)
+         16.0 = fieldNorm(field=ngramurl_back, doc=4953832)
+   2.08296 = (MATCH) sum of:
+     0.39023367 = (MATCH) weight(seed:T^10.0 in 4953832), product of:
+       0.078113385 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.9957337 = idf(docFreq=426541, maxDocs=23189262)
+         0.0015636019 = queryNorm
+       4.9957337 = (MATCH) fieldWeight(seed:T in 4953832), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.9957337 = idf(docFreq=426541, maxDocs=23189262)
+         1.0 = fieldNorm(field=seed, doc=4953832)
+     1.6927261 = (MATCH) weight(lang:en^350.0 in 4953832), product of:
+       0.9624772 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7587181 = idf(docFreq=10858749, maxDocs=23189262)
+         0.0015636019 = queryNorm
+       1.7587181 = (MATCH) fieldWeight(lang:en in 4953832), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7587181 = idf(docFreq=10858749, maxDocs=23189262)
+         1.0 = fieldNorm(field=lang, doc=4953832)
+ </str><str name="aHR0cDovL3dhbGhlbGxvLmNvbS8*aHR0cDovL3dhbGhlbGxvLmNvbS8">
+ 46.22398 = (MATCH) sum of:
+   44.140198 = (MATCH) max of:
+     44.140198 = (MATCH) weight(ngramurl_back:hello^14.0 in 4717136), product of:
+       0.24573646 = queryWeight(ngramurl_back:hello^14.0), product of:
+         14.0 = boost
+         11.226508 = idf(docFreq=838, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       179.62413 = (MATCH) fieldWeight(ngramurl_back:hello in 4717136), product of:
+         1.0 = tf(termFreq(ngramurl_back:hello)=1)
+         11.226508 = idf(docFreq=838, maxDocs=23178101)
+         16.0 = fieldNorm(field=ngramurl_back, doc=4717136)
+   2.0837834 = (MATCH) sum of:
+     0.39040306 = (MATCH) weight(seed:T^10.0 in 4717136), product of:
+       0.078127705 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.9969864 = idf(docFreq=425802, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       4.9969864 = (MATCH) fieldWeight(seed:T in 4717136), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.9969864 = idf(docFreq=425802, maxDocs=23178101)
+         1.0 = fieldNorm(field=seed, doc=4717136)
+     1.6933804 = (MATCH) weight(lang:en^350.0 in 4717136), product of:
+       0.96263075 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7591172 = idf(docFreq=10849191, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       1.7591172 = (MATCH) fieldWeight(lang:en in 4717136), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7591172 = idf(docFreq=10849191, maxDocs=23178101)
+         1.0 = fieldNorm(field=lang, doc=4717136)
+ </str><str name="aHR0cDovL3d3dy5kaXJoZWxsby5jb20v*aHR0cDovL3d3dy5kaXJoZWxsby5jb20v">
+ 45.965977 = (MATCH) sum of:
+   43.882072 = (MATCH) max of:
+     0.06394594 = (MATCH) weight(content:hello^0.5 in 870226), product of:
+       0.0042044776 = queryWeight(content:hello^0.5), product of:
+         0.5 = boost
+         5.377197 = idf(docFreq=290780, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       15.209009 = (MATCH) fieldWeight(content:hello in 870226), product of:
+         1.4142135 = tf(termFreq(content:hello)=2)
+         5.377197 = idf(docFreq=290780, maxDocs=23150396)
+         2.0 = fieldNorm(field=content, doc=870226)
+     3.2713203 = (MATCH) weight(title:hello^0.8 in 870226), product of:
+       0.012089841 = queryWeight(title:hello^0.8), product of:
+         0.8 = boost
+         9.663723 = idf(docFreq=3998, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       270.58423 = (MATCH) fieldWeight(title:hello in 870226), product of:
+         1.0 = tf(termFreq(title:hello)=1)
+         9.663723 = idf(docFreq=3998, maxDocs=23150396)
+         28.0 = fieldNorm(field=title, doc=870226)
+     43.882072 = (MATCH) weight(ngramurl_back:hello^14.0 in 870226), product of:
+       0.24504207 = queryWeight(ngramurl_back:hello^14.0), product of:
+         14.0 = boost
+         11.192484 = idf(docFreq=866, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       179.07974 = (MATCH) fieldWeight(ngramurl_back:hello in 870226), product of:
+         1.0 = tf(termFreq(ngramurl_back:hello)=1)
+         11.192484 = idf(docFreq=866, maxDocs=23150396)
+         16.0 = fieldNorm(field=ngramurl_back, doc=870226)
+     0.19149032 = (MATCH) weight(anchor:hello^0.06 in 870226), product of:
+       9.478227E-4 = queryWeight(anchor:hello^0.06), product of:
+         0.06 = boost
+         10.10159 = idf(docFreq=2580, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       202.0318 = (MATCH) fieldWeight(anchor:hello in 870226), product of:
+         1.0 = tf(termFreq(anchor:hello)=1)
+         10.10159 = idf(docFreq=2580, maxDocs=23150396)
+         20.0 = fieldNorm(field=anchor, doc=870226)
+   2.0839036 = (MATCH) sum of:
+     0.39035183 = (MATCH) weight(seed:T^10.0 in 870226), product of:
+       0.0781306 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.9961452 = idf(docFreq=425651, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       4.9961452 = (MATCH) fieldWeight(seed:T in 870226), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.9961452 = idf(docFreq=425651, maxDocs=23150396)
+         1.0 = fieldNorm(field=seed, doc=870226)
+     1.6935517 = (MATCH) weight(lang:en^350.0 in 870226), product of:
+       0.96277833 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7590256 = idf(docFreq=10837217, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       1.7590256 = (MATCH) fieldWeight(lang:en in 870226), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7590256 = idf(docFreq=10837217, maxDocs=23150396)
+         1.0 = fieldNorm(field=lang, doc=870226)
+ </str><str name="aHR0cDovL2hlbGxvdHh0LmNvbS8*aHR0cDovL2hlbGxvdHh0LmNvbS8">
+ 45.21082 = (MATCH) sum of:
+   43.127037 = (MATCH) max of:
+     43.127037 = (MATCH) weight(ngramurl_front:hello^14.0 in 7781598), product of:
+       0.21725625 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.9253845 = idf(docFreq=3081, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       198.50769 = (MATCH) fieldWeight(ngramurl_front:hello in 7781598), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.9253845 = idf(docFreq=3081, maxDocs=23178101)
+         20.0 = fieldNorm(field=ngramurl_front, doc=7781598)
+   2.0837834 = (MATCH) sum of:
+     0.39040306 = (MATCH) weight(seed:T^10.0 in 7781598), product of:
+       0.078127705 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.9969864 = idf(docFreq=425802, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       4.9969864 = (MATCH) fieldWeight(seed:T in 7781598), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.9969864 = idf(docFreq=425802, maxDocs=23178101)
+         1.0 = fieldNorm(field=seed, doc=7781598)
+     1.6933804 = (MATCH) weight(lang:en^350.0 in 7781598), product of:
+       0.96263075 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7591172 = idf(docFreq=10849191, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       1.7591172 = (MATCH) fieldWeight(lang:en in 7781598), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7591172 = idf(docFreq=10849191, maxDocs=23178101)
+         1.0 = fieldNorm(field=lang, doc=7781598)
+ </str><str name="aHR0cDovL2hlbGxvcGRmLmNvbS8*aHR0cDovL2hlbGxvcGRmLmNvbS8">
+ 45.204784 = (MATCH) sum of:
+   43.121696 = (MATCH) max of:
+     43.121696 = (MATCH) weight(ngramurl_front:hello^14.0 in 9491824), product of:
+       0.21727543 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.92328 = idf(docFreq=3087, maxDocs=23174401)
+         0.001563966 = queryNorm
+       198.46559 = (MATCH) fieldWeight(ngramurl_front:hello in 9491824), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.92328 = idf(docFreq=3087, maxDocs=23174401)
+         20.0 = fieldNorm(field=ngramurl_front, doc=9491824)
+   2.0830877 = (MATCH) sum of:
+     0.3902424 = (MATCH) weight(seed:T^10.0 in 9491824), product of:
+       0.07812335 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.995208 = idf(docFreq=426492, maxDocs=23174401)
+         0.001563966 = queryNorm
+       4.995208 = (MATCH) fieldWeight(seed:T in 9491824), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.995208 = idf(docFreq=426492, maxDocs=23174401)
+         1.0 = fieldNorm(field=seed, doc=9491824)
+     1.6928453 = (MATCH) weight(lang:en^350.0 in 9491824), product of:
+       0.9626232 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7585753 = idf(docFreq=10853340, maxDocs=23174401)
+         0.001563966 = queryNorm
+       1.7585753 = (MATCH) fieldWeight(lang:en in 9491824), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7585753 = idf(docFreq=10853340, maxDocs=23174401)
+         1.0 = fieldNorm(field=lang, doc=9491824)
+ </str><str name="aHR0cDovL2hlbGxvYmFyLmNvLnVrLw*aHR0cDovL2hlbGxvYmFyLmNvLnVrLw">
+ 45.17283 = (MATCH) sum of:
+   43.088924 = (MATCH) max of:
+     0.07993242 = (MATCH) weight(content:hello^0.5 in 8535123), product of:
+       0.0042044776 = queryWeight(content:hello^0.5), product of:
+         0.5 = boost
+         5.377197 = idf(docFreq=290780, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       19.011261 = (MATCH) fieldWeight(content:hello in 8535123), product of:
+         1.4142135 = tf(termFreq(content:hello)=2)
+         5.377197 = idf(docFreq=290780, maxDocs=23150396)
+         2.5 = fieldNorm(field=content, doc=8535123)
+     43.088924 = (MATCH) weight(ngramurl_front:hello^14.0 in 8535123), product of:
+       0.21718253 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.919979 = idf(docFreq=3094, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       198.39958 = (MATCH) fieldWeight(ngramurl_front:hello in 8535123), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.919979 = idf(docFreq=3094, maxDocs=23150396)
+         20.0 = fieldNorm(field=ngramurl_front, doc=8535123)
+   2.0839036 = (MATCH) sum of:
+     0.39035183 = (MATCH) weight(seed:T^10.0 in 8535123), product of:
+       0.0781306 = queryWeight(seed:T^10.0), product of:
+         10.0 = boost
+         4.9961452 = idf(docFreq=425651, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       4.9961452 = (MATCH) fieldWeight(seed:T in 8535123), product of:
+         1.0 = tf(termFreq(seed:T)=1)
+         4.9961452 = idf(docFreq=425651, maxDocs=23150396)
+         1.0 = fieldNorm(field=seed, doc=8535123)
+     1.6935517 = (MATCH) weight(lang:en^350.0 in 8535123), product of:
+       0.96277833 = queryWeight(lang:en^350.0), product of:
+         350.0 = boost
+         1.7590256 = idf(docFreq=10837217, maxDocs=23150396)
+         0.0015638177 = queryNorm
+       1.7590256 = (MATCH) fieldWeight(lang:en in 8535123), product of:
+         1.0 = tf(termFreq(lang:en)=1)
+         1.7590256 = idf(docFreq=10837217, maxDocs=23150396)
+         1.0 = fieldNorm(field=lang, doc=8535123)
+ </str><str name="aHR0cDovL3d3dy5oZWxsb3Byby5mci8*aHR0cDovL3d3dy5oZWxsb3Byby5mci9ldmVuZW1lbnRpZWwtMjAwMTcyMS1mci1ydWJyaXF1ZS5odG1s">
+ 43.127037 = (MATCH) sum of:
+   43.127037 = (MATCH) max of:
+     43.127037 = (MATCH) weight(ngramurl_front:hello^14.0 in 7487574), product of:
+       0.21725625 = queryWeight(ngramurl_front:hello^14.0), product of:
+         14.0 = boost
+         9.9253845 = idf(docFreq=3081, maxDocs=23178101)
+         0.0015634964 = queryNorm
+       198.50769 = (MATCH) fieldWeight(ngramurl_front:hello in 7487574), product of:
+         1.0 = tf(termFreq(ngramurl_front:hello)=1)
+         9.9253845 = idf(docFreq=3081, maxDocs=23178101)
+         20.0 = fieldNorm(field=ngramurl_front, doc=7487574)
+ </str></lst></lst>
+ </response>

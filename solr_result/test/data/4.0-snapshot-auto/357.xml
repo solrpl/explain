@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">4</int>
+</lst>
+<result name="response" numFound="2" start="0">
+  <doc>
+    <int name="id">8</int></doc>
+  <doc>
+    <int name="id">9</int></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">*:*</str>
+  <str name="querystring">*:*</str>
+  <str name="parsedquery">MatchAllDocsQuery(*:*)</str>
+  <str name="parsedquery_toString">*:*</str>
+  <lst name="explain">
+    <str name="8">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="9">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <arr name="filter_queries">
+    <str>{!geofilt sfield=home_ll}</str>
+  </arr>
+  <arr name="parsed_filter_queries">
+    <str>SpatialDistanceQuery(geofilt(latlonSource=home_ll(double(home_ll_0___double),double(home_ll_1___double)),latCenter=0.0,lonCenter=179.8,dist=200.0,latMin=-1.7986406709857834,latMax=1.7986406709857834,lonMin=-180.0,lonMax-178.4013593290142,lon2Min=178.00135932901424,lon2Max180.0,calcDist=true,planetRadius=6371.009))</str>
+  </arr>
+  <lst name="timing">
+    <double name="time">4.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">4.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

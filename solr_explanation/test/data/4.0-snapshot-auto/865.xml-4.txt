@@ -1,0 +1,5 @@
+
+0.04 = (MATCH) FunctionQuery(div(const(1),float(foo_pf))), product of:
+  0.04 = div(const(1),float(foo_pf)=25.0)
+  1.0 = boost
+  1.0 = queryNorm

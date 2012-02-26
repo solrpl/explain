@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <arr name="tv_text">
+      <str>a long day's night</str>
+    </arr>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:14:38.666Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="highlighting">
+  <lst name="1"/>
+</lst>
+<lst name="debug">
+  <null name="rawquerystring"/>
+  <null name="querystring"/>
+  <str name="parsedquery">(+MatchAllDocsQuery(*:*) FunctionQuery((ord(weight))^0.5) FunctionQuery((1000.0/(1.0*float(rord(iind))+1000.0))^0.3))/no_coord</str>
+  <str name="parsedquery_toString">+*:* (ord(weight))^0.5 (1000.0/(1.0*float(rord(iind))+1000.0))^0.3</str>
+  <lst name="explain">
+    <str name="1">
+1.1227701 = (MATCH) sum of:
+  0.8638684 = (MATCH) MatchAllDocsQuery, product of:
+    0.8638684 = queryNorm
+  0.0 = (MATCH) FunctionQuery(ord(weight)), product of:
+    0.0 = ord(weight)=0
+    0.5 = boost
+    0.8638684 = queryNorm
+  0.25890166 = (MATCH) FunctionQuery(1000.0/(1.0*float(rord(iind))+1000.0)), product of:
+    0.999001 = 1000.0/(1.0*float(rord(iind)=1)+1000.0)
+    0.3 = boost
+    0.8638684 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">DisMaxQParser</str>
+  <str name="altquerystring">org.apache.lucene.search.MatchAllDocsQuery:*:*</str>
+  <arr name="boostfuncs">
+    <str>
+        ord(weight)^0.5 recip(rord(iind),1,1000,1000)^0.3
+     </str>
+  </arr>
+  <lst name="timing">
+    <double name="time">2.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,174 @@
+1.3200746 = (MATCH) product of:
+  3.5201988 = (MATCH) sum of:
+    0.38329265 = (MATCH) sum of:
+      0.06515147 = (MATCH) weight(content:pod in 76), product of:
+        0.11754922 = queryWeight(content:pod), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        0.5542484 = (MATCH) fieldWeight(content:pod in 76), product of:
+          1.0 = tf(termFreq(content:pod)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.06515147 = (MATCH) weight(content:POD in 76), product of:
+        0.11754922 = queryWeight(content:POD), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        0.5542484 = (MATCH) fieldWeight(content:POD in 76), product of:
+          1.0 = tf(termFreq(content:POD)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.06515147 = (MATCH) weight(content:dawny in 76), product of:
+        0.11754922 = queryWeight(content:dawny), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        0.5542484 = (MATCH) fieldWeight(content:dawny in 76), product of:
+          1.0 = tf(termFreq(content:dawny)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.051004406 = (MATCH) weight(content:dom in 76), product of:
+        0.104006745 = queryWeight(content:dom), product of:
+          3.9231615 = idf(docFreq=4, maxDocs=93)
+          0.026510952 = queryNorm
+        0.4903952 = (MATCH) fieldWeight(content:dom in 76), product of:
+          1.0 = tf(termFreq(content:dom)=1)
+          3.9231615 = idf(docFreq=4, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.06515147 = (MATCH) weight(content:dzień in 76), product of:
+        0.11754922 = queryWeight(content:dzień), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        0.5542484 = (MATCH) fieldWeight(content:dzień in 76), product of:
+          1.0 = tf(termFreq(content:dzień)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.06515147 = (MATCH) weight(content:dzien in 76), product of:
+        0.11754922 = queryWeight(content:dzien), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        0.5542484 = (MATCH) fieldWeight(content:dzien in 76), product of:
+          1.0 = tf(termFreq(content:dzien)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+      0.0065309075 = (MATCH) weight(content: in 76), product of:
+        0.028279005 = queryWeight(content:), product of:
+          1.0666914 = idf(docFreq=86, maxDocs=93)
+          0.026510952 = queryNorm
+        0.23094545 = (MATCH) fieldWeight(content: in 76), product of:
+          1.7320508 = tf(termFreq(content:)=3)
+          1.0666914 = idf(docFreq=86, maxDocs=93)
+          0.125 = fieldNorm(field=content, doc=76)
+    1.5694025 = (MATCH) sum of:
+      0.26060587 = (MATCH) weight(title:pod in 76), product of:
+        0.11754922 = queryWeight(title:pod), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(title:pod in 76), product of:
+          1.0 = tf(termFreq(title:pod)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.26060587 = (MATCH) weight(title:POD in 76), product of:
+        0.11754922 = queryWeight(title:POD), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(title:POD in 76), product of:
+          1.0 = tf(termFreq(title:POD)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.26060587 = (MATCH) weight(title:dawny in 76), product of:
+        0.11754922 = queryWeight(title:dawny), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(title:dawny in 76), product of:
+          1.0 = tf(termFreq(title:dawny)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.22788611 = (MATCH) weight(title:dom in 76), product of:
+        0.1099225 = queryWeight(title:dom), product of:
+          4.146305 = idf(docFreq=3, maxDocs=93)
+          0.026510952 = queryNorm
+        2.0731525 = (MATCH) fieldWeight(title:dom in 76), product of:
+          1.0 = tf(termFreq(title:dom)=1)
+          4.146305 = idf(docFreq=3, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.26060587 = (MATCH) weight(title:dzień in 76), product of:
+        0.11754922 = queryWeight(title:dzień), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(title:dzień in 76), product of:
+          1.0 = tf(termFreq(title:dzień)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.26060587 = (MATCH) weight(title:dzien in 76), product of:
+        0.11754922 = queryWeight(title:dzien), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(title:dzien in 76), product of:
+          1.0 = tf(termFreq(title:dzien)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+      0.03848692 = (MATCH) weight(title: in 76), product of:
+        0.045173552 = queryWeight(title:), product of:
+          1.7039582 = idf(docFreq=45, maxDocs=93)
+          0.026510952 = queryNorm
+        0.8519791 = (MATCH) fieldWeight(title: in 76), product of:
+          1.0 = tf(termFreq(title:)=1)
+          1.7039582 = idf(docFreq=45, maxDocs=93)
+          0.5 = fieldNorm(field=title, doc=76)
+    1.5675038 = (MATCH) sum of:
+      0.26060587 = (MATCH) weight(description:pod in 76), product of:
+        0.11754922 = queryWeight(description:pod), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(description:pod in 76), product of:
+          1.0 = tf(termFreq(description:pod)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.26060587 = (MATCH) weight(description:POD in 76), product of:
+        0.11754922 = queryWeight(description:POD), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(description:POD in 76), product of:
+          1.0 = tf(termFreq(description:POD)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.26060587 = (MATCH) weight(description:dawny in 76), product of:
+        0.11754922 = queryWeight(description:dawny), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(description:dawny in 76), product of:
+          1.0 = tf(termFreq(description:dawny)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.22788611 = (MATCH) weight(description:dom in 76), product of:
+        0.1099225 = queryWeight(description:dom), product of:
+          4.146305 = idf(docFreq=3, maxDocs=93)
+          0.026510952 = queryNorm
+        2.0731525 = (MATCH) fieldWeight(description:dom in 76), product of:
+          1.0 = tf(termFreq(description:dom)=1)
+          4.146305 = idf(docFreq=3, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.26060587 = (MATCH) weight(description:dzień in 76), product of:
+        0.11754922 = queryWeight(description:dzień), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(description:dzień in 76), product of:
+          1.0 = tf(termFreq(description:dzień)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.26060587 = (MATCH) weight(description:dzien in 76), product of:
+        0.11754922 = queryWeight(description:dzien), product of:
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.026510952 = queryNorm
+        2.2169936 = (MATCH) fieldWeight(description:dzien in 76), product of:
+          1.0 = tf(termFreq(description:dzien)=1)
+          4.433987 = idf(docFreq=2, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+      0.036588363 = (MATCH) weight(description: in 76), product of:
+        0.04404526 = queryWeight(description:), product of:
+          1.6613985 = idf(docFreq=47, maxDocs=93)
+          0.026510952 = queryNorm
+        0.83069927 = (MATCH) fieldWeight(description: in 76), product of:
+          1.0 = tf(termFreq(description:)=1)
+          1.6613985 = idf(docFreq=47, maxDocs=93)
+          0.5 = fieldNorm(field=description, doc=76)
+  0.375 = coord(3/8)

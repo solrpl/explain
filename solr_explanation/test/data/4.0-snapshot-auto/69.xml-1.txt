@@ -1,0 +1,5 @@
+
+2.3042304E7 = (MATCH) FunctionQuery(sqedist(-1.0,point(home),vector(const(0),const(0)))), product of:
+  2.3042304E7 = sqedist(-1.0,point(double(home_0___double)=48.0,double(home_1___double)=4800.0),vector(const(0),const(0)))
+  1.0 = boost
+  1.0 = queryNorm

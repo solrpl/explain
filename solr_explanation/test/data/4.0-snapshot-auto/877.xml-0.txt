@@ -1,0 +1,5 @@
+
+8.0 = (MATCH) FunctionQuery(query(foo_pf:[* TO *],def=8.0)), product of:
+  8.0 = query(foo_pf:[* TO *],def=8.0)=8.0
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+0.008676042 = (MATCH) FunctionQuery(1.0/(1.0*float(ghhsin(str(point_hash),literal(djxy433vw867)))+0.0)), product of:
+  0.008676042 = 1.0/(1.0*float(ghhsin(str(point_hash)=dmb93ndhu22w,djxy433vw867))+0.0)
+  1.0 = boost
+  1.0 = queryNorm

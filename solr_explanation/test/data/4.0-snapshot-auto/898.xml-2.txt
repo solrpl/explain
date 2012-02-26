@@ -1,0 +1,5 @@
+
+3.1622777 = (MATCH) FunctionQuery(sqrt(abs(sfloat(foo_f)))), product of:
+  3.1622777 = sqrt(abs(sfloat(foo_f)=10.0))
+  1.0 = boost
+  1.0 = queryNorm

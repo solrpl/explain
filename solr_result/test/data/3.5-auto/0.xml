@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<result name="response" numFound="4" start="0" maxScore="1.0">
+  <doc>
+    <float name="score">1.0</float>
+    <arr name="f_t"><str>ipod</str></arr>
+    <int name="id">1</int>
+    <int name="intDefault">42</int>
+    <arr name="multiDefault"><str>muLti-Default</str></arr>
+    <arr name="range_facet_l"><long>1</long></arr>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_sl"><long>1</long></arr>
+    <date name="timestamp">2012-01-08T19:40:53.128Z</date>
+    <double name="w_td1">25.0</double>
+    <double name="x_td1">0.0</double>
+    <double name="y_td1">2.0</double>
+    <double name="z_td1">5.0</double>
+  </doc>
+  <doc>
+    <float name="score">1.0</float>
+    <arr name="f_t"><str>ipod ipod ipod ipod ipod</str></arr>
+    <int name="id">2</int>
+    <int name="intDefault">42</int>
+    <arr name="multiDefault"><str>muLti-Default</str></arr>
+    <arr name="range_facet_l"><long>2</long></arr>
+    <int name="range_facet_si">2</int>
+    <arr name="range_facet_sl"><long>2</long></arr>
+    <date name="timestamp">2012-01-08T19:40:53.134Z</date>
+    <double name="w_td1">15.0</double>
+    <double name="x_td1">2.0</double>
+    <double name="y_td1">2.0</double>
+    <double name="z_td1">5.0</double>
+  </doc>
+  <doc>
+    <float name="score">1.0</float>
+    <arr name="f_t"><str>ipod ipod ipod ipod ipod ipod ipod ipod ipod</str></arr>
+    <int name="id">3</int>
+    <int name="intDefault">42</int>
+    <arr name="multiDefault"><str>muLti-Default</str></arr>
+    <arr name="range_facet_l"><long>3</long></arr>
+    <int name="range_facet_si">3</int>
+    <arr name="range_facet_sl"><long>3</long></arr>
+    <date name="timestamp">2012-01-08T19:40:53.137Z</date>
+    <double name="w_td1">55.0</double>
+    <double name="x_td1">3.0</double>
+    <double name="y_td1">2.0</double>
+    <double name="z_td1">5.0</double>
+  </doc>
+  <doc>
+    <float name="score">1.0</float>
+    <arr name="f_t"><str>ipod ipod ipod ipod ipod ipod ipod</str></arr>
+    <int name="id">4</int>
+    <int name="intDefault">42</int>
+    <arr name="multiDefault"><str>muLti-Default</str></arr>
+    <arr name="range_facet_l"><long>4</long></arr>
+    <int name="range_facet_si">4</int>
+    <arr name="range_facet_sl"><long>4</long></arr>
+    <date name="timestamp">2012-01-08T19:40:53.142Z</date>
+    <double name="w_td1">45.0</double>
+    <double name="x_td1">4.0</double>
+    <double name="y_td1">2.0</double>
+    <double name="z_td1">5.0</double>
+  </doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">*:*</str>
+  <str name="querystring">*:*</str>
+  <str name="parsedquery">MatchAllDocsQuery(*:*)</str>
+  <str name="parsedquery_toString">*:*</str>
+  <lst name="explain">
+    <str name="1">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="2">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="3">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="4">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">2.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,11 @@
+# q=name:dell
+3.2967336 = (MATCH) weight(name:dell in 21) [BM25Similarity], result of:
+  3.2967336 = score(doc=21,freq=1.0 = termFreq=1.0
+), product of:
+    2.9618306 = idf(docFreq=1, maxDocs=28)
+    1.113073 = tfNorm, computed from:
+      1.0 = termFreq=1.0
+      1.2 = parameter k1
+      0.75 = parameter b
+      5.321429 = avgFieldLength
+      4.0 = fieldLength

@@ -1,0 +1,5 @@
+
+4.0 = (MATCH) FunctionQuery(sqedist(-1.0,vector(double(x_td),double(y_td),double(z_td),double(w_td)),vector(const(0),const(0),const(0),const(0)))), product of:
+  4.0 = sqedist(-1.0,vector(double(x_td)=1.0,double(y_td)=1.0,double(z_td)=1.0,double(w_td)=1.0),vector(const(0),const(0),const(0),const(0)))
+  1.0 = boost
+  1.0 = queryNorm

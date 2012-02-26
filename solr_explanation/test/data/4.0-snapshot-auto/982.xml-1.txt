@@ -1,0 +1,5 @@
+
+1.8864907 = (MATCH) FunctionQuery(log(sfloat(CoMpleX " fieldName _f))), product of:
+  1.8864907 = log(sfloat(CoMpleX " fieldName _f)=77.0)
+  1.0 = boost
+  1.0 = queryNorm

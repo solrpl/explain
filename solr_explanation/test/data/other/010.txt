@@ -1,0 +1,15 @@
+      100.01 = (MATCH) sum of:
+      100.01 = (MATCH) max plus 0.01 times others of:
+      100.0 = (MATCH) weight(voiv:maz^100.0 in 28), product of:
+      100.0 = queryWeight(voiv:maz^100.0), product of:
+      100.0 = boost
+      1.0 = idf(docFreq=33452, maxDocs=216972)
+      1.0 = queryNorm
+      1.0 = (MATCH) fieldWeight(voiv:maz in 28), product of:
+      1.0 = tf(termFreq(voiv:maz)=1)
+      1.0 = idf(docFreq=33452, maxDocs=216972)
+      1.0 = fieldNorm(field=voiv, doc=28)
+      1.0 = (MATCH) fieldWeight(city:maz in 28), product of:
+      1.0 = tf(termFreq(city:maz)=1)
+      1.0 = idf(docFreq=1711, maxDocs=216972)
+      1.0 = fieldNorm(field=city, doc=28)

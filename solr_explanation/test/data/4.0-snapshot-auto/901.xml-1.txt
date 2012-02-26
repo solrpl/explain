@@ -1,0 +1,5 @@
+
+500.0 = (MATCH) FunctionQuery(map(sfloat(foo_f),-4.0,5.0,500.0)), product of:
+  500.0 = map(sfloat(foo_f)=0.0,min=-4.0,max=5.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm

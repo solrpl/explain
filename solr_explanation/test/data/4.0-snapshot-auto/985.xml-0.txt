@@ -1,0 +1,5 @@
+
+737.02783 = (MATCH) FunctionQuery(sqrt(float(foo_extf{type=file,properties=}))), product of:
+  737.02783 = sqrt(float(foo_extf{type=file,properties=})=543210.0)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,2 @@
+# q=name:"Dell Wiidescreen"
+0.0 = (NON-MATCH) no matching term

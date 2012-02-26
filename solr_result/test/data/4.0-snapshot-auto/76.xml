@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<result name="response" numFound="3" start="0">
+  <doc>
+    <int name="id">2</int></doc>
+  <doc>
+    <int name="id">3</int></doc>
+  <doc>
+    <int name="id">5</int></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">sort_tr_canon:"I Will Use Turkish Casıng"</str>
+  <str name="querystring">sort_tr_canon:"I Will Use Turkish Casıng"</str>
+  <str name="parsedquery">sort_tr_canon:#0;_#0;r#0;`#0;d#0;d#0;o#0;l#0;Z#0;n#0;o#0;k#0;c#0;`#0;l#0;^#0;V#0;S#0;l#0;_#0;f#0;\#0;#0;#0;#0;</str>
+  <str name="parsedquery_toString">sort_tr_canon:#0;_#0;r#0;`#0;d#0;d#0;o#0;l#0;Z#0;n#0;o#0;k#0;c#0;`#0;l#0;^#0;V#0;S#0;l#0;_#0;f#0;\#0;#0;#0;#0;</str>
+  <lst name="explain">
+    <str name="2">
+2.098612 = (MATCH) weight(sort_tr_canon:#0;_#0;r#0;`#0;d#0;d#0;o#0;l#0;Z#0;n#0;o#0;k#0;c#0;`#0;l#0;^#0;V#0;S#0;l#0;_#0;f#0;\#0;#0;#0;#0; in 1) [DefaultSimilarity], result of:
+  2.098612 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      0.47650534 = queryNorm
+    2.0986123 = fieldWeight in 1, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      1.0 = fieldNorm(doc=1)
+</str>
+    <str name="3">
+2.098612 = (MATCH) weight(sort_tr_canon:#0;_#0;r#0;`#0;d#0;d#0;o#0;l#0;Z#0;n#0;o#0;k#0;c#0;`#0;l#0;^#0;V#0;S#0;l#0;_#0;f#0;\#0;#0;#0;#0; in 2) [DefaultSimilarity], result of:
+  2.098612 = score(doc=2,freq=1.0 = termFreq=1.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      0.47650534 = queryNorm
+    2.0986123 = fieldWeight in 2, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      1.0 = fieldNorm(doc=2)
+</str>
+    <str name="5">
+2.098612 = (MATCH) weight(sort_tr_canon:#0;_#0;r#0;`#0;d#0;d#0;o#0;l#0;Z#0;n#0;o#0;k#0;c#0;`#0;l#0;^#0;V#0;S#0;l#0;_#0;f#0;\#0;#0;#0;#0; in 4) [DefaultSimilarity], result of:
+  2.098612 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      0.47650534 = queryNorm
+    2.0986123 = fieldWeight in 4, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      2.0986123 = idf(docFreq=3, maxDocs=12)
+      1.0 = fieldNorm(doc=4)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">2.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

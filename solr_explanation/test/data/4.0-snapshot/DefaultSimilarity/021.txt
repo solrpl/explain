@@ -1,0 +1,16 @@
+# q=dell wild&defType=dismax&mm=1
+0.31032464 = (MATCH) sum of:
+  0.31032464 = (MATCH) product of:
+    0.6206493 = (MATCH) sum of:
+      0.6206493 = (MATCH) weight(text:dell in 21) [DefaultSimilarity], result of:
+        0.6206493 = score(doc=21,freq=2.0 = termFreq=2.0
+), product of:
+          0.64319265 = queryWeight, product of:
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.17674705 = queryNorm
+          0.9649508 = fieldWeight in 21, product of:
+            1.4142135 = tf(freq=2.0), with freq of:
+              2.0 = termFreq=2.0
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.1875 = fieldNorm(doc=21)
+    0.5 = coord(1/2)

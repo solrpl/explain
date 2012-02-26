@@ -1,0 +1,8 @@
+# q=name:dell
+0.03481602 = (MATCH) weight(name:dell in 21) [LMDirichletSimilarity], result of:
+  0.03481602 = score(LMDirichletSimilarity, doc=21, freq=1.0), computed from:
+    1.0 = termFreq=1.0
+    2000.0 = mu
+    0.036813997 = term weight
+    -0.0019979754 = document norm
+    0.013333334 = collection probability

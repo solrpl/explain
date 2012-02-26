@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">6</int>
+</lst>
+<result name="response" numFound="1" start="0" maxScore="0.057534903">
+  <doc>
+    <int name="id">1</int>
+    <float name="score">0.057534903</float></doc>
+</result>
+<lst name="highlighting">
+  <lst name="1">
+    <arr name="t_text">
+      <str> is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is is sufficiently lengthly to produce multiple fragments which are not concatenated at all--we want two &lt;em&gt;disjoint&lt;/em&gt;</str>
+    </arr>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">t_text:disjoint</str>
+  <str name="querystring">t_text:disjoint</str>
+  <str name="parsedquery">t_text:disjoint</str>
+  <str name="parsedquery_toString">t_text:disjoint</str>
+  <lst name="explain">
+    <str name="1">
+0.057534903 = (MATCH) weight(t_text:disjoint in 0) [MockConfigurableSimilarity], result of:
+  0.057534903 = fieldWeight in 0, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    0.30685282 = idf(docFreq=1, maxDocs=1)
+    0.1875 = fieldNorm(doc=0)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">5.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">5.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">5.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

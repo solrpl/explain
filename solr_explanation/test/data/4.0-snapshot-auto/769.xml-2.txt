@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScoreQuery(frange(date(foo_dt)):{0299-12-31T23:59:59.998Z TO *}), product of:
+  1.0 = boost
+  1.0 = queryNorm

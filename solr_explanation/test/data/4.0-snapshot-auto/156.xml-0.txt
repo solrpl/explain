@@ -1,0 +1,7 @@
+
+0.081366636 = (MATCH) weight(tv_text:long in 0) [MockConfigurableSimilarity], result of:
+  0.081366636 = fieldWeight in 0, product of:
+    1.4142135 = tf(freq=2.0), with freq of:
+      2.0 = termFreq=2.0
+    0.30685282 = idf(docFreq=1, maxDocs=1)
+    0.1875 = fieldNorm(doc=0)

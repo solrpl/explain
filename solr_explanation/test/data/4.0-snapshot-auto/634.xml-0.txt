@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScoreQuery(frange(int(foo_ti)):{1999999998 TO 2000000002}), product of:
+  1.0 = boost
+  1.0 = queryNorm

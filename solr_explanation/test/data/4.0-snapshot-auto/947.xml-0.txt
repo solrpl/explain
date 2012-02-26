@@ -1,0 +1,5 @@
+
+3.0 = (MATCH) FunctionQuery(docfreq(a_t,cow)), product of:
+  3.0 = docfreq(a_t,cow)=3
+  1.0 = boost
+  1.0 = queryNorm

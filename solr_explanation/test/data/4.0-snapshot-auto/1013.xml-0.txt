@@ -1,0 +1,5 @@
+
+3.1415927 = (MATCH) FunctionQuery(const(3.141592653589793)), product of:
+  3.1415927 = const(3.141592653589793)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,12 @@
+
+0.53590643 = (MATCH) weight(nopositionstext:test in 1) [MockConfigurableSimilarity], result of:
+  0.53590643 = score(doc=1,freq=13.0 = termFreq=13.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      0.5945349 = idf(docFreq=2, maxDocs=2)
+      1.681987 = queryNorm
+    0.5359065 = fieldWeight in 1, product of:
+      3.6055512 = tf(freq=13.0), with freq of:
+        13.0 = termFreq=13.0
+      0.5945349 = idf(docFreq=2, maxDocs=2)
+      0.25 = fieldNorm(doc=1)

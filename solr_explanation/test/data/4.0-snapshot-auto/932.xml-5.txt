@@ -1,0 +1,5 @@
+
+25.0 = (MATCH) FunctionQuery(map(float(foo_tf),-4.0,5.0,500.0)), product of:
+  25.0 = map(float(foo_tf)=25.0,min=-4.0,max=5.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm

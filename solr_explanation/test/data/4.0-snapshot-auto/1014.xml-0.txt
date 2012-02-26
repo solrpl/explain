@@ -1,0 +1,5 @@
+
+5.0 = (MATCH) FunctionQuery(sum(const(2),const(3))), product of:
+  5.0 = sum(const(2),const(3))
+  1.0 = boost
+  1.0 = queryNorm

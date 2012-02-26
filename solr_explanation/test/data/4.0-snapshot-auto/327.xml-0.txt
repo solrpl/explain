@@ -1,0 +1,7 @@
+
+0.59884083 = (MATCH) weight(teststop:fox in 1) [MockConfigurableSimilarity], result of:
+  0.59884083 = fieldWeight in 1, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    1.9162908 = idf(docFreq=1, maxDocs=5)
+    0.3125 = fieldNorm(doc=1)

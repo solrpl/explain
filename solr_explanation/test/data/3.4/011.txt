@@ -1,0 +1,2 @@
+# q=price:[10 TO 30]
+0.0 = (NON-MATCH) ConstantScore(price:[10.0 TO 30.0]) doesn't match id 10

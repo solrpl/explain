@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(content_multi:hij*), product of:
+  1.0 = boost
+  1.0 = queryNorm

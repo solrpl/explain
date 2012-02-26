@@ -1,0 +1,2 @@
+Explain
+Copyright 2011-2012 Solr.pl, Marek Rogoziński and Rafał Kuć

@@ -1,0 +1,5 @@
+
+5.0 = (MATCH) FunctionQuery(hypot(const(3),const(4))), product of:
+  5.0 = hypot(const(3),const(4))
+  1.0 = boost
+  1.0 = queryNorm

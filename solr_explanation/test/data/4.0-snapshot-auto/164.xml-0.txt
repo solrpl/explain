@@ -1,0 +1,15 @@
+
+0.013923652 = (MATCH) product of:
+  0.027847303 = (MATCH) sum of:
+    0.027847303 = (MATCH) weight(t_text:text in 0) [MockConfigurableSimilarity], result of:
+      0.027847303 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+        0.29335263 = queryWeight, product of:
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.9560043 = queryNorm
+        0.09492774 = fieldWeight in 0, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.21875 = fieldNorm(doc=0)
+  0.5 = coord(1/2)

@@ -1,0 +1,16 @@
+# q=dell&bf=map(popularity,1,1,0)^0.5&defType=dismax
+4.8131895 = (MATCH) sum of:
+  3.8144338 = (MATCH) weight(text:dell in 21) [BM25Similarity], result of:
+    3.8144338 = score(doc=21,freq=2.0 = termFreq=2.0
+), product of:
+      2.9618306 = idf(docFreq=1, maxDocs=28)
+      1.2878636 = tfNorm, computed from:
+        2.0 = termFreq=2.0
+        1.2 = parameter k1
+        0.75 = parameter b
+        22.928572 = avgFieldLength
+        28.444445 = fieldLength
+  0.9987556 = (MATCH) FunctionQuery(map(int(popularity),1.0,1.0,0.0)), product of:
+    6.0 = map(int(popularity)=6,min=1.0,max=1.0,target=0.0)
+    0.5 = boost
+    0.33291852 = queryNorm

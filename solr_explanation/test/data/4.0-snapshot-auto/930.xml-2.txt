@@ -1,0 +1,5 @@
+
+6.244998 = (MATCH) FunctionQuery(sqrt(sum(const(29),float(foo_tf)))), product of:
+  6.244998 = sqrt(sum(const(29),float(foo_tf)=10.0))
+  1.0 = boost
+  1.0 = queryNorm

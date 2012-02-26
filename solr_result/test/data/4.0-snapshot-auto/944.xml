@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">133</int>
+</lst>
+<result name="response" numFound="10" start="0" maxScore="543210.0">
+  <doc>
+    <float name="id">991.0</float>
+    <str name="sfile_s">AAA=AAA</str>
+    <float name="score">543210.0</float></doc>
+  <doc>
+    <float name="id">993.0</float>
+    <str name="sfile_s">CCC=CCC</str>
+    <float name="score">250.0</float></doc>
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_tf">100.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_tf">-4.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_tf">0.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_tf">10.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_tf">25.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_tf">5.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">992.0</float>
+    <str name="sfile_s">BBB</str>
+    <float name="score">-8.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}foo_extfs</str>
+  <str name="querystring">{!func}foo_extfs</str>
+  <str name="parsedquery">FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/))</str>
+  <str name="parsedquery_toString">FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)</str>
+  <lst name="explain">
+    <str name="991.0">
+543210.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  543210.0 = float(foo_extfs{type=sfile,properties=})=543210.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="993.0">
+250.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  250.0 = float(foo_extfs{type=sfile,properties=})=250.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="100.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+1.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  1.0 = float(foo_extfs{type=sfile,properties=})=1.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="992.0">
+-8.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extfs,keyField=sfile_s,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  -8.0 = float(foo_extfs{type=sfile,properties=})=-8.0
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">133.0</double>
+    <lst name="prepare">
+      <double name="time">70.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">70.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">63.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">62.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

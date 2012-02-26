@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="1000.0">
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_pf">100.0</float>
+    <float name="score">1000.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_pf">25.0</float>
+    <float name="score">74.48718</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_pf">10.0</float>
+    <float name="score">-537.2435</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_pf">5.0</float>
+    <float name="score">-1000.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_pf">-4.0</float>
+    <float name="score">-3.4028235E38</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_pf">0.0</float>
+    <float name="score">-3.4028235E38</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">-3.4028235E38</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}scale(log(foo_pf),-1000,1000)</str>
+  <str name="querystring">{!func}scale(log(foo_pf),-1000,1000)</str>
+  <str name="parsedquery">FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0))</str>
+  <str name="parsedquery_toString">scale(log(float(foo_pf)),-1000.0,1000.0)</str>
+  <lst name="explain">
+    <str name="100.0">
+1000.0 = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  1000.0 = scale(log(float(foo_pf)=100.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+74.48718 = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  74.48718 = scale(log(float(foo_pf)=25.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+-537.2435 = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  -537.2435 = scale(log(float(foo_pf)=10.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+-1000.0 = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  -1000.0 = scale(log(float(foo_pf)=5.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+NaN = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  NaN = scale(log(float(foo_pf)=-4.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+-Infinity = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  -Infinity = scale(log(float(foo_pf)=0.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+-Infinity = (MATCH) FunctionQuery(scale(log(float(foo_pf)),-1000.0,1000.0)), product of:
+  -Infinity = scale(log(float(foo_pf)=0.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

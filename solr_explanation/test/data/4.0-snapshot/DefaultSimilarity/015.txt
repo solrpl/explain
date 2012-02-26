@@ -1,0 +1,16 @@
+# name:"Dell Ultrasharp"~2
+2.573202 = (MATCH) weight(name:"dell ultrasharp"~2 in 21) [DefaultSimilarity], result of:
+  2.573202 = score(doc=21,freq=0.5 = phraseFreq=0.5
+), product of:
+    0.99999994 = queryWeight, product of:
+      7.278115 = idf(), sum of:
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+      0.13739821 = queryNorm
+    2.5732021 = fieldWeight in 21, product of:
+      0.70710677 = tf(freq=0.5), with freq of:
+        0.5 = phraseFreq=0.5
+      7.278115 = idf(), sum of:
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+      0.5 = fieldNorm(doc=21)

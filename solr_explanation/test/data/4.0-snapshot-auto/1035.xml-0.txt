@@ -1,0 +1,5 @@
+
+0.46211717 = (MATCH) FunctionQuery(tanh(const(0.5))), product of:
+  0.46211717 = tanh(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

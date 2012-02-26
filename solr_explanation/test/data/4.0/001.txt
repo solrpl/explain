@@ -1,0 +1,6 @@
+0.6495038 = (MATCH) weight(text:solr in 24) [DefaultSimilarity], result of:
+  0.6495038 = fieldWeight in 24, product of:
+    1.4142135 = tf(freq=2.0), with freq of:
+      2.0 = termFreq=2
+    3.6741486 = idf(docFreq=1, maxDocs=29)
+    0.125 = fieldNorm(doc=24)

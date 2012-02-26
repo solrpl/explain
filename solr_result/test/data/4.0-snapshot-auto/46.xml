@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">10</int>
+  <lst name="params">
+    <str name="fl">id, score, [elevated]</str>
+    <str name="q">AAAA</str>
+    <str name="qt">/elevate</str>
+  </lst>
+</lst>
+<result name="response" numFound="3" start="0" maxScore="1.8109303">
+  <doc>
+    <float name="id">7.0</float>
+    <float name="score">1.8109303</float>
+    <bool name="[elevated]">true</bool></doc>
+  <doc>
+    <float name="id">8.0</float>
+    <float name="score">1.8109303</float>
+    <bool name="[elevated]">false</bool></doc>
+  <doc>
+    <float name="id">9.0</float>
+    <float name="score">1.6006513</float>
+    <bool name="[elevated]">false</bool></doc>
+</result>
+<lst name="debug">
+  <lst name="queryBoosting">
+    <str name="q">AAAA</str>
+    <arr name="match">
+      <str>À฀#0;</str>
+    </arr>
+  </lst>
+  <str name="rawquerystring">AAAA</str>
+  <str name="querystring">AAAA</str>
+  <str name="parsedquery">(text:aaaa ((id:7.0)^0.0))/no_coord</str>
+  <str name="parsedquery_toString">text:aaaa ((id:À฀#0;)^0.0)</str>
+  <lst name="explain">
+    <str name="7.0">
+1.8109303 = (MATCH) sum of:
+  1.8109303 = (MATCH) weight(text:aaaa in 6) [DefaultSimilarity], result of:
+    1.8109303 = fieldWeight in 6, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      1.8109303 = idf(docFreq=3, maxDocs=9)
+      1.0 = fieldNorm(doc=6)
+  0.0 = (MATCH) weight(id:À฀#0;^0.0 in 6) [DefaultSimilarity], result of:
+    0.0 = score(doc=6,freq=1.0 = termFreq=1.0
+), product of:
+      0.0 = queryWeight, product of:
+        0.0 = boost
+        2.5040774 = idf(docFreq=1, maxDocs=9)
+        0.5522024 = queryNorm
+      2.5040774 = fieldWeight in 6, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.5040774 = idf(docFreq=1, maxDocs=9)
+        1.0 = fieldNorm(doc=6)
+</str>
+    <str name="8.0">
+1.8109303 = (MATCH) sum of:
+  1.8109303 = (MATCH) weight(text:aaaa in 7) [DefaultSimilarity], result of:
+    1.8109303 = fieldWeight in 7, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      1.8109303 = idf(docFreq=3, maxDocs=9)
+      1.0 = fieldNorm(doc=7)
+</str>
+    <str name="9.0">
+1.6006513 = (MATCH) sum of:
+  1.6006513 = (MATCH) weight(text:aaaa in 8) [DefaultSimilarity], result of:
+    1.6006513 = fieldWeight in 8, product of:
+      1.4142135 = tf(freq=2.0), with freq of:
+        2.0 = termFreq=2.0
+      1.8109303 = idf(docFreq=3, maxDocs=9)
+      0.625 = fieldNorm(doc=8)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">10.0</double>
+    <lst name="prepare">
+      <double name="time">6.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.QueryElevationComponent">
+        <double name="time">5.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">4.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.QueryElevationComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

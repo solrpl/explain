@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="10.0">
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_pf">100.0</float>
+    <float name="score">10.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_pf">25.0</float>
+    <float name="score">5.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_pf">10.0</float>
+    <float name="score">3.1622777</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_pf">5.0</float>
+    <float name="score">2.236068</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_pf">0.0</float>
+    <float name="score">0.0</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">0.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_pf">-4.0</float>
+    <float name="score">-3.4028235E38</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}sqrt(foo_pf)</str>
+  <str name="querystring">{!func}sqrt(foo_pf)</str>
+  <str name="parsedquery">FunctionQuery(sqrt(float(foo_pf)))</str>
+  <str name="parsedquery_toString">sqrt(float(foo_pf))</str>
+  <lst name="explain">
+    <str name="100.0">
+10.0 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  10.0 = sqrt(float(foo_pf)=100.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+5.0 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  5.0 = sqrt(float(foo_pf)=25.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+3.1622777 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  3.1622777 = sqrt(float(foo_pf)=10.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+2.236068 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  2.236068 = sqrt(float(foo_pf)=5.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+0.0 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  0.0 = sqrt(float(foo_pf)=0.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+0.0 = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  0.0 = sqrt(float(foo_pf)=0.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+NaN = (MATCH) FunctionQuery(sqrt(float(foo_pf))), product of:
+  NaN = sqrt(float(foo_pf)=-4.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">0.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

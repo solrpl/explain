@@ -1,0 +1,5 @@
+
+0.4636476 = (MATCH) FunctionQuery(atan(const(0.5))), product of:
+  0.4636476 = atan(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

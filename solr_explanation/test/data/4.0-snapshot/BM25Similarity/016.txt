@@ -1,0 +1,13 @@
+# q=name:dall~0.5
+1.6483668 = (MATCH) sum of:
+  1.6483668 = (MATCH) weight(name:dell^0.5 in 21) [BM25Similarity], result of:
+    1.6483668 = score(doc=21,freq=1.0 = termFreq=1.0
+), product of:
+      0.5 = boost
+      2.9618306 = idf(docFreq=1, maxDocs=28)
+      1.113073 = tfNorm, computed from:
+        1.0 = termFreq=1.0
+        1.2 = parameter k1
+        0.75 = parameter b
+        5.321429 = avgFieldLength
+        4.0 = fieldLength

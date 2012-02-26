@@ -1,0 +1,9 @@
+# q=name:"Dell Wiidescreen"
+0.0 = (NON-MATCH) weight(name:"dell wiidescreen" in 10), product of:
+  1.0000001 = queryWeight(name:"dell wiidescreen"), product of:
+    6.9732795 = idf(name: dell=1 wiidescreen=0)
+    0.14340456 = queryNorm
+  0.0 = fieldWeight(name:"dell wiidescreen" in 10), product of:
+    0.0 = tf(phraseFreq=0.0)
+    6.9732795 = idf(name: dell=1 wiidescreen=0)
+    32.0 = fieldNorm(field=name, doc=10)

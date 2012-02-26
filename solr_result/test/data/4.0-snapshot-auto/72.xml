@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="2" start="0" maxScore="1.4142135">
+  <doc>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <str name="home">1,100</str>
+    <double name="homed_0_d1">1000.0</double>
+    <double name="homed_1_d1">10000.0</double>
+    <str name="homed">1000,10000</str>
+    <date name="timestamp">2012-01-09T19:16:28.394Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.4142135</float></doc>
+  <doc>
+    <int name="id">2</int>
+    <int name="range_facet_si">2</int>
+    <arr name="range_facet_l">
+      <long>2</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>2</long>
+    </arr>
+    <str name="home">2,200</str>
+    <double name="homed_0_d1">2000.0</double>
+    <double name="homed_1_d1">20000.0</double>
+    <str name="homed">2000,20000</str>
+    <date name="timestamp">2012-01-09T19:16:28.397Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.4142135</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">homed:[1,1000 TO 2000,35000]</str>
+  <str name="querystring">homed:[1,1000 TO 2000,35000]</str>
+  <str name="parsedquery">(+homed_0_d1:[1.0 TO 2000.0] +homed_1_d1:[1000.0 TO 35000.0])/no_coord</str>
+  <str name="parsedquery_toString">+homed_0_d1:[1.0 TO 2000.0] +homed_1_d1:[1000.0 TO 35000.0]</str>
+  <lst name="explain">
+    <str name="1">
+1.4142135 = (MATCH) sum of:
+  0.70710677 = (MATCH) ConstantScore(homed_0_d1:[1.0 TO 2000.0]), product of:
+    1.0 = boost
+    0.70710677 = queryNorm
+  0.70710677 = (MATCH) ConstantScore(homed_1_d1:[1000.0 TO 35000.0]), product of:
+    1.0 = boost
+    0.70710677 = queryNorm
+</str>
+    <str name="2">
+1.4142135 = (MATCH) sum of:
+  0.70710677 = (MATCH) ConstantScore(homed_0_d1:[1.0 TO 2000.0]), product of:
+    1.0 = boost
+    0.70710677 = queryNorm
+  0.70710677 = (MATCH) ConstantScore(homed_1_d1:[1000.0 TO 35000.0]), product of:
+    1.0 = boost
+    0.70710677 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

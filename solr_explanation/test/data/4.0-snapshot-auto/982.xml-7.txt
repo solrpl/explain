@@ -1,0 +1,5 @@
+
+-Infinity = (MATCH) FunctionQuery(log(sfloat(CoMpleX " fieldName _f))), product of:
+  -Infinity = log(sfloat(CoMpleX " fieldName _f)=0.0)
+  1.0 = boost
+  1.0 = queryNorm

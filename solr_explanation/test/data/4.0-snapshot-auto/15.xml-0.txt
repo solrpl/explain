@@ -1,0 +1,5 @@
+
+10.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  10.0 = int(foo2_i)=10
+  1.0 = boost
+  1.0 = queryNorm

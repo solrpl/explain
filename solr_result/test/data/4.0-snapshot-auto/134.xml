@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<lst name="terms">
+  <lst name="lowerfilt">
+    <int name="a">2</int>
+    <int name="aa">1</int>
+  </lst>
+</lst>
+</response>

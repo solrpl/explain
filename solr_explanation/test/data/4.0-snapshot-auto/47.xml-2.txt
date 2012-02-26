@@ -1,0 +1,25 @@
+
+1.3638688 = (MATCH) sum of:
+  1.3638688 = (MATCH) sum of:
+    0.6819344 = (MATCH) weight(text:xxxx in 0) [DefaultSimilarity], result of:
+      0.6819344 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+        0.49468645 = queryWeight, product of:
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.31718484 = queryNorm
+        1.3785185 = fieldWeight in 0, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.625 = fieldNorm(doc=0)
+    0.6819344 = (MATCH) weight(text:xxxx in 0) [DefaultSimilarity], result of:
+      0.6819344 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+        0.49468645 = queryWeight, product of:
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.31718484 = queryNorm
+        1.3785185 = fieldWeight in 0, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          1.5596157 = idf(docFreq=3, maxDocs=7)
+          0.625 = fieldNorm(doc=0)

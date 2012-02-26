@@ -1,0 +1,8 @@
+0.0 = (NON-MATCH) weight(contents:"new york" in 14692), product of:
+  1.0 = queryWeight(contents:"new york"), product of:
+    10.194357 = idf(contents: new=27033 york=3126)
+    0.09809349 = queryNorm
+  0.0 = fieldWeight(contents:"new york" in 14692), product of:
+    0.0 = tf(phraseFreq=0.0)
+    10.194357 = idf(contents: new=27033 york=3126)
+    0.0625 = fieldNorm(field=contents, doc=14692)

@@ -1,0 +1,102 @@
+1.86102 = (MATCH) sum of:
+  1.86102 = (MATCH) sum of:
+    0.60171145 = (MATCH) max plus 0.01 times others of:
+      9.2291797E-4 = (MATCH) weight(model:sharp^1000.0 in 79542), product of:
+        3.0327664E-4 = queryWeight(model:sharp^1000.0), product of:
+          1000.0 = boost
+          6.955784 = idf(docFreq=436, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        3.0431554 = (MATCH) fieldWeight(model:sharp in 79542), product of:
+          1.0 = tf(termFreq(model:sharp)=1)
+          6.955784 = idf(docFreq=436, maxDocs=168673)
+          0.4375 = fieldNorm(field=model, doc=79542)
+      6.016962E-4 = (MATCH) weight(name:Sharp^1000.0 in 79542), product of:
+        2.448759E-4 = queryWeight(name:Sharp^1000.0), product of:
+          1000.0 = boost
+          5.616337 = idf(docFreq=1667, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.4571474 = (MATCH) fieldWeight(name:Sharp in 79542), product of:
+          1.0 = tf(termFreq(name:Sharp)=1)
+          5.616337 = idf(docFreq=1667, maxDocs=168673)
+          0.4375 = fieldNorm(field=name, doc=79542)
+      0.6016962 = (MATCH) weight(name_nostemm:sharp^1000000.0 in 79542), product of:
+        0.24487591 = queryWeight(name_nostemm:sharp^1000000.0), product of:
+          1000000.0 = boost
+          5.616337 = idf(docFreq=1667, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.4571474 = (MATCH) fieldWeight(name_nostemm:sharp in 79542), product of:
+          1.0 = tf(termFreq(name_nostemm:sharp)=1)
+          5.616337 = idf(docFreq=1667, maxDocs=168673)
+          0.4375 = fieldNorm(field=name_nostemm, doc=79542)
+    0.72639424 = (MATCH) max plus 0.01 times others of:
+      7.2711817E-4 = (MATCH) weight(model:lc^1000.0 in 79542), product of:
+        2.691906E-4 = queryWeight(model:lc^1000.0), product of:
+          1000.0 = boost
+          6.174006 = idf(docFreq=954, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.7011275 = (MATCH) fieldWeight(model:lc in 79542), product of:
+          1.0 = tf(termFreq(model:lc)=1)
+          6.174006 = idf(docFreq=954, maxDocs=168673)
+          0.4375 = fieldNorm(field=model, doc=79542)
+      7.263796E-4 = (MATCH) weight(name:lc^1000.0 in 79542), product of:
+        2.6905385E-4 = queryWeight(name:lc^1000.0), product of:
+          1000.0 = boost
+          6.1708694 = idf(docFreq=957, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.6997554 = (MATCH) fieldWeight(name:lc in 79542), product of:
+          1.0 = tf(termFreq(name:lc)=1)
+          6.1708694 = idf(docFreq=957, maxDocs=168673)
+          0.4375 = fieldNorm(field=name, doc=79542)
+      0.7263797 = (MATCH) weight(name_nostemm:lc^1000000.0 in 79542), product of:
+        0.26905388 = queryWeight(name_nostemm:lc^1000000.0), product of:
+          1000000.0 = boost
+          6.1708694 = idf(docFreq=957, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.6997554 = (MATCH) fieldWeight(name_nostemm:lc in 79542), product of:
+          1.0 = tf(termFreq(name_nostemm:lc)=1)
+          6.1708694 = idf(docFreq=957, maxDocs=168673)
+          0.4375 = fieldNorm(field=name_nostemm, doc=79542)
+    0.5329143 = (MATCH) max plus 0.01 times others of:
+      5.518983E-4 = (MATCH) weight(model:40^1000.0 in 79542), product of:
+        2.3452382E-4 = queryWeight(model:40^1000.0), product of:
+          1000.0 = boost
+          5.378907 = idf(docFreq=2114, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.353272 = (MATCH) fieldWeight(model:40 in 79542), product of:
+          1.0 = tf(termFreq(model:40)=1)
+          5.378907 = idf(docFreq=2114, maxDocs=168673)
+          0.4375 = fieldNorm(field=model, doc=79542)
+      2.1560089E-7 = (MATCH) weight(description:40 in 79542), product of:
+        2.0729924E-7 = queryWeight(description:40), product of:
+          4.7544994 = idf(docFreq=3948, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        1.0400467 = (MATCH) fieldWeight(description:40 in 79542), product of:
+          1.0 = tf(termFreq(description:40)=1)
+          4.7544994 = idf(docFreq=3948, maxDocs=168673)
+          0.21875 = fieldNorm(field=description, doc=79542)
+      5.329034E-4 = (MATCH) weight(name:40^1000.0 in 79542), product of:
+        2.3045263E-4 = queryWeight(name:40^1000.0), product of:
+          1000.0 = boost
+          5.285533 = idf(docFreq=2321, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.3124206 = (MATCH) fieldWeight(name:40 in 79542), product of:
+          1.0 = tf(termFreq(name:40)=1)
+          5.285533 = idf(docFreq=2321, maxDocs=168673)
+          0.4375 = fieldNorm(field=name, doc=79542)
+      2.1560089E-7 = (MATCH) weight(description_nostemm:40 in 79542), product of:
+        2.0729924E-7 = queryWeight(description_nostemm:40), product of:
+          4.7544994 = idf(docFreq=3948, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        1.0400467 = (MATCH) fieldWeight(description_nostemm:40 in 79542), product of:
+          1.0 = tf(termFreq(description_nostemm:40)=1)
+          4.7544994 = idf(docFreq=3948, maxDocs=168673)
+          0.21875 = fieldNorm(field=description_nostemm, doc=79542)
+      0.53290343 = (MATCH) weight(name_nostemm:40^1000000.0 in 79542), product of:
+        0.23045264 = queryWeight(name_nostemm:40^1000000.0), product of:
+          1000000.0 = boost
+          5.285533 = idf(docFreq=2321, maxDocs=168673)
+          4.3600643E-8 = queryNorm
+        2.3124206 = (MATCH) fieldWeight(name_nostemm:40 in 79542), product of:
+          1.0 = tf(termFreq(name_nostemm:40)=1)
+          5.285533 = idf(docFreq=2321, maxDocs=168673)
+          0.4375 = fieldNorm(field=name_nostemm, doc=79542)

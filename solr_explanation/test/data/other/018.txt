@@ -1,0 +1,4 @@
+0.0 = (NON-MATCH) fieldWeight(contents:star in 14692), product of:
+    0.0 = tf(termFreq(contents:star)=0)
+    5.2325783 = idf(docFreq=8029, maxDocs=553224)
+    0.0625 = fieldNorm(field=contents, doc=14692)

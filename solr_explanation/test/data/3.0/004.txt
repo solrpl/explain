@@ -1,0 +1,16 @@
+0.524427 = (MATCH) sum of:
+  0.524427 = (MATCH) sum of:
+    0.524427 = (MATCH) max of:
+      0.524427 = (MATCH) weight(name:1gb^20.0 in 8), product of:
+        0.97975475 = queryWeight(name:1gb^20.0), product of:
+          20.0 = boost
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.020020172 = queryNorm
+        0.53526354 = (MATCH) fieldWeight(name:1gb in 8), product of:
+          1.0 = tf(termFreq(name:1gb)=1)
+          2.446919 = idf(docFreq=3, maxDocs=17)
+          0.21875 = fieldNorm(field=name, doc=8)
+  0.0 = (MATCH) FunctionQuery(float(price)), product of:
+    0.0 = float(price)=0.0
+    10.0 = boost
+    0.020020172 = queryNorm

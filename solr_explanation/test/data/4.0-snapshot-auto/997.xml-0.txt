@@ -1,0 +1,5 @@
+
+0.0 = (MATCH) FunctionQuery(rad(double(x_td))), product of:
+  0.0 = rad(double(x_td)=0.0)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+0.875 = (MATCH) FunctionQuery(strdist(str(x_s),literal(foit), dist=org.apache.lucene.search.spell.NGramDistance)), product of:
+  0.875 = strdist(str(x_s)=foil,foit, dist=org.apache.lucene.search.spell.NGramDistance)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,4 @@
+2.0226068 = (MATCH) fieldWeight(contents:star in 185418), product of:
+    4.1231055 = tf(termFreq(contents:star)=17)
+    5.2325783 = idf(docFreq=8029, maxDocs=553224)
+    0.09375 = fieldNorm(field=contents, doc=185418)

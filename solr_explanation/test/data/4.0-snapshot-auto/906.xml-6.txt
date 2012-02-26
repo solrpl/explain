@@ -1,0 +1,5 @@
+
+-4.0 = (MATCH) FunctionQuery(nvl(sum(const(0),sfloat(foo_f)))), product of:
+  -4.0 = nvl(sum(const(0),sfloat(foo_f)=-4.0))
+  1.0 = boost
+  1.0 = queryNorm

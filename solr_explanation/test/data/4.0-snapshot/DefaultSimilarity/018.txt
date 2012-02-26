@@ -1,0 +1,4 @@
+# q=\(
+NaN = (NON-MATCH) product of:
+  0.0 = (NON-MATCH) sum of:
+  NaN = coord(0/0)

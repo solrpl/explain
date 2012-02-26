@@ -1,0 +1,12 @@
+
+1.1227701 = (MATCH) sum of:
+  0.8638684 = (MATCH) MatchAllDocsQuery, product of:
+    0.8638684 = queryNorm
+  0.0 = (MATCH) FunctionQuery(ord(weight)), product of:
+    0.0 = ord(weight)=0
+    0.5 = boost
+    0.8638684 = queryNorm
+  0.25890166 = (MATCH) FunctionQuery(1000.0/(1.0*float(rord(iind))+1000.0)), product of:
+    0.999001 = 1000.0/(1.0*float(rord(iind)=1)+1000.0)
+    0.3 = boost
+    0.8638684 = queryNorm

@@ -1,0 +1,8 @@
+0.0 = (NON-MATCH) weight(contents:"new armi"~4 in 14692), product of:
+  0.99999994 = queryWeight(contents:"new armi"~4), product of:
+    11.486417 = idf(contents: new=27033 armi=858)
+    0.08705935 = queryNorm
+  0.0 = fieldWeight(contents:"new armi" in 14692), product of:
+    0.0 = tf(phraseFreq=0.0)
+    11.486417 = idf(contents: new=27033 armi=858)
+    0.0625 = fieldNorm(field=contents, doc=14692)

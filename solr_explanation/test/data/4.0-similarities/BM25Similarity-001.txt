@@ -1,0 +1,10 @@
+2.149181 = (MATCH) weight(name:samsung in 1) [BM25Similarity], result of:
+  2.149181 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+    2.9618306 = idf(docFreq=1, maxDocs=28)
+    0.7256259 = tfNorm, computed from:
+      1.0 = termFreq=1.0
+      1.2 = parameter k1
+      0.75 = parameter b
+      5.321429 = avgFieldLength
+      10.24 = fieldLength

@@ -1,0 +1,5 @@
+
+4600.23 = (MATCH) FunctionQuery(dist(2.0,point(home),vector(const(0),const(0)))), product of:
+  4600.23 = dist(2.0,point(double(home_0___double)=46.0,double(home_1___double)=4600.0),vector(const(0),const(0)))
+  1.0 = boost
+  1.0 = queryNorm

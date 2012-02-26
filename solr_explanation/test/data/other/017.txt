@@ -1,0 +1,7 @@
+0.0 = (NON-MATCH) Failure to meet condition(s) of required/prohibited clause(s)
+  0.0 = no match on required clause (((company_publisher:Adam^1000000.0 | company_producer:Adam^1000000.0 | tag:adam^0.1 | person_composer:Adam^200000.0 | description_nostemm:adam^10.0 | companies:Adam | person_author:Adam^1000000.0 | persons:Adam | category_search:Adam^2000000.0 | title:Adam^1000.0 | top_tag:adam^0.1 | company_brand:Adam^1000000.0 | person_starring:Adam^1000000.0 | description:Adam | isbn:adam | person_director:Adam^300000.0 | title_nostemm:adam^1000000.0)~0.01 (company_publisher:Mickiewicz^1000000.0 | company_producer:Mickiewicz^1000000.0 | tag:mickiewicz^0.1 | person_composer:Mickiewicz^200000.0 | description_nostemm:mickiewicz^10.0 | companies:Mickiewicz | person_author:Mickiewicz^1000000.0 | persons:Mickiewicz | category_search:Mickiewicz^2000000.0 | title:Mickiewicz^1000.0 | top_tag:mickiewicz^0.1 | company_brand:Mickiewicz^1000000.0 | person_starring:Mickiewicz^1000000.0 | description:Mickiewicz | isbn:mickiewicz | person_director:Mickiewicz^300000.0 | title_nostemm:mickiewicz^1000000.0)~0.01)~2)
+    0.0 = (NON-MATCH) Failure to match minimum number of optional clauses: 2
+  1.6826545E-5 = (MATCH) FunctionQuery(pow(int(sold),const(1.5))), product of:
+    2870.9595 = pow(int(sold)=202,const(1.5))
+    1.0 = boost
+    5.8609486E-9 = queryNorm

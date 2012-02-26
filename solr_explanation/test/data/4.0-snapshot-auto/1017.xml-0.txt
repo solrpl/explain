@@ -1,0 +1,5 @@
+
+28.64789 = (MATCH) FunctionQuery(deg(const(0.5))), product of:
+  28.64789 = deg(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

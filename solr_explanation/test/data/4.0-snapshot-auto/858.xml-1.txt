@@ -1,0 +1,5 @@
+
+25.0 = (MATCH) FunctionQuery(product(float(foo_pf),const(1))), product of:
+  25.0 = product(float(foo_pf)=25.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm

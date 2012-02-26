@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<response>
+
+<lst name="responseHeader">
+ <int name="status">0</int>
+ <int name="QTime">14128</int>
+ <lst name="params">
+  <str name="facet">true</str>
+  <str name="sort">valid_from desc</str>
+  <str name="indent">true</str>
+  <str name="long">-73.9858078395</str>
+  <str name="rows">6</str>
+  <str name="debugQuery">true</str>
+  <str name="fl">id</str>
+  <str name="facet.facet">false</str>
+  <str name="start">0</str>
+  <str name="q">main_photo_checkbox:true AND ((categories:1009421)) AND valid_till:[* TO NOW/DAY+30DAYS] AND (is_active:true) AND ((advert_type:4))</str>
+  <str name="radius">25</str>
+  <str name="qt">geo_user_frontend</str>
+  <str name="lat">40.7486070802</str>
+ </lst>
+</lst>
+<result name="response" numFound="4" start="0">
+ <doc>
+  <str name="id">48838193</str>
+ </doc>
+ <doc>
+  <str name="id">48829531</str>
+ </doc>
+ <doc>
+  <str name="id">48664347</str>
+ </doc>
+ <doc>
+  <str name="id">48648857</str>
+ </doc>
+</result>
+<lst name="facet_counts">
+ <lst name="facet_queries"/>
+ <lst name="facet_fields"/>
+ <lst name="facet_dates"/>
+</lst>
+<lst name="debug">
+ <str name="rawquerystring">main_photo_checkbox:true AND ((categories:1009421)) AND valid_till:[* TO NOW/DAY+30DAYS] AND (is_active:true) AND ((advert_type:4))</str>
+ <str name="querystring">main_photo_checkbox:true AND ((categories:1009421)) AND valid_till:[* TO NOW/DAY+30DAYS] AND (is_active:true) AND ((advert_type:4))</str>
+ <str name="parsedquery">+main_photo_checkbox:true +categories:1009421 +valid_till:[* TO 2011-12-15T00:00:00Z] +is_active:true +advert_type:4</str>
+ <str name="parsedquery_toString">+main_photo_checkbox:true +categories:1009421 +valid_till:[* TO 2011-12-15T00:00:00] +is_active:T +advert_type:#0;#4;</str>
+ <lst name="explain">
+  <str name="48838193">
+6.8595424 = (MATCH) sum of:
+  0.41564173 = (MATCH) weight(main_photo_checkbox:true in 2415882), product of:
+    0.2461569 = queryWeight(main_photo_checkbox:true), product of:
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.6885235 = (MATCH) fieldWeight(main_photo_checkbox:true in 2415882), product of:
+      1.0 = tf(termFreq(main_photo_checkbox:true)=1)
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      1.0 = fieldNorm(field=main_photo_checkbox, doc=2415882)
+  0.14622311 = (MATCH) weight(categories:1009421 in 2415882), product of:
+    0.14600256 = queryWeight(categories:1009421), product of:
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.0015106 = (MATCH) fieldWeight(categories:1009421 in 2415882), product of:
+      1.0 = tf(termFreq(categories:1009421)=1)
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      1.0 = fieldNorm(field=categories, doc=2415882)
+  0.14578234 = (MATCH) ConstantScoreQuery(valid_till:[* TO 2011-12-15T00:00:00]), product of:
+    1.0 = boost
+    0.14578234 = queryNorm
+  0.49534655 = (MATCH) weight(is_active:T in 2415882), product of:
+    0.26872435 = queryWeight(is_active:T), product of:
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.8433259 = (MATCH) fieldWeight(is_active:T in 2415882), product of:
+      1.0 = tf(termFreq(is_active:T)=1)
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      1.0 = fieldNorm(field=is_active, doc=2415882)
+  5.6565485 = (MATCH) weight(advert_type:#0;#4; in 2415882), product of:
+    0.90808856 = queryWeight(advert_type:#0;#4;), product of:
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      0.14578234 = queryNorm
+    6.229071 = (MATCH) fieldWeight(advert_type:#0;#4; in 2415882), product of:
+      1.0 = tf(termFreq(advert_type:#0;#4;)=1)
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      1.0 = fieldNorm(field=advert_type, doc=2415882)
+</str>
+  <str name="48829531">
+6.8595424 = (MATCH) sum of:
+  0.41564173 = (MATCH) weight(main_photo_checkbox:true in 2404574), product of:
+    0.2461569 = queryWeight(main_photo_checkbox:true), product of:
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.6885235 = (MATCH) fieldWeight(main_photo_checkbox:true in 2404574), product of:
+      1.0 = tf(termFreq(main_photo_checkbox:true)=1)
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      1.0 = fieldNorm(field=main_photo_checkbox, doc=2404574)
+  0.14622311 = (MATCH) weight(categories:1009421 in 2404574), product of:
+    0.14600256 = queryWeight(categories:1009421), product of:
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.0015106 = (MATCH) fieldWeight(categories:1009421 in 2404574), product of:
+      1.0 = tf(termFreq(categories:1009421)=1)
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      1.0 = fieldNorm(field=categories, doc=2404574)
+  0.14578234 = (MATCH) ConstantScoreQuery(valid_till:[* TO 2011-12-15T00:00:00]), product of:
+    1.0 = boost
+    0.14578234 = queryNorm
+  0.49534655 = (MATCH) weight(is_active:T in 2404574), product of:
+    0.26872435 = queryWeight(is_active:T), product of:
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.8433259 = (MATCH) fieldWeight(is_active:T in 2404574), product of:
+      1.0 = tf(termFreq(is_active:T)=1)
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      1.0 = fieldNorm(field=is_active, doc=2404574)
+  5.6565485 = (MATCH) weight(advert_type:#0;#4; in 2404574), product of:
+    0.90808856 = queryWeight(advert_type:#0;#4;), product of:
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      0.14578234 = queryNorm
+    6.229071 = (MATCH) fieldWeight(advert_type:#0;#4; in 2404574), product of:
+      1.0 = tf(termFreq(advert_type:#0;#4;)=1)
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      1.0 = fieldNorm(field=advert_type, doc=2404574)
+</str>
+  <str name="48664347">
+6.8595424 = (MATCH) sum of:
+  0.41564173 = (MATCH) weight(main_photo_checkbox:true in 2332009), product of:
+    0.2461569 = queryWeight(main_photo_checkbox:true), product of:
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.6885235 = (MATCH) fieldWeight(main_photo_checkbox:true in 2332009), product of:
+      1.0 = tf(termFreq(main_photo_checkbox:true)=1)
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      1.0 = fieldNorm(field=main_photo_checkbox, doc=2332009)
+  0.14622311 = (MATCH) weight(categories:1009421 in 2332009), product of:
+    0.14600256 = queryWeight(categories:1009421), product of:
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.0015106 = (MATCH) fieldWeight(categories:1009421 in 2332009), product of:
+      1.0 = tf(termFreq(categories:1009421)=1)
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      1.0 = fieldNorm(field=categories, doc=2332009)
+  0.14578234 = (MATCH) ConstantScoreQuery(valid_till:[* TO 2011-12-15T00:00:00]), product of:
+    1.0 = boost
+    0.14578234 = queryNorm
+  0.49534655 = (MATCH) weight(is_active:T in 2332009), product of:
+    0.26872435 = queryWeight(is_active:T), product of:
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.8433259 = (MATCH) fieldWeight(is_active:T in 2332009), product of:
+      1.0 = tf(termFreq(is_active:T)=1)
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      1.0 = fieldNorm(field=is_active, doc=2332009)
+  5.6565485 = (MATCH) weight(advert_type:#0;#4; in 2332009), product of:
+    0.90808856 = queryWeight(advert_type:#0;#4;), product of:
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      0.14578234 = queryNorm
+    6.229071 = (MATCH) fieldWeight(advert_type:#0;#4; in 2332009), product of:
+      1.0 = tf(termFreq(advert_type:#0;#4;)=1)
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      1.0 = fieldNorm(field=advert_type, doc=2332009)
+</str>
+  <str name="48648857">
+6.8595424 = (MATCH) sum of:
+  0.41564173 = (MATCH) weight(main_photo_checkbox:true in 2327878), product of:
+    0.2461569 = queryWeight(main_photo_checkbox:true), product of:
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.6885235 = (MATCH) fieldWeight(main_photo_checkbox:true in 2327878), product of:
+      1.0 = tf(termFreq(main_photo_checkbox:true)=1)
+      1.6885235 = idf(docFreq=1565024, maxDocs=3115611)
+      1.0 = fieldNorm(field=main_photo_checkbox, doc=2327878)
+  0.14622311 = (MATCH) weight(categories:1009421 in 2327878), product of:
+    0.14600256 = queryWeight(categories:1009421), product of:
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.0015106 = (MATCH) fieldWeight(categories:1009421 in 2327878), product of:
+      1.0 = tf(termFreq(categories:1009421)=1)
+      1.0015106 = idf(docFreq=3110907, maxDocs=3115611)
+      1.0 = fieldNorm(field=categories, doc=2327878)
+  0.14578234 = (MATCH) ConstantScoreQuery(valid_till:[* TO 2011-12-15T00:00:00]), product of:
+    1.0 = boost
+    0.14578234 = queryNorm
+  0.49534655 = (MATCH) weight(is_active:T in 2327878), product of:
+    0.26872435 = queryWeight(is_active:T), product of:
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      0.14578234 = queryNorm
+    1.8433259 = (MATCH) fieldWeight(is_active:T in 2327878), product of:
+      1.0 = tf(termFreq(is_active:T)=1)
+      1.8433259 = idf(docFreq=1340575, maxDocs=3115611)
+      1.0 = fieldNorm(field=is_active, doc=2327878)
+  5.6565485 = (MATCH) weight(advert_type:#0;#4; in 2327878), product of:
+    0.90808856 = queryWeight(advert_type:#0;#4;), product of:
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      0.14578234 = queryNorm
+    6.229071 = (MATCH) fieldWeight(advert_type:#0;#4; in 2327878), product of:
+      1.0 = tf(termFreq(advert_type:#0;#4;)=1)
+      6.229071 = idf(docFreq=16694, maxDocs=3115611)
+      1.0 = fieldNorm(field=advert_type, doc=2327878)
+</str>
+ </lst>
+ <arr name="filter_queries">
+  <str>is_active:true</str>
+ </arr>
+ <arr name="parsed_filter_queries">
+  <str>is_active:true</str>
+  <str>ConstantScore(SerialChainFilter(AND pl.eo.apps.enterprise.search.solr.gis.filter.CartesianShapeFilter@5fc1cfe2 SERIALAND pl.eo.apps.enterprise.search.solr.gis.filter.DistanceFilter@e2bb116c))</str>
+ </arr>
+ <lst name="timing">
+  <double name="time">14125.0</double>
+  <lst name="prepare">
+    <double name="time">1.0</double>
+    <lst name="pl.eo.apps.enterprise.search.solr.gis.component.LocalSolrQueryComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.FacetComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.HighlightComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.DebugComponent">
+     <double name="time">0.0</double>
+    </lst>
+  </lst>
+  <lst name="process">
+    <double name="time">14124.0</double>
+    <lst name="pl.eo.apps.enterprise.search.solr.gis.component.LocalSolrQueryComponent">
+     <double name="time">2747.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.FacetComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.HighlightComponent">
+     <double name="time">0.0</double>
+    </lst>
+    <lst name="org.apache.solr.handler.component.DebugComponent">
+     <double name="time">11377.0</double>
+    </lst>
+  </lst>
+ </lst>
+</lst>
+</response>
+

@@ -1,0 +1,14 @@
+# q=dell&bf=map(popularity,1,1,0)^0.5&defType=dismax
+62.34016 = (MATCH) sum of:
+  61.396652 = (MATCH) weight(text:dell in 10), product of:
+    0.9875586 = queryWeight(text:dell), product of:
+      3.1400661 = idf(docFreq=1, maxDocs=17)
+      0.31450248 = queryNorm
+    62.170135 = (MATCH) fieldWeight(text:dell in 10), product of:
+      1.4142135 = tf(termFreq(text:dell)=2)
+      3.1400661 = idf(docFreq=1, maxDocs=17)
+      14.0 = fieldNorm(field=text, doc=10)
+  0.94350743 = (MATCH) FunctionQuery(map(int(popularity),1.0,1.0,0.0)), product of:
+    6.0 = map(int(popularity)=6,min=1.0,max=1.0,target=0.0)
+    0.5 = boost
+    0.31450248 = queryNorm

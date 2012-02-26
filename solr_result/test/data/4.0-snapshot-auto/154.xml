@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <arr name="textgap">
+      <str>first entry has one word foo</str>
+      <str>second entry has both words foo bar</str>
+    </arr>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:14:35.988Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="highlighting">
+  <lst name="1">
+    <arr name="textgap">
+      <str>second entry has both words &lt;em&gt;foo&lt;/em&gt; &lt;em&gt;bar&lt;/em&gt;</str>
+    </arr>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">foo bar</str>
+  <str name="querystring">foo bar</str>
+  <str name="parsedquery">textgap:foo textgap:bar</str>
+  <str name="parsedquery_toString">textgap:foo textgap:bar</str>
+  <lst name="explain">
+    <str name="1">
+0.13095762 = (MATCH) sum of:
+  0.0767132 = (MATCH) weight(textgap:foo in 0) [MockConfigurableSimilarity], result of:
+    0.0767132 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        2.3043842 = queryNorm
+      0.10848885 = fieldWeight in 0, product of:
+        1.4142135 = tf(freq=2.0), with freq of:
+          2.0 = termFreq=2.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.25 = fieldNorm(doc=0)
+  0.054244425 = (MATCH) weight(textgap:bar in 0) [MockConfigurableSimilarity], result of:
+    0.054244425 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        2.3043842 = queryNorm
+      0.076713204 = fieldWeight in 0, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.25 = fieldNorm(doc=0)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">2.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">2.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

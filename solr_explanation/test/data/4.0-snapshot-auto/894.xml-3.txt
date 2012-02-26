@@ -1,0 +1,5 @@
+
+3125.0 = (MATCH) FunctionQuery(pow(sfloat(foo_f),sfloat(foo_f))), product of:
+  3125.0 = pow(sfloat(foo_f)=5.0,sfloat(foo_f)=5.0)
+  1.0 = boost
+  1.0 = queryNorm

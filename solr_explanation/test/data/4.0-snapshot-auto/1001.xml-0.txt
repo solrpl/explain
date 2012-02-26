@@ -1,0 +1,5 @@
+
+90.0 = (MATCH) FunctionQuery(deg(double(y_td))), product of:
+  90.0 = deg(double(y_td)=1.5707963267948966)
+  1.0 = boost
+  1.0 = queryNorm

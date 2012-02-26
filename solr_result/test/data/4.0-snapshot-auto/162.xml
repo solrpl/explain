@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">3</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <arr name="t_text">
+      <str>This piece of text refers to Kennedy at the beginning then has a longer piece of text that is very long in the middle and finally ends with another reference to Kennedy</str>
+    </arr>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:14:36.817Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="highlighting">
+  <lst name="1">
+    <arr name="t_text">
+      <str>This piece of &lt;em&gt;text&lt;/em&gt; &lt;em&gt;refers&lt;/em&gt; to Kennedy</str>
+      <str> at the beginning then has a longer piece of &lt;em&gt;text&lt;/em&gt;</str>
+      <str> with another &lt;em&gt;reference&lt;/em&gt; to Kennedy</str>
+    </arr>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">t_text:text refers</str>
+  <str name="querystring">t_text:text refers</str>
+  <str name="parsedquery">t_text:text text:refer</str>
+  <str name="parsedquery_toString">t_text:text text:refer</str>
+  <lst name="explain">
+    <str name="1">
+0.013923652 = (MATCH) product of:
+  0.027847303 = (MATCH) sum of:
+    0.027847303 = (MATCH) weight(t_text:text in 0) [MockConfigurableSimilarity], result of:
+      0.027847303 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+        0.29335263 = queryWeight, product of:
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.9560043 = queryNorm
+        0.09492774 = fieldWeight in 0, product of:
+          1.4142135 = tf(freq=2.0), with freq of:
+            2.0 = termFreq=2.0
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.21875 = fieldNorm(doc=0)
+  0.5 = coord(1/2)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">3.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">2.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">2.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

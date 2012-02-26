@@ -1,0 +1,5 @@
+
+0.0 = (MATCH) FunctionQuery(const(0)), product of:
+  0.0 = const(0)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+0.0 = (MATCH) FunctionQuery(min(const(0),const(1))), product of:
+  0.0 = min(const(0),const(1))
+  1.0 = boost
+  1.0 = queryNorm

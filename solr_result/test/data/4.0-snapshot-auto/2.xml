@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">28</int>
+</lst>
+<lst name="plugins">
+  <lst name="CORE">
+    <lst name="Searcher@21c977ef main">
+      <str name="name">org.apache.solr.search.SolrIndexSearcher</str>
+      <str name="version">1.0</str>
+      <str name="description">index searcher</str>
+      <str name="sourceId">$Id: SolrIndexSearcher.java 1213117 2011-12-12 00:21:40Z rmuir $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/SolrIndexSearcher.java $</str>
+    </lst>
+    <lst name="core">
+      <str name="name"/>
+      <str name="version">1.0</str>
+      <str name="description">SolrCore</str>
+      <str name="sourceId">$Id: SolrCore.java 1215245 2011-12-16 19:03:12Z rmuir $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/core/SolrCore.java $</str>
+    </lst>
+    <lst name="searcher">
+      <str name="name">org.apache.solr.search.SolrIndexSearcher</str>
+      <str name="version">1.0</str>
+      <str name="description">index searcher</str>
+      <str name="sourceId">$Id: SolrIndexSearcher.java 1213117 2011-12-12 00:21:40Z rmuir $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/SolrIndexSearcher.java $</str>
+    </lst>
+  </lst>
+  <lst name="QUERYHANDLER">
+    <lst name="org.apache.solr.handler.StandardRequestHandler">
+      <str name="name">org.apache.solr.handler.StandardRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">The standard Solr request handler</str>
+      <str name="sourceId">$Id: StandardRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/StandardRequestHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/StandardRequestHandler</str>
+      </arr>
+    </lst>
+    <lst name="/admin/system">
+      <str name="name">org.apache.solr.handler.admin.SystemInfoHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Get System Info</str>
+      <str name="sourceId">$Id: SystemInfoHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/SystemInfoHandler.java $</str>
+    </lst>
+    <lst name="/admin/plugins">
+      <str name="name">org.apache.solr.handler.admin.PluginInfoHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Registry</str>
+      <str name="sourceId">$Id: PluginInfoHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/PluginInfoHandler.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.RealTimeGetHandler">
+      <str name="name">org.apache.solr.handler.RealTimeGetHandler</str>
+      <str name="version">$Revision: 1165885 $</str>
+      <str name="description">The realtime get handler</str>
+      <str name="sourceId">$Id: RealTimeGetHandler.java 1165885 2011-09-06 21:47:05Z yonik $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/RealTimeGetHandler.java $</str>
+    </lst>
+    <lst name="/admin/file">
+      <str name="name">org.apache.solr.handler.admin.ShowFileRequestHandler</str>
+      <str name="version">$Revision: 1205774 $</str>
+      <str name="description">Admin Get File -- view config files directly</str>
+      <str name="sourceId">$Id: ShowFileRequestHandler.java 1205774 2011-11-24 10:11:06Z shalin $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/ShowFileRequestHandler.java $</str>
+    </lst>
+    <lst name="mock">
+      <str name="name">org.apache.solr.core.MockQuerySenderListenerReqHandler</str>
+      <str name="version">Not Declared</str>
+      <str name="description">Not Declared</str>
+      <str name="sourceId">Not Declared</str>
+      <str name="source">Not Declared</str>
+    </lst>
+    <lst name="spellCheckCompRH1">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.SpellCheckComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="/admin/luke">
+      <str name="name">org.apache.solr.handler.admin.LukeRequestHandler</str>
+      <str name="version">$Revision: 1227924 $</str>
+      <str name="description">Lucene Index Browser.  Inspired and modeled after Luke: http://www.getopt.org/luke/</str>
+      <str name="sourceId">$Id: LukeRequestHandler.java 1227924 2012-01-06 01:25:12Z erick $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/LukeRequestHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/LukeRequestHandler</str>
+      </arr>
+    </lst>
+    <lst name="/update">
+      <str name="name">org.apache.solr.handler.XmlUpdateRequestHandler</str>
+      <str name="version">$Revision: 1165754 $</str>
+      <str name="description">Add documents with XML</str>
+      <str name="sourceId">$Id: XmlUpdateRequestHandler.java 1165754 2011-09-06 16:27:20Z janhoy $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/XmlUpdateRequestHandler.java $</str>
+    </lst>
+    <lst name="defaults">
+      <str name="name">org.apache.solr.handler.StandardRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">The standard Solr request handler</str>
+      <str name="sourceId">$Id: StandardRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/StandardRequestHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/StandardRequestHandler</str>
+      </arr>
+    </lst>
+    <lst name="org.apache.solr.handler.MoreLikeThisHandler">
+      <str name="name">org.apache.solr.handler.MoreLikeThisHandler</str>
+      <str name="version">$Revision: 1162347 $</str>
+      <str name="description">Solr MoreLikeThis</str>
+      <str name="sourceId">$Id: MoreLikeThisHandler.java 1162347 2011-08-27 13:27:01Z mikemccand $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/MoreLikeThisHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/MoreLikeThis</str>
+      </arr>
+    </lst>
+    <lst name="/terms">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.TermsComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.XmlUpdateRequestHandler">
+      <str name="name">org.apache.solr.handler.XmlUpdateRequestHandler</str>
+      <str name="version">$Revision: 1165754 $</str>
+      <str name="description">Add documents with XML</str>
+      <str name="sourceId">$Id: XmlUpdateRequestHandler.java 1165754 2011-09-06 16:27:20Z janhoy $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/XmlUpdateRequestHandler.java $</str>
+    </lst>
+    <lst name="/admin/threads">
+      <str name="name">org.apache.solr.handler.admin.ThreadDumpHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Thread Dump</str>
+      <str name="sourceId">$Id: ThreadDumpHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/ThreadDumpHandler.java $</str>
+    </lst>
+    <lst name="org.apache.solr.core.MockQuerySenderListenerReqHandler">
+      <str name="name">org.apache.solr.core.MockQuerySenderListenerReqHandler</str>
+      <str name="version">Not Declared</str>
+      <str name="description">Not Declared</str>
+      <str name="sourceId">Not Declared</str>
+      <str name="source">Not Declared</str>
+    </lst>
+    <lst name="spellCheckCompRH_Direct">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.SpellCheckComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.JsonUpdateRequestHandler">
+      <str name="name">org.apache.solr.handler.JsonUpdateRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Add documents with JSON</str>
+      <str name="sourceId">$Id: JsonUpdateRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/JsonUpdateRequestHandler.java $</str>
+    </lst>
+    <lst name="lazy">
+      <str name="name">Lazy[solr.StandardRequestHandler]</str>
+      <str name="version">$Revision: 1189568 $</str>
+      <str name="description">Lazy[solr.StandardRequestHandler]</str>
+      <str name="sourceId">$Id: RequestHandlers.java 1189568 2011-10-27 01:14:47Z ehatcher $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/core/RequestHandlers.java $</str>
+    </lst>
+    <lst name="dismaxNoDefaults">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="/mlt">
+      <str name="name">org.apache.solr.handler.MoreLikeThisHandler</str>
+      <str name="version">$Revision: 1162347 $</str>
+      <str name="description">Solr MoreLikeThis</str>
+      <str name="sourceId">$Id: MoreLikeThisHandler.java 1162347 2011-08-27 13:27:01Z mikemccand $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/MoreLikeThisHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/MoreLikeThis</str>
+      </arr>
+    </lst>
+    <lst name="/admin/mbeans">
+      <str name="name">org.apache.solr.handler.admin.SolrInfoMBeanHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Get Info (and statistics) about all registered SolrInfoMBeans</str>
+      <str name="sourceId">$Id: SolrInfoMBeanHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/SolrInfoMBeanHandler.java $</str>
+    </lst>
+    <lst name="dismax">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="/update/csv">
+      <str name="name">Lazy[solr.CSVRequestHandler]</str>
+      <str name="version">$Revision: 1189568 $</str>
+      <str name="description">Lazy[solr.CSVRequestHandler]</str>
+      <str name="sourceId">$Id: RequestHandlers.java 1189568 2011-10-27 01:14:47Z ehatcher $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/core/RequestHandlers.java $</str>
+    </lst>
+    <lst name="/get">
+      <str name="name">org.apache.solr.handler.RealTimeGetHandler</str>
+      <str name="version">$Revision: 1165885 $</str>
+      <str name="description">The realtime get handler</str>
+      <str name="sourceId">$Id: RealTimeGetHandler.java 1165885 2011-09-06 21:47:05Z yonik $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/RealTimeGetHandler.java $</str>
+    </lst>
+    <lst name="/update/json">
+      <str name="name">org.apache.solr.handler.JsonUpdateRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Add documents with JSON</str>
+      <str name="sourceId">$Id: JsonUpdateRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/JsonUpdateRequestHandler.java $</str>
+    </lst>
+    <lst name="/admin/">
+      <str name="name">org.apache.solr.handler.admin.AdminHandlers</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Register Standard Admin Handlers</str>
+      <str name="sourceId">$Id: AdminHandlers.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/AdminHandlers.java $</str>
+    </lst>
+    <lst name="spellCheckCompRH">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.SpellCheckComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="standard">
+      <str name="name">org.apache.solr.handler.StandardRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">The standard Solr request handler</str>
+      <str name="sourceId">$Id: StandardRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/StandardRequestHandler.java $</str>
+      <arr name="docs">
+        <str>http://wiki.apache.org/solr/StandardRequestHandler</str>
+      </arr>
+    </lst>
+    <lst name="org.apache.solr.handler.admin.AdminHandlers">
+      <str name="name">org.apache.solr.handler.admin.AdminHandlers</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Register Standard Admin Handlers</str>
+      <str name="sourceId">$Id: AdminHandlers.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/AdminHandlers.java $</str>
+    </lst>
+    <lst name="tvrh">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.TermVectorComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+    <lst name="/admin/properties">
+      <str name="name">org.apache.solr.handler.admin.PropertiesRequestHandler</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Get System Properties</str>
+      <str name="sourceId">$Id: PropertiesRequestHandler.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/admin/PropertiesRequestHandler.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.SearchHandler">
+      <str name="name">org.apache.solr.handler.component.SearchHandler</str>
+      <str name="version">$Revision: 1145016 $</str>
+      <str name="description">Search using components: org.apache.solr.handler.component.QueryComponent,org.apache.solr.handler.component.FacetComponent,org.apache.solr.handler.component.MoreLikeThisComponent,org.apache.solr.handler.component.HighlightComponent,org.apache.solr.handler.component.StatsComponent,org.apache.solr.handler.component.TermVectorComponent,org.apache.solr.handler.component.DebugComponent,</str>
+      <str name="sourceId">$Id: SearchHandler.java 1145016 2011-07-11 03:37:00Z chrism $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SearchHandler.java $</str>
+    </lst>
+  </lst>
+  <lst name="UPDATEHANDLER">
+    <lst name="updateHandler">
+      <str name="name">org.apache.solr.update.DirectUpdateHandler2</str>
+      <str name="version">1.0</str>
+      <str name="description">Update handler that efficiently directly updates the on-disk main lucene index</str>
+      <str name="sourceId">$Id: DirectUpdateHandler2.java 1225954 2011-12-30 22:41:50Z yonik $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/update/DirectUpdateHandler2.java $</str>
+    </lst>
+  </lst>
+  <lst name="CACHE">
+    <lst name="queryResultCache">
+      <str name="name">org.apache.solr.search.LRUCache</str>
+      <str name="version">1.0</str>
+      <str name="description">LRU Cache(maxSize=512, initialSize=512, autowarmCount=2, regenerator=org.apache.solr.search.SolrIndexSearcher$3@2c6951e2)</str>
+      <str name="sourceId">$Id: LRUCache.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/LRUCache.java $</str>
+    </lst>
+    <lst name="fieldCache">
+      <str name="name">org.apache.solr.search.SolrFieldCacheMBean</str>
+      <str name="version">1.0</str>
+      <str name="description">Provides introspection of the Lucene FieldCache, this is **NOT** a cache that is managed by Solr.</str>
+      <str name="sourceId">$Id: SolrFieldCacheMBean.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/SolrFieldCacheMBean.java $</str>
+    </lst>
+    <lst name="documentCache">
+      <str name="name">org.apache.solr.search.LRUCache</str>
+      <str name="version">1.0</str>
+      <str name="description">LRU Cache(maxSize=512, initialSize=512)</str>
+      <str name="sourceId">$Id: LRUCache.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/LRUCache.java $</str>
+    </lst>
+    <lst name="fieldValueCache">
+      <str name="name">org.apache.solr.search.FastLRUCache</str>
+      <str name="version">1.0</str>
+      <str name="description">Concurrent LRU Cache(maxSize=10000, initialSize=10, minSize=9000, acceptableSize=9500, cleanupThread=false)</str>
+      <str name="sourceId">$Id: FastLRUCache.java 1170699 2011-09-14 16:00:56Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/FastLRUCache.java $</str>
+    </lst>
+    <lst name="filterCache">
+      <str name="name">org.apache.solr.search.FastLRUCache</str>
+      <str name="version">1.0</str>
+      <str name="description">Concurrent LRU Cache(maxSize=512, initialSize=512, minSize=460, acceptableSize=486, cleanupThread=false, autowarmCount=2, regenerator=org.apache.solr.search.SolrIndexSearcher$2@2a204461)</str>
+      <str name="sourceId">$Id: FastLRUCache.java 1170699 2011-09-14 16:00:56Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/search/FastLRUCache.java $</str>
+    </lst>
+  </lst>
+  <lst name="HIGHLIGHTING">
+    <lst name="org.apache.solr.highlight.RegexFragmenter">
+      <str name="name">org.apache.solr.highlight.RegexFragmenter</str>
+      <str name="version">$Revision: 1213474 $</str>
+      <str name="description">RegexFragmenter ([-\w ,\n"']{20,200})</str>
+      <str name="sourceId">$Id: RegexFragmenter.java 1213474 2011-12-12 22:31:51Z hossman $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/RegexFragmenter.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.BreakIteratorBoundaryScanner">
+      <str name="name">org.apache.solr.highlight.BreakIteratorBoundaryScanner</str>
+      <str name="version">$Revision$</str>
+      <str name="description">BreakIteratorBoundaryScanner</str>
+      <str name="sourceId">$Id$</str>
+      <str name="source">$URL$</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.HtmlFormatter">
+      <str name="name">org.apache.solr.highlight.HtmlFormatter</str>
+      <str name="version">$Revision: 1213474 $</str>
+      <str name="description">HtmlFormatter</str>
+      <str name="sourceId">$Id: HtmlFormatter.java 1213474 2011-12-12 22:31:51Z hossman $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/HtmlFormatter.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.GapFragmenter">
+      <str name="name">org.apache.solr.highlight.GapFragmenter</str>
+      <str name="version">$Revision: 1213474 $</str>
+      <str name="description">GapFragmenter</str>
+      <str name="sourceId">$Id: GapFragmenter.java 1213474 2011-12-12 22:31:51Z hossman $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/GapFragmenter.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.SimpleFragmentsBuilder">
+      <str name="name">org.apache.solr.highlight.SimpleFragmentsBuilder</str>
+      <str name="version">$Revision: 1170616 $</str>
+      <str name="description">SimpleFragmentsBuilder</str>
+      <str name="sourceId">$Id: SimpleFragmentsBuilder.java 1170616 2011-09-14 13:38:49Z koji $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/SimpleFragmentsBuilder.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.ScoreOrderFragmentsBuilder">
+      <str name="name">org.apache.solr.highlight.ScoreOrderFragmentsBuilder</str>
+      <str name="version">$Revision: 1170616 $</str>
+      <str name="description">ScoreOrderFragmentsBuilder</str>
+      <str name="sourceId">$Id: ScoreOrderFragmentsBuilder.java 1170616 2011-09-14 13:38:49Z koji $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/ScoreOrderFragmentsBuilder.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.SimpleFragListBuilder">
+      <str name="name">org.apache.solr.highlight.SimpleFragListBuilder</str>
+      <str name="version">$Revision: 1213474 $</str>
+      <str name="description">SimpleFragListBuilder</str>
+      <str name="sourceId">$Id: SimpleFragListBuilder.java 1213474 2011-12-12 22:31:51Z hossman $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/highlight/SimpleFragListBuilder.java $</str>
+    </lst>
+    <lst name="org.apache.solr.highlight.SimpleBoundaryScanner">
+      <str name="name">org.apache.solr.highlight.SimpleBoundaryScanner</str>
+      <str name="version">$Revision$</str>
+      <str name="description">SimpleBoundaryScanner</str>
+      <str name="sourceId">$Id$</str>
+      <str name="source">$URL$</str>
+    </lst>
+  </lst>
+  <lst name="OTHER">
+    <lst name="org.apache.solr.handler.component.TermVectorComponent">
+      <str name="name">org.apache.solr.handler.component.TermVectorComponent</str>
+      <str name="version">$Revision: 1202842 $</str>
+      <str name="description">A Component for working with Term Vectors</str>
+      <str name="sourceId">$Id: TermVectorComponent.java 1202842 2011-11-16 19:09:35Z rmuir $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/TermVectorComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.TermsComponent">
+      <str name="name">org.apache.solr.handler.component.TermsComponent</str>
+      <str name="version">$Revision: 1207564 $</str>
+      <str name="description">A Component for working with Term Enumerators</str>
+      <str name="sourceId">$Id: TermsComponent.java 1207564 2011-11-28 20:15:17Z simonw $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/TermsComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.RealTimeGetComponent">
+      <str name="name">org.apache.solr.handler.component.RealTimeGetComponent</str>
+      <str name="version">$Revision: 1203839 $</str>
+      <str name="description">query</str>
+      <str name="sourceId">$Id: RealTimeGetComponent.java 1203839 2011-11-18 21:07:13Z gsingers $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/RealTimeGetComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+      <str name="name">org.apache.solr.handler.component.MoreLikeThisComponent</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">More Like This</str>
+      <str name="sourceId">$Id: MoreLikeThisComponent.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/MoreLikeThisComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.FacetComponent">
+      <str name="name">org.apache.solr.handler.component.FacetComponent</str>
+      <str name="version">$Revision: 1152530 $</str>
+      <str name="description">Handle Faceting</str>
+      <str name="sourceId">$Id: FacetComponent.java 1152530 2011-07-31 00:30:19Z koji $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/FacetComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.HighlightComponent">
+      <str name="name">org.apache.solr.handler.component.HighlightComponent</str>
+      <str name="version">$Revision: 1198778 $</str>
+      <str name="description">Highlighting</str>
+      <str name="sourceId">$Id: HighlightComponent.java 1198778 2011-11-07 15:26:49Z koji $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/HighlightComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+      <str name="name">org.apache.solr.handler.component.SpellCheckComponent</str>
+      <str name="version">$Revision: 1201036 $</str>
+      <str name="description">A Spell Checker component</str>
+      <str name="sourceId">$Id: SpellCheckComponent.java 1201036 2011-11-11 19:50:51Z mikemccand $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/SpellCheckComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.StatsComponent">
+      <str name="name">org.apache.solr.handler.component.StatsComponent</str>
+      <str name="version">$Revision: 1201855 $</str>
+      <str name="description">Calculate Statistics</str>
+      <str name="sourceId">$Id: StatsComponent.java 1201855 2011-11-14 19:58:04Z ryan $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/StatsComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.QueryComponent">
+      <str name="name">org.apache.solr.handler.component.QueryComponent</str>
+      <str name="version">$Revision: 1212420 $</str>
+      <str name="description">query</str>
+      <str name="sourceId">$Id: QueryComponent.java 1212420 2011-12-09 13:49:03Z mvg $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/QueryComponent.java $</str>
+    </lst>
+    <lst name="org.apache.solr.handler.component.DebugComponent">
+      <str name="name">org.apache.solr.handler.component.DebugComponent</str>
+      <str name="version">$Revision: 1144761 $</str>
+      <str name="description">Debug Information</str>
+      <str name="sourceId">$Id: DebugComponent.java 1144761 2011-07-09 23:01:53Z sarowe $</str>
+      <str name="source">$URL: http://svn.apache.org/repos/asf/lucene/dev/trunk/solr/core/src/java/org/apache/solr/handler/component/DebugComponent.java $</str>
+    </lst>
+  </lst>
+</lst>
+</response>

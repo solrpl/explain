@@ -1,0 +1,16 @@
+2.3797977 = (MATCH) sum of:
+  1.5483798 = (MATCH) weight(name:vaeć in 54235), product of:
+    0.8066195 = queryWeight(name:vaeć), product of:
+      5.11891 = idf(docFreq=2742, maxDocs=168673)
+      0.15757643 = queryNorm
+    1.9195912 = (MATCH) fieldWeight(name:vaeć in 54235), product of:
+      1.0 = tf(termFreq(name:vaeć)=1)
+      5.11891 = idf(docFreq=2742, maxDocs=168673)
+      0.375 = fieldNorm(field=name, doc=54235)
+  0.831418 = (MATCH) weight(name:son in 54235), product of:
+    0.59107107 = queryWeight(name:son), product of:
+      3.7510118 = idf(docFreq=10771, maxDocs=168673)
+      0.15757643 = queryNorm
+    1.4066294 = (MATCH) fieldWeight(name:son in 54235), product of:
+      1.0 = tf(termFreq(name:son)=1)
+      3.7510118 = idf(docFreq=10771, maxDocs=168673)

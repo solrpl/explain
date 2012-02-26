@@ -1,0 +1,5 @@
+
+7.0 = (MATCH) FunctionQuery(totaltermfreq(a_t,cow)), product of:
+  7.0 = totaltermfreq(a_t,cow)=7
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+2.39794 = (MATCH) FunctionQuery(log(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  2.39794 = log(float(CoMpleX fieldName _extf{type=file,properties=})=250.0)
+  1.0 = boost
+  1.0 = queryNorm

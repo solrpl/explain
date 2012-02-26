@@ -1,0 +1,12 @@
+0.01695364 = (MATCH) sum of:
+  0.01695364 = (MATCH) product of:
+    0.03390728 = (MATCH) sum of:
+      0.03390728 = (MATCH) weight(contents:a in 1), product of:
+        0.14758144 = queryWeight(contents:a), product of:
+          2.1223674 = idf(docFreq=180078, maxDocs=553224)
+          0.06953624 = queryNorm
+        0.229753 = (MATCH) fieldWeight(contents:a in 1), product of:
+          1.7320508 = tf(termFreq(contents:a)=3)
+          2.1223674 = idf(docFreq=180078, maxDocs=553224)
+          0.0625 = fieldNorm(field=contents, doc=1)
+    0.5 = coord(1/2)

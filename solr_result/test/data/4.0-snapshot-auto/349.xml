@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="3" start="0">
+  <doc>
+    <int name="id">601</int>
+    <arr name="name">
+      <str>multiad one</str>
+    </arr>
+    <arr name="field_t">
+      <str>what's inside?</str>
+    </arr>
+    <arr name="subject">
+      <str>info</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:13:39.321Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">602</int>
+    <arr name="name">
+      <str>multiad two</str>
+    </arr>
+    <arr name="field_t">
+      <str>what's inside?</str>
+    </arr>
+    <arr name="subject">
+      <str>info</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:13:39.321Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">603</int>
+    <arr name="name">
+      <str>multiad three</str>
+    </arr>
+    <arr name="field_t">
+      <str>what's inside?</str>
+    </arr>
+    <arr name="subject">
+      <str>info</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:13:39.321Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">name:multiad</str>
+  <str name="querystring">name:multiad</str>
+  <str name="parsedquery">name:multiad</str>
+  <str name="parsedquery_toString">name:multiad</str>
+  <lst name="explain">
+    <str name="601">
+0.4451987 = (MATCH) weight(name:multiad in 0) [DefaultSimilarity], result of:
+  0.4451987 = fieldWeight in 0, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    0.71231794 = idf(docFreq=3, maxDocs=3)
+    0.625 = fieldNorm(doc=0)
+</str>
+    <str name="602">
+0.4451987 = (MATCH) weight(name:multiad in 1) [DefaultSimilarity], result of:
+  0.4451987 = fieldWeight in 1, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    0.71231794 = idf(docFreq=3, maxDocs=3)
+    0.625 = fieldNorm(doc=1)
+</str>
+    <str name="603">
+0.4451987 = (MATCH) weight(name:multiad in 2) [DefaultSimilarity], result of:
+  0.4451987 = fieldWeight in 2, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    0.71231794 = idf(docFreq=3, maxDocs=3)
+    0.625 = fieldNorm(doc=2)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

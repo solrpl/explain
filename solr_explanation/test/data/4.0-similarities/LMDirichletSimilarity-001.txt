@@ -1,0 +1,7 @@
+0.031707045 = (MATCH) weight(name:samsung in 1) [LMDirichletSimilarity], result of:
+  0.031707045 = score(LMDirichletSimilarity, doc=1, freq=1.0), computed from:
+    1.0 = termFreq=1.0
+    2000.0 = mu
+    0.036813997 = term weight
+    -0.0051069506 = document norm
+    0.013333334 = collection probability

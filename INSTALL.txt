@@ -1,0 +1,26 @@
+Solr Explain Tool.
+
+Requirements:
+
+1. ruby 1.8.7
+2. rubygems
+3. bundler
+4. postgresql as database backend (propably works with other sql servers but this was not tested)
+
+For debian-like system:
+
+> sudo apt-get install rubygems
+> gem install bundler
+
+Installation:
+
+> cd explainapp
+> bundle
+> rake db:migrate
+> rails server
+
+This run development server with embeded sqllite database.
+For production systems configure as any rails application, edit config/database.yml
+
+There is simple admin application available under /admin/ url. Default user and password is:
+admin@example.com / password. You can change it in explainapp/db/migrate/20110515093037_~_admin_users.rb

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<lst name="files">
+  <lst name="solrconfig.xml">
+    <long name="size">20281</long>
+    <date name="modified">2012-01-02T19:43:06Z</date>
+  </lst>
+</lst>
+</response>

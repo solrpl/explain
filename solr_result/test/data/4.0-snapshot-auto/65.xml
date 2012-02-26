@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1445</int>
+</lst>
+<str name="command">build</str>
+<result name="response" numFound="10" start="0">
+  <doc>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>The quick reb fox jumped over the lazy brown dogs.</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>The quick reb fox jumped over the lazy brown dogs.</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.833Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">2</int>
+    <int name="range_facet_si">2</int>
+    <arr name="range_facet_l">
+      <long>2</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>2</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>This is a document</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>This is a document</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.836Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">3</int>
+    <int name="range_facet_si">3</int>
+    <arr name="range_facet_l">
+      <long>3</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>3</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>another document</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>another document</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.84Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">4</int>
+    <int name="range_facet_si">4</int>
+    <arr name="range_facet_l">
+      <long>4</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>4</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>blue</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>blue</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.842Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">5</int>
+    <int name="range_facet_si">5</int>
+    <arr name="range_facet_l">
+      <long>5</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>5</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>blud</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>blud</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.845Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">6</int>
+    <int name="range_facet_si">6</int>
+    <arr name="range_facet_l">
+      <long>6</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>6</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>boue</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>boue</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.851Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">7</int>
+    <int name="range_facet_si">7</int>
+    <arr name="range_facet_l">
+      <long>7</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>7</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>glue</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>glue</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.854Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">8</int>
+    <int name="range_facet_si">8</int>
+    <arr name="range_facet_l">
+      <long>8</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>8</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>blee</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>blee</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.856Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">9</int>
+    <int name="range_facet_si">9</int>
+    <arr name="range_facet_l">
+      <long>9</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>9</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>pixmaa</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>pixmaa</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:20.859Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">0</int>
+    <int name="range_facet_si">0</int>
+    <arr name="range_facet_l">
+      <long>0</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>0</long>
+    </arr>
+    <arr name="lowerfilt">
+      <str>This is a title</str>
+    </arr>
+    <arr name="lowerfilt1and2">
+      <str>This is a title</str>
+    </arr>
+    <date name="timestamp">2012-01-09T19:15:58.885Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="spellcheck">
+  <lst name="suggestions">
+    <lst name="ttle">
+      <int name="numFound">1</int>
+      <int name="startOffset">0</int>
+      <int name="endOffset">4</int>
+      <arr name="suggestion">
+        <str>title</str>
+      </arr>
+    </lst>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">*:*</str>
+  <str name="querystring">*:*</str>
+  <str name="parsedquery">MatchAllDocsQuery(*:*)</str>
+  <str name="parsedquery_toString">*:*</str>
+  <lst name="explain">
+    <str name="1">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="2">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="3">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="4">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="5">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="6">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="7">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="8">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="9">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="0">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1444.0</double>
+    <lst name="prepare">
+      <double name="time">1442.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">1442.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">2.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">2.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

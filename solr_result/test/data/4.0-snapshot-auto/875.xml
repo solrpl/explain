@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="100.0">
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_pf">100.0</float>
+    <float name="score">100.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_pf">25.0</float>
+    <float name="score">25.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_pf">10.0</float>
+    <float name="score">10.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_pf">5.0</float>
+    <float name="score">5.0</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_pf">0.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_pf">-4.0</float>
+    <float name="score">-4.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}nvl(sum(0,foo_pf),1)</str>
+  <str name="querystring">{!func}nvl(sum(0,foo_pf),1)</str>
+  <str name="parsedquery">FunctionQuery(nvl(sum(const(0),float(foo_pf))))</str>
+  <str name="parsedquery_toString">nvl(sum(const(0),float(foo_pf)))</str>
+  <lst name="explain">
+    <str name="100.0">
+100.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  100.0 = nvl(sum(const(0),float(foo_pf)=100.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+25.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  25.0 = nvl(sum(const(0),float(foo_pf)=25.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+10.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  10.0 = nvl(sum(const(0),float(foo_pf)=10.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+5.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  5.0 = nvl(sum(const(0),float(foo_pf)=5.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+1.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  1.0 = nvl(sum(const(0),float(foo_pf)=0.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+1.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  1.0 = nvl(sum(const(0),float(foo_pf)=0.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+-4.0 = (MATCH) FunctionQuery(nvl(sum(const(0),float(foo_pf)))), product of:
+  -4.0 = nvl(sum(const(0),float(foo_pf)=-4.0))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">0.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

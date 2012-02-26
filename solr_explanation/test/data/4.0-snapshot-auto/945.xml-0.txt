@@ -1,0 +1,5 @@
+
+6.0 = (MATCH) FunctionQuery(numdocs()), product of:
+  6.0 = numdocs()=6
+  1.0 = boost
+  1.0 = queryNorm

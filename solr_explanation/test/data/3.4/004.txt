@@ -1,0 +1,5 @@
+# q=name:dall
+0.0 = (NON-MATCH) fieldWeight(name:dall in 10), product of:
+  0.0 = tf(termFreq(name:dall)=0)
+  3.8332133 = idf(docFreq=0, maxDocs=17)
+  32.0 = fieldNorm(field=name, doc=10)

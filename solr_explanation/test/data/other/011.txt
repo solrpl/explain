@@ -1,0 +1,124 @@
+4.0347495 = (MATCH) sum of:
+  0.4416625 = (MATCH) sum of:
+    0.21472733 = (MATCH) max plus 0.01 times others of:
+      5.898365E-7 = (MATCH) weight(description_nostemm:harry^10.0 in 385873), product of:
+        6.260655E-7 = queryWeight(description_nostemm:harry^10.0), product of:
+          10.0 = boost
+          7.537058 = idf(docFreq=786, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        0.94213223 = (MATCH) fieldWeight(description_nostemm:harry in 385873), product of:
+          1.0 = tf(termFreq(description_nostemm:harry)=1)
+          7.537058 = idf(docFreq=786, maxDocs=543229)
+          0.125 = fieldNorm(field=description_nostemm, doc=385873)
+      2.1224911E-4 = (MATCH) weight(title:harri^1000.0 in 385873), product of:
+        6.856718E-5 = queryWeight(title:harri^1000.0), product of:
+          1000.0 = boost
+          8.254643 = idf(docFreq=383, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        3.0954914 = (MATCH) fieldWeight(title:harri in 385873), product of:
+          1.0 = tf(termFreq(title:harri)=1)
+          8.254643 = idf(docFreq=383, maxDocs=543229)
+          0.375 = fieldNorm(field=title, doc=385873)
+      5.612256E-8 = (MATCH) weight(description:harri in 385873), product of:
+        6.1069265E-8 = queryWeight(description:harri), product of:
+          7.3519874 = idf(docFreq=946, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        0.9189984 = (MATCH) fieldWeight(description:harri in 385873), product of:
+          1.0 = tf(termFreq(description:harri)=1)
+          7.3519874 = idf(docFreq=946, maxDocs=543229)
+          0.125 = fieldNorm(field=description, doc=385873)
+      0.2147252 = (MATCH) weight(title_nostemm:harry^1000000.0 in 385873), product of:
+        0.06896597 = queryWeight(title_nostemm:harry^1000000.0), product of:
+          1000000.0 = boost
+          8.302653 = idf(docFreq=365, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        3.1134949 = (MATCH) fieldWeight(title_nostemm:harry in 385873), product of:
+          1.0 = tf(termFreq(title_nostemm:harry)=1)
+          8.302653 = idf(docFreq=365, maxDocs=543229)
+          0.375 = fieldNorm(field=title_nostemm, doc=385873)
+    0.22693518 = (MATCH) max plus 0.01 times others of:
+      7.157507E-7 = (MATCH) weight(description_nostemm:potter^10.0 in 385873), product of:
+        6.896597E-7 = queryWeight(description_nostemm:potter^10.0), product of:
+          10.0 = boost
+          8.302653 = idf(docFreq=365, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        1.0378317 = (MATCH) fieldWeight(description_nostemm:potter in 385873), product of:
+          1.0 = tf(termFreq(description_nostemm:potter)=1)
+          8.302653 = idf(docFreq=365, maxDocs=543229)
+          0.125 = fieldNorm(field=description_nostemm, doc=385873)
+      2.2478204E-4 = (MATCH) weight(title:Potter^1000.0 in 385873), product of:
+        7.056253E-5 = queryWeight(title:Potter^1000.0), product of:
+          1000.0 = boost
+          8.49486 = idf(docFreq=301, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        3.1855724 = (MATCH) fieldWeight(title:Potter in 385873), product of:
+          1.0 = tf(termFreq(title:Potter)=1)
+          8.49486 = idf(docFreq=301, maxDocs=543229)
+          0.375 = fieldNorm(field=title, doc=385873)
+      6.619798E-8 = (MATCH) weight(description:Potter in 385873), product of:
+        6.632486E-8 = queryWeight(description:Potter), product of:
+          7.984696 = idf(docFreq=502, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        0.998087 = (MATCH) fieldWeight(description:Potter in 385873), product of:
+          1.0 = tf(termFreq(description:Potter)=1)
+          7.984696 = idf(docFreq=502, maxDocs=543229)
+          0.125 = fieldNorm(field=description, doc=385873)
+      0.22693293 = (MATCH) weight(title_nostemm:potter^1000000.0 in 385873), product of:
+        0.07089932 = queryWeight(title_nostemm:potter^1000000.0), product of:
+          1000000.0 = boost
+          8.535405 = idf(docFreq=289, maxDocs=543229)
+          8.306498E-9 = queryNorm
+        3.200777 = (MATCH) fieldWeight(title_nostemm:potter in 385873), product of:
+          1.0 = tf(termFreq(title_nostemm:potter)=1)
+          8.535405 = idf(docFreq=289, maxDocs=543229)
+          0.375 = fieldNorm(field=title_nostemm, doc=385873)
+  0.08835255 = (MATCH) max plus 0.01 times others of:
+    2.6050885E-4 = weight(description_nostemm:"harry potter"~100^1000.0 in 385873), product of:
+      1.3157252E-4 = queryWeight(description_nostemm:"harry potter"~100^1000.0), product of:
+        1000.0 = boost
+        15.839711 = idf(description_nostemm: harry=786 potter=365)
+        8.306498E-9 = queryNorm
+      1.9799639 = fieldWeight(description_nostemm:"harry potter" in 385873), product of:
+        1.0 = tf(phraseFreq=1.0)
+        15.839711 = idf(description_nostemm: harry=786 potter=365)
+        0.125 = fieldNorm(field=description_nostemm, doc=385873)
+    0.0034955305 = weight(title:"harri Potter"~100^4000.0 in 385873), product of:
+      5.5651885E-4 = queryWeight(title:"harri Potter"~100^4000.0), product of:
+        4000.0 = boost
+        16.749504 = idf(title: harri=383 Potter=301)
+        8.306498E-9 = queryNorm
+      6.281064 = fieldWeight(title:"harri Potter" in 385873), product of:
+        1.0 = tf(phraseFreq=1.0)
+        16.749504 = idf(title: harri=383 Potter=301)
+        0.375 = fieldNorm(field=title, doc=385873)
+    2.4422541E-5 = weight(description:"harri Potter"~100^100.0 in 385873), product of:
+      1.2739412E-5 = queryWeight(description:"harri Potter"~100^100.0), product of:
+        100.0 = boost
+        15.336683 = idf(description: harri=946 Potter=502)
+        8.306498E-9 = queryNorm
+      1.9170854 = fieldWeight(description:"harri Potter" in 385873), product of:
+        1.0 = tf(phraseFreq=1.0)
+        15.336683 = idf(description: harri=946 Potter=502)
+        0.125 = fieldNorm(field=description, doc=385873)
+    0.08831475 = weight(title_nostemm:"harry potter"~100^100000.0 in 385873), product of:
+      0.01398653 = queryWeight(title_nostemm:"harry potter"~100^100000.0), product of:
+        100000.0 = boost
+        16.838058 = idf(title_nostemm: harry=365 potter=289)
+        8.306498E-9 = queryNorm
+      6.314272 = fieldWeight(title_nostemm:"harry potter" in 385873), product of:
+        1.0 = tf(phraseFreq=1.0)
+        16.838058 = idf(title_nostemm: harry=365 potter=289)
+        0.375 = fieldNorm(field=title_nostemm, doc=385873)
+  2.6720898 = (MATCH) weight(series_pm:harry potter^3000000.0 in 385873), product of:
+    0.2580448 = queryWeight(series_pm:harry potter^3000000.0), product of:
+      3000000.0 = boost
+      10.355139 = idf(docFreq=46, maxDocs=543229)
+      8.306498E-9 = queryNorm
+    10.355139 = (MATCH) fieldWeight(series_pm:harry potter in 385873), product of:
+      1.0 = tf(termFreq(series_pm:harry potter)=1)
+      10.355139 = idf(docFreq=46, maxDocs=543229)
+      1.0 = fieldNorm(field=series_pm, doc=385873)
+  0.8326445 = (MATCH) FunctionQuery(pow(int(sold),const(2.0))), product of:
+    1.00240144E8 = pow(int(sold)=10012,const(2.0))
+    1.0 = boost
+    8.306498E-9 = queryNorm

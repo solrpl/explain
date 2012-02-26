@@ -1,0 +1,7 @@
+
+2.3862944 = (MATCH) weight(sort_zh_full:#0;g#0;X#0;f#0;g#0;\#0;a#0;Z#0;#0;#0;#1;#0;#1;#0;#1;#0;#1;#0;#1;#0;#1;#0;#1;#0;#0;#0;#2;#0;#1;#0;#1;#0;#1;#0;#1;#0;#1;#0;#1;#0;#0;#0;T#0;e#0;s#0;t#0;i#0;n#0;g in 5) [DefaultSimilarity], result of:
+  2.3862944 = fieldWeight in 5, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    2.3862944 = idf(docFreq=2, maxDocs=12)
+    1.0 = fieldNorm(doc=5)

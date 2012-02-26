@@ -1,0 +1,5 @@
+
+0.0 = (MATCH) FunctionQuery(tf(nofield_t,cow)), product of:
+  0.0 = tf(nofield_t,cow)=0.0
+  1.0 = boost
+  1.0 = queryNorm

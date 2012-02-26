@@ -1,0 +1,16 @@
+
+0.74316853 = (MATCH) weight(text:"now cow" in 1) [DefaultSimilarity], result of:
+  0.74316853 = score(doc=1,freq=1.0 = phraseFreq=1.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      1.1890697 = idf(), sum of:
+        0.5945349 = idf(docFreq=2, maxDocs=2)
+        0.5945349 = idf(docFreq=2, maxDocs=2)
+      0.8409935 = queryNorm
+    0.7431686 = fieldWeight in 1, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = phraseFreq=1.0
+      1.1890697 = idf(), sum of:
+        0.5945349 = idf(docFreq=2, maxDocs=2)
+        0.5945349 = idf(docFreq=2, maxDocs=2)
+      0.625 = fieldNorm(doc=1)

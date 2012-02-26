@@ -1,0 +1,190 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">6</int>
+  <lst name="params">
+    <str name="explainOther">id:3007WFP</str>
+    <str name="debugQuery">true</str>
+    <str name="indent">on</str>
+    <str name="q">{!term f=popularity}6</str>
+    <str name="rows">10</str>
+  </lst>
+</lst>
+<result name="response" numFound="5" start="0">
+  <doc>
+    <arr name="cat"><str>electronics</str><str>hard drive</str></arr>
+    <arr name="features"><str>7200RPM, 8MB cache, IDE Ultra ATA-133</str><str>NoiseGuard, SilentSeek technology, Fluid Dynamic Bearing (FDB) motor</str></arr>
+    <str name="id">SP2514N</str>
+    <bool name="inStock">true</bool>
+    <str name="manu">Samsung Electronics Co. Ltd.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">Samsung SpinPoint P120 SP2514N - hard drive - 250 GB - ATA-133</str>
+    <int name="popularity">6</int>
+    <float name="price">92.0</float>
+    <str name="store">35.0752,-97.032</str>
+  </doc>
+  <doc>
+    <arr name="cat"><str>electronics</str><str>hard drive</str></arr>
+    <arr name="features"><str>SATA 3.0Gb/s, NCQ</str><str>8.5ms seek</str><str>16MB cache</str></arr>
+    <str name="id">6H500F0</str>
+    <bool name="inStock">true</bool>
+    <str name="manu">Maxtor Corp.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">Maxtor DiamondMax 11 - hard drive - 500 GB - SATA-300</str>
+    <int name="popularity">6</int>
+    <float name="price">350.0</float>
+    <str name="store">45.17614,-93.87341</str>
+  </doc>
+  <doc>
+    <arr name="cat"><str>electronics</str><str>monitor</str></arr>
+    <arr name="features"><str>19" TFT active matrix LCD, 8ms response time, 1280 x 1024 native resolution</str></arr>
+    <str name="id">VA902B</str>
+    <bool name="inStock">true</bool>
+    <str name="manu">ViewSonic Corp.</str>
+    <str name="name">ViewSonic VA902B - flat panel display - TFT - 19"</str>
+    <int name="popularity">6</int>
+    <float name="price">279.95</float>
+    <str name="store">45.17614,-93.87341</str>
+    <float name="weight">190.4</float>
+  </doc>
+  <doc>
+    <arr name="cat"><str>electronics</str><str>monitor</str></arr>
+    <arr name="features"><str>30" TFT active matrix LCD, 2560 x 1600, .25mm dot pitch, 700:1 contrast</str></arr>
+    <str name="id">3007WFP</str>
+    <bool name="inStock">true</bool>
+    <str name="includes">USB cable</str>
+    <str name="manu">Dell, Inc.</str>
+    <str name="name">Dell Widescreen UltraSharp 3007WFP</str>
+    <int name="popularity">6</int>
+    <float name="price">2199.0</float>
+    <str name="store">43.17614,-90.57341</str>
+    <float name="weight">401.6</float>
+  </doc>
+  <doc>
+    <arr name="cat"><str>electronics</str><str>multifunction printer</str><str>printer</str>
+      <str>scanner</str><str>copier</str></arr>
+    <arr name="features"><str>Multifunction ink-jet color photo printer</str><str>Flatbed scanner, optical scan resolution of 1,200 x 2,400 dpi</str><str>2.5" color LCD preview screen</str>
+      <str>Duplex Copying</str><str>Printing speed up to 29ppm black, 19ppm color</str><str>Hi-Speed USB</str><str>memory card: CompactFlash, Micro Drive, SmartMedia, Memory Stick, Memory Stick Pro, SD Card, and MultiMediaCard</str></arr>
+    <str name="id">0579B002</str>
+    <bool name="inStock">true</bool>
+    <str name="manu">Canon Inc.</str>
+    <str name="name">Canon PIXMA MP500 All-In-One Photo Printer</str>
+    <int name="popularity">6</int>
+    <float name="price">179.99</float>
+    <str name="store">45.17614,-93.87341</str>
+    <float name="weight">352.0</float>
+  </doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!term f=popularity}6</str>
+  <str name="querystring">{!term f=popularity}6</str>
+  <str name="parsedquery">popularity:6</str>
+  <str name="parsedquery_toString">popularity:`#8;#0;#0;#0;#6;</str>
+  <lst name="explain">
+    <str name="SP2514N">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 1), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=1)
+</str>
+    <str name="6H500F0">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 2), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=2)
+</str>
+    <str name="VA902B">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 9), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=9)
+</str>
+    <str name="3007WFP">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 10), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=10)
+</str>
+    <str name="0579B002">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 11), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=11)
+</str>
+  </lst>
+  <str name="otherQuery">id:3007WFP</str>
+  <lst name="explainOther">
+    <str name="3007WFP">
+2.0414538 = (MATCH) fieldWeight(popularity:`#8;#0;#0;#0;#6; in 10), product of:
+  1.0 = tf(termFreq(popularity:`#8;#0;#0;#0;#6;)=1)
+  2.0414538 = idf(docFreq=5, maxDocs=17)
+  1.0 = fieldNorm(field=popularity, doc=10)
+</str>
+  </lst>
+  <str name="QParser"/>
+  <lst name="timing">
+    <double name="time">6.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">6.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">3.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>
+

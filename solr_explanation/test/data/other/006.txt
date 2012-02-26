@@ -1,0 +1,3 @@
+1.0 = (MATCH) ConstantScore(contents:y?rk), product of:
+    1.0 = boost
+    1.0 = queryNorm

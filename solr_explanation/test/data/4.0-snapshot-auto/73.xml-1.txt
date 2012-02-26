@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(sort_de:[#0;g#0;b#0;a#0;X#0;#0;#0;#0; TO #0;g#0;c#0;#0;#0;#0;]), product of:
+  1.0 = boost
+  1.0 = queryNorm

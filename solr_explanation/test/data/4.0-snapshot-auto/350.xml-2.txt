@@ -1,0 +1,7 @@
+
+0.35615897 = (MATCH) weight(name:nosubject in 2) [DefaultSimilarity], result of:
+  0.35615897 = fieldWeight in 2, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    0.71231794 = idf(docFreq=3, maxDocs=3)
+    0.5 = fieldNorm(doc=2)

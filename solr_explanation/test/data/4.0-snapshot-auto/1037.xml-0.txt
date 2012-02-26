@@ -1,0 +1,5 @@
+
+2.0 = (MATCH) FunctionQuery(floor(const(2.3))), product of:
+  2.0 = floor(const(2.3))
+  1.0 = boost
+  1.0 = queryNorm

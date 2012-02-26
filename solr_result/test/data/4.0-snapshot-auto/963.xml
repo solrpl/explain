@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<result name="response" numFound="1" start="0" maxScore="1.0">
+  <doc>
+    <float name="id">1.0</float>
+    <date name="a_tdt">2009-08-31T12:10:10.123Z</date>
+    <date name="b_tdt">2009-08-31T12:10:10.124Z</date>
+    <float name="score">1.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}ms(b_tdt,a_tdt)</str>
+  <str name="querystring">{!func}ms(b_tdt,a_tdt)</str>
+  <str name="parsedquery">FunctionQuery(ms(date(b_tdt),date(a_tdt)))</str>
+  <str name="parsedquery_toString">ms(date(b_tdt),date(a_tdt))</str>
+  <lst name="explain">
+    <str name="1.0">
+1.0 = (MATCH) FunctionQuery(ms(date(b_tdt),date(a_tdt))), product of:
+  1.0 = ms(date(b_tdt)=1251720610124,date(a_tdt)=1251720610123)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <arr name="filter_queries">
+    <str>id:1</str>
+  </arr>
+  <arr name="parsed_filter_queries">
+    <str>id:1.0</str>
+  </arr>
+  <lst name="timing">
+    <double name="time">0.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

@@ -1,0 +1,4 @@
+# q=name:dell OR name:widescreen -name:ultrasharp
+0.0 = (NON-MATCH) product of:
+  0.0 = (NON-MATCH) sum of:
+  0.0 = coord(0/2)

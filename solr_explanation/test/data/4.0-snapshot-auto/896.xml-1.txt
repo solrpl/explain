@@ -1,0 +1,5 @@
+
+Infinity = (MATCH) FunctionQuery(div(const(1),sfloat(foo_f))), product of:
+  Infinity = div(const(1),sfloat(foo_f)=0.0)
+  1.0 = boost
+  1.0 = queryNorm

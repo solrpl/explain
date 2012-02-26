@@ -1,0 +1,5 @@
+
+40.0 = (MATCH) FunctionQuery(product(float(foo_tf),const(-2),const(-4))), product of:
+  40.0 = product(float(foo_tf)=5.0,const(-2),const(-4))
+  1.0 = boost
+  1.0 = queryNorm

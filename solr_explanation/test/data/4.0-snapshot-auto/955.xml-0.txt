@@ -1,0 +1,5 @@
+
+1.4054651 = (MATCH) FunctionQuery(idf(a_t,cow)), product of:
+  1.4054651 = idf(a_t,cow)=1.4054651260375977
+  1.0 = boost
+  1.0 = queryNorm

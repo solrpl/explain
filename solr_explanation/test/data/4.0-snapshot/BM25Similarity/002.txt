@@ -1,0 +1,4 @@
+# q=*:*^10
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  10.0 = boost
+  0.1 = queryNorm

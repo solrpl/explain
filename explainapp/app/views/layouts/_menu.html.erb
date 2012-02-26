@@ -1,0 +1,55 @@
+<!--
+   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+           <nav> 
+                <ul> 
+                    <li class="item item-new-explain">
+                    <% if @page == 'new-explain' %>
+                      <span>new explain</span>
+                    <% else %>
+                      <%= link_to 'new explain', new_explain_path, :title => 'link to: new explain', :rel => 'permalink' %>
+                    <% end %>
+                    </li> 
+                    <li class="item item-history"> 
+                    <% if @page == 'history' %>
+                        <span>history</span> 
+                    <% else %>
+                      <%= link_to 'history', explains_path, :title => 'link to: history', :rel => 'permalink' %>
+                    <% end %>
+                    </li> 
+                    <li class="item item-help"> 
+                    <% if @page == 'help' %>
+                      <span>help</span>
+                    <% else %>
+                      <%= link_to 'help', help_path, :title => 'link to: help', :rel => 'permalink' %>
+                    <% end  %>
+                    </li> 
+                    <li class="item item-about"> 
+                        <a href="http://solr.pl/en/tag/explain/" title="about explain" rel="permalink">about</a> 
+                    </li> 
+                    <li class="item item-contact"> 
+<a href="http://solr.pl/en/informations/" title="link to: contact" rel="permalink">contact</a> 
+</li>
+<li class="item item-paypal"><span>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
+</form></span>
+                    </li>
+                </ul> 
+            </nav> 

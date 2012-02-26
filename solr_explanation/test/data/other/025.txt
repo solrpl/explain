@@ -1,0 +1,6 @@
+6.0196667 = (MATCH) sum of:
+  6.0196667 = (MATCH) max of:
+    6.0196667 = (MATCH) fieldWeight(persons:a in 115567), product of:
+      1.0 = tf(termFreq(persons:a)=1)
+      6.0196667 = idf(docFreq=3654, maxDocs=553224)
+      1.0 = fieldNorm(field=persons, doc=115567)

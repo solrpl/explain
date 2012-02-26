@@ -1,0 +1,86 @@
+<%
+#
+#   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+%>
+<section>
+<h1><%=t 'help.header' %></h1>
+<h2>Supported versions of Apache Solr</h2>
+<p>
+  Explain.solr.pl supports the following versions of Apache Solr search server:
+  <ul>
+    <li>3.0</li>
+    <li>3.1</li>
+    <li>3.2</li>
+    <li>3.3</li>
+    <li>3.4</li>
+    <li>3.5</li>
+  </ul>
+  We plan to support Apache Solr 3.6 and newer, but support for versions older than 3.0 is not planned.
+</p>
+<h2>Adding a new query - 10 seconds tutorial</h2>
+<p>
+  In order to add Your query explain information and visualise it, please add the following to your query <code>debugQuery=true</code> and paste the raw Solr response. So if your query looks like <code>q=hd&bf=pow(sold,1.5)&qf=name,description,attributes</code> you should re-run a query which looks like the following: <code>q=hd&bf=pow(sold,1.5)&qf=name,description,attributes&debugQuery=true</code>.
+</p>
+<h2>Adding a new query - detailed tutorial</h2>
+<p>
+  In order to add Your query explain information and visualise it, please add the following parameters to your query:
+  <ul>
+    <li><b>debugQuery=true</b> <i>(required)</i></li>
+    <li><b>indent=true</b> <i>(optional)</i></li>
+    <li><b>explainOther=...</b> <i>(optional)</i></li>
+  </ul>
+  After adding those parameters please re-run the query. After that paste <i>raw</i> Solr response and click <i>"Create Explain"</i> button.
+  <br />
+  In order for explain.solr.pl to work the best way, please ensure that one of the fields you return in the documents is your unique identifier (You can add this by modifying with the <i>fl</i> parameter). 
+  <br />
+  The meaning of the additional parameters is:
+  <ul>
+    <li><i>debugQuery=true</i> - when <i>debugQuery</i> parameter is present the debuging information will be added to the response. Please remember that the debuging can affect performance, so don't use this parameter with your every query.</li>
+    <li><i>indent=true</i> - when this parameter is added to the query, the raw Solr response is indented with whitespaces.</li>
+    <li><i>explainOther=...</i> - if you want explain.solr.pl to visualise explain for some additional documents that are not in the result list you should add the unique identifiers of those documents as the value of the <i>explainOther</i> parameter. This will make Solr return explain for those documents and let explain.solr.pl visualise it.</li>
+  </ul>
+</p>
+<h2>Hidding your explain visualisation</h2>
+<p>If you want to make your explain information visualisation private please uncheck the "I want this explain to be visible on history page." checkbox on the "New explain" page. In order to get back to your explain information you will need to remember its identifier and visit the following URL: <code>http://explain.solr.pl/explains/[ID]</code>. For example, if explain.solr.pl generated <code>53827fty</code> identifier for Your explain, You should visit <code>http://explain.solr.pl/explains/53827fty</code>.</p>
+<h2>Available information</h2>
+Explain.solr.pl application can show you the following information regarding your query results:
+<h3>RETURNED tab</h3>
+<h4>Unique identifier</h4>
+On the top of the explain visualisation page, you can see the unique identifier of Your explain visualisation. You will need that identifier to get back to the explain visualisation later.
+<h4>Public availability</h4>
+This sections of explain visualisation page tells you about the public availability of your query explain. If you see a sentence like "<%=t 'explain.show.public' %>" your explain is visible by other users. In other case, to see your explain visualisation, you will need to know its unique identifier.
+<h4>Fields returned</h4>
+This section contain information about the value of the fields that were returned by Solr (this are usually the fields defined in the <code>fl</code> parameter).
+<h4>Score decomposition</h4>
+One of the main sections of explain visualisation which shows which elements of the scoring influenced the score and how. This section shows percentages of each debug query information.
+<h4>Explain components</h4>
+This is the visualisation of the data that is presented in the <i>"Score decomposition"</i> section of the explain visualisation. You can see the same numbers that are presented in the mentioned section, but visualised in a form of pie chart.
+<h3>PERFORMANCE tab</h3>
+This tab presents the simple performance information about query components of the query connected to the explain information you've sent to explain.solr.pl.
+<h2>Common errors</h2>
+<p>
+  Here are some common error that You can see while using explain.solr.pl:
+  <ul>
+    <li>"<%=t 'solr.result.info.parse.error' %>" - There was an error during XML file parsing, please ensure that you've pasted the correct XML file, that You are using supported Solr version and the You have pasted raw Solr response (ie. page source is You are using web browser).</li>
+    <li>"<%=t 'solr.result.info.parse.unique' %>" - Could not determine unique identifier of the result documents. Please ensure that you fetch the unique identifier in Your query - check the <code>fl</code> parameter</li>
+    <li>"<%=t 'solr.result.info.parse.debug' %>" - Debug section was not found in the XML file. Please check if the <code>debugQuery=true</code> parameter was added to the query.</li>
+    <li>"<%=t 'solr.result.info.parse.debugOther' %>" - Debug other section was not found in the XML file. Please check if the <code>explainOther</code> parameter was added to the query.</li>
+    <li>"<%=t 'solr.result.info.parse.numFound' %>" - There was an error parsing XML file - <code>numFound</code> attribute was not found.</li>
+    <li>"<%=t 'solr.result.info.baseResult.empty' %>" - There are no results in the response you submited.</li>
+    <li>"<%=t 'solr.result.info.result.empty' %>" - There are no results in the response you submited. Please look at the <code>explainOther</code> parameter to submit documents that are not a part of the result list.</li>
+  </ul>
+</p>
+</section>

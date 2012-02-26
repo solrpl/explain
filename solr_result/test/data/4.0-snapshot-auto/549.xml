@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="3" start="0">
+  <doc>
+    <float name="id">0.0</float>
+    <long name="foo_pl">499999999999999999</long>
+    <double name="foo_d">0.3333333333333332</double>
+    <int name="foo_ti">1999999999</int>
+    <str name="foo_s">aaa</str>
+    <double name="foo_td">0.3333333333333332</double>
+    <int name="foo_pi">1999999999</int>
+    <double name="foo_pd">0.3333333333333332</double>
+    <int name="foo_i">1999999999</int>
+    <long name="foo_l">499999999999999999</long>
+    <date name="foo_dt">0299-12-31T23:59:59.999Z</date>
+    <date name="foo_tdt">0299-12-31T23:59:59.999Z</date>
+    <long name="foo_tl">499999999999999999</long></doc>
+  <doc>
+    <float name="id">1.0</float>
+    <long name="foo_pl">500000000000000000</long>
+    <double name="foo_d">0.3333333333333333</double>
+    <int name="foo_ti">2000000000</int>
+    <str name="foo_s">bbb</str>
+    <double name="foo_td">0.3333333333333333</double>
+    <int name="foo_pi">2000000000</int>
+    <double name="foo_pd">0.3333333333333333</double>
+    <int name="foo_i">2000000000</int>
+    <long name="foo_l">500000000000000000</long>
+    <date name="foo_dt">2000-01-01T00:00:00Z</date>
+    <date name="foo_tdt">2000-01-01T00:00:00Z</date>
+    <long name="foo_tl">500000000000000000</long></doc>
+  <doc>
+    <float name="id">2.0</float>
+    <long name="foo_pl">500000000000000001</long>
+    <double name="foo_d">0.3333333333333334</double>
+    <int name="foo_ti">2000000001</int>
+    <str name="foo_s">ccc</str>
+    <double name="foo_td">0.3333333333333334</double>
+    <int name="foo_pi">2000000001</int>
+    <double name="foo_pd">0.3333333333333334</double>
+    <int name="foo_i">2000000001</int>
+    <long name="foo_l">500000000000000001</long>
+    <date name="foo_dt">2000-01-01T00:00:00.001Z</date>
+    <date name="foo_tdt">2000-01-01T00:00:00.001Z</date>
+    <long name="foo_tl">500000000000000001</long></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">foo_tdt:{0299-12-31T23:59:59.998Z TO 2000-01-01T00:00:00.002Z}</str>
+  <str name="querystring">foo_tdt:{0299-12-31T23:59:59.998Z TO 2000-01-01T00:00:00.002Z}</str>
+  <str name="parsedquery">foo_tdt:{-52700112000002 TO 946684800002}</str>
+  <str name="parsedquery_toString">foo_tdt:{-52700112000002 TO 946684800002}</str>
+  <lst name="explain">
+    <str name="0.0">
+1.0 = (MATCH) ConstantScore(foo_tdt:{-52700112000002 TO 946684800002}), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="1.0">
+1.0 = (MATCH) ConstantScore(foo_tdt:{-52700112000002 TO 946684800002}), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="2.0">
+1.0 = (MATCH) ConstantScore(foo_tdt:{-52700112000002 TO 946684800002}), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

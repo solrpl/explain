@@ -1,0 +1,5 @@
+
+1.0 = (MATCH) FunctionQuery(ms(const(1251720610125),date(b_tdt))), product of:
+  1.0 = ms(const(1251720610125),date(b_tdt)=1251720610124)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+1.0 = (MATCH) FunctionQuery(query(foo_tf:[* TO *],def=8.0)), product of:
+  1.0 = query(foo_tf:[* TO *],def=8.0)=1.0
+  1.0 = boost
+  1.0 = queryNorm

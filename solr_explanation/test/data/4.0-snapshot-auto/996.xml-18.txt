@@ -1,0 +1,5 @@
+
+-79.0 = (MATCH) FunctionQuery(FileFloatSource(field=foo_extf,keyField=id,defVal=1.0,dataDir=/home/negativ/Projekty/Dom/Solr/src/solr/solr/build/solr-core/test/3/solrtest-TestFunctionQuery-1326136441277/)), product of:
+  -79.0 = float(foo_extf{type=file,properties=})=-79.0
+  1.0 = boost
+  1.0 = queryNorm

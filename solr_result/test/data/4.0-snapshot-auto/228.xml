@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">5</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <str name="id">2</str>
+    <arr name="int_f">
+      <int>2</int>
+    </arr>
+    <arr name="float_f">
+      <float>2.0</float>
+    </arr>
+    <arr name="long_f">
+      <long>2</long>
+    </arr>
+    <arr name="double_f">
+      <double>2.0</double>
+    </arr>
+    <arr name="byte_f">
+      <int>2</int>
+    </arr>
+    <arr name="short_f">
+      <int>2</int>
+    </arr>
+    <arr name="bool_f">
+      <bool>true</bool>
+    </arr>
+    <arr name="date_f">
+      <date>2002-01-01T00:00:00Z</date>
+    </arr>
+    <str name="content">opqrstu1 zilly</str>
+    <arr name="content_ws">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_rev">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_multi">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_lower_token">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_oldstyle">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <str name="content_charfilter">opqrstu1 zilly</str>
+    <str name="content_multi_bad">opqrstu1 zilly</str>
+    <arr name="content_straight">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_lower">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_folding">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_stemming">
+      <str>opqrstu1 zilly</str>
+    </arr>
+    <arr name="content_keyword">
+      <str>opqrstu1 zilly</str>
+    </arr></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">content_ws:OPQ*S?Ů*</str>
+  <str name="querystring">content_ws:OPQ*S?Ů*</str>
+  <str name="parsedquery">content_ws:opq*s?u*</str>
+  <str name="parsedquery_toString">content_ws:opq*s?u*</str>
+  <lst name="explain">
+    <str name="2">
+1.0 = (MATCH) ConstantScore(content_ws:opq*s?u*), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">4.0</double>
+    <lst name="prepare">
+      <double name="time">4.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">4.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

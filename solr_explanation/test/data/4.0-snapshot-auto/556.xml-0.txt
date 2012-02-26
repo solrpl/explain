@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(foo_tl: #1;#6;x#22;k#29;#29;H#0;#1;), product of:
+  1.0 = boost
+  1.0 = queryNorm

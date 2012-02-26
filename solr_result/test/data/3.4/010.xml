@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">20</int>
+  <lst name="params">
+    <str name="boost">price</str>
+    <str name="debugQuery">true</str>
+    <str name="indent">true</str>
+    <str name="wt">xml</str>
+  </lst>
+</lst>
+<result name="response" numFound="17" start="0" maxScore="2199.0">
+  <doc>
+    <float name="score">2199.0</float>
+    <arr name="cat"><str>electronics</str><str>monitor</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>30" TFT active matrix LCD, 2560 x 1600, .25mm dot pitch, 700:1 contrast</str></arr>
+    <str name="id">3007WFP</str>
+    <bool name="inStock">true</bool>
+    <str name="includes">USB cable</str>
+    <str name="language_s">en</str>
+    <str name="manu">Dell, Inc.</str>
+    <str name="name">Dell Widescreen UltraSharp żółw 3007WFP</str>
+    <int name="popularity">6</int>
+    <float name="price">2199.0</float>
+    <str name="store">43.17614,-90.57341</str>
+    <float name="weight">401.6</float>
+  </doc>
+  <doc>
+    <float name="score">649.99</float>
+    <arr name="cat"><str>electronics</str><str>graphics card</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>ATI RADEON X1900 GPU/VPU clocked at 650MHz</str><str>512MB GDDR3 SDRAM clocked at 1.55GHz</str><str>PCI Express x16</str>
+      <str>dual DVI, HDTV, svideo, composite out</str><str>OpenGL 2.0, DirectX 9.0</str></arr>
+    <str name="id">100-435805</str>
+    <bool name="inStock">false</bool>
+    <str name="language_s">en</str>
+    <str name="manu">ATI Technologies</str>
+    <date name="manufacturedate_dt">2006-02-13T00:00:00Z</date>
+    <str name="name">ATI Radeon X1900 XTX 512 MB PCIE Video Card</str>
+    <int name="popularity">7</int>
+    <float name="price">649.99</float>
+    <str name="store">40.7143,-74.006</str>
+    <float name="weight">48.0</float>
+  </doc>
+  <doc>
+    <float name="score">479.95</float>
+    <arr name="cat"><str>electronics</str><str>graphics card</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>NVIDIA GeForce 7800 GTX GPU/VPU clocked at 486MHz</str><str>256MB GDDR3 Memory clocked at 1.35GHz</str><str>PCI Express x16</str>
+      <str>Dual DVI connectors, HDTV out, video input</str><str>OpenGL 2.0, DirectX 9.0</str></arr>
+    <str name="id">EN7800GTX/2DHTV/256M</str>
+    <bool name="inStock">false</bool>
+    <str name="language_s">en</str>
+    <str name="manu">ASUS Computer Inc.</str>
+    <date name="manufacturedate_dt">2006-02-13T00:00:00Z</date>
+    <str name="name">ASUS Extreme N7800GTX/2DHTV (256 MB)</str>
+    <int name="popularity">7</int>
+    <float name="price">479.95</float>
+    <str name="store">40.7143,-74.006</str>
+    <float name="weight">16.0</float>
+  </doc>
+  <doc>
+    <float name="score">399.0</float>
+    <arr name="cat"><str>electronics</str><str>music</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>iTunes, Podcasts, Audiobooks</str><str>Stores up to 15,000 songs, 25,000 photos, or 150 hours of video</str><str>2.5-inch, 320x240 color TFT LCD display with LED backlight</str>
+      <str>Up to 20 hours of battery life</str><str>Plays AAC, MP3, WAV, AIFF, Audible, Apple Lossless, H.264 video</str><str>Notes, Calendar, Phone book, Hold button, Date display, Photo wallet, Built-in games, JPEG photo playback, Upgradeable firmware, USB 2.0 compatibility, Playback speed control, Rechargeable capability, Battery level indication</str></arr>
+    <str name="id">MA147LL/A</str>
+    <bool name="inStock">true</bool>
+    <str name="includes">earbud headphones, USB cable</str>
+    <str name="language_s">en</str>
+    <str name="manu">Apple Computer Inc.</str>
+    <date name="manufacturedate_dt">2005-10-12T08:00:00Z</date>
+    <str name="name">Apple 60 GB iPod with Video Playback Black</str>
+    <int name="popularity">10</int>
+    <float name="price">399.0</float>
+    <str name="store">37.7752,-100.0232</str>
+    <float name="weight">5.5</float>
+  </doc>
+  <doc>
+    <float name="score">350.0</float>
+    <arr name="cat"><str>electronics</str><str>hard drive</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>SATA 3.0Gb/s, NCQ</str><str>8.5ms seek</str><str>16MB cache</str></arr>
+    <str name="id">6H500F0</str>
+    <bool name="inStock">true</bool>
+    <str name="language_s">en</str>
+    <str name="manu">Maxtor Corp.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">Maxtor DiamondMax 11 - hard drive - 500 GB - SATA-300</str>
+    <int name="popularity">6</int>
+    <float name="price">350.0</float>
+    <str name="store">45.17614,-93.87341</str>
+  </doc>
+  <doc>
+    <float name="score">329.95</float>
+    <arr name="cat"><str>electronics</str><str>camera</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>3x zoop, 7.1 megapixel Digital ELPH</str><str>movie clips up to 640x480 @30 fps</str><str>2.0" TFT LCD, 118,000 pixels</str>
+      <str>built in flash, red-eye reduction</str></arr>
+    <str name="id">9885A004</str>
+    <bool name="inStock">true</bool>
+    <str name="includes">32MB SD card, USB cable, AV cable, battery</str>
+    <str name="language_s">en</str>
+    <str name="manu">Canon Inc.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">Canon PowerShot SD500</str>
+    <int name="popularity">7</int>
+    <float name="price">329.95</float>
+    <str name="store">45.17614,-93.87341</str>
+    <float name="weight">6.4</float>
+  </doc>
+  <doc>
+    <float name="score">279.95</float>
+    <arr name="cat"><str>electronics</str><str>monitor</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>19" TFT active matrix LCD, 8ms response time, 1280 x 1024 native resolution</str></arr>
+    <str name="id">VA902B</str>
+    <bool name="inStock">true</bool>
+    <str name="language_s">en</str>
+    <str name="manu">ViewSonic Corp.</str>
+    <str name="name">ViewSonic VA902B - flat panel display - TFT - 19"</str>
+    <int name="popularity">6</int>
+    <float name="price">279.95</float>
+    <str name="store">45.17614,-93.87341</str>
+    <float name="weight">190.4</float>
+  </doc>
+  <doc>
+    <float name="score">185.0</float>
+    <arr name="cat"><str>electronics</str><str>memory</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>CAS latency 2,    2-3-3-6 timing, 2.75v, unbuffered, heat-spreader</str></arr>
+    <str name="id">TWINX2048-3200PRO</str>
+    <bool name="inStock">true</bool>
+    <str name="language_s">en</str>
+    <str name="manu">Corsair Microsystems Inc.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">CORSAIR  XMS 2GB (2 x 1GB) 184-Pin DDR SDRAM Unbuffered DDR 400 (PC 3200) Dual Channel Kit System Memory - Retail</str>
+    <str name="payloads">electronics|6.0 memory|3.0</str>
+    <int name="popularity">5</int>
+    <float name="price">185.0</float>
+    <str name="store">37.7752,-122.4232</str>
+  </doc>
+  <doc>
+    <float name="score">179.99</float>
+    <arr name="cat"><str>electronics</str><str>multifunction printer</str><str>printer</str>
+      <str>scanner</str><str>copier</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>Multifunction ink-jet color photo printer</str><str>Flatbed scanner, optical scan resolution of 1,200 x 2,400 dpi</str><str>2.5" color LCD preview screen</str>
+      <str>Duplex Copying</str><str>Printing speed up to 29ppm black, 19ppm color</str><str>Hi-Speed USB</str><str>memory card: CompactFlash, Micro Drive, SmartMedia, Memory Stick, Memory Stick Pro, SD Card, and MultiMediaCard</str></arr>
+    <str name="id">0579B002</str>
+    <bool name="inStock">true</bool>
+    <str name="language_s">en</str>
+    <str name="manu">Canon Inc.</str>
+    <str name="name">Canon PIXMA MP500 All-In-One Photo Printer</str>
+    <int name="popularity">6</int>
+    <float name="price">179.99</float>
+    <str name="store">45.17614,-93.87341</str>
+    <float name="weight">352.0</float>
+  </doc>
+  <doc>
+    <float name="score">92.0</float>
+    <arr name="cat"><str>electronics</str><str>hard drive</str></arr>
+    <str name="ext1">0</str>
+    <arr name="features"><str>7200RPM, 8MB cache, IDE Ultra ATA-133</str><str>NoiseGuard, SilentSeek technology, Fluid Dynamic Bearing (FDB) motor</str></arr>
+    <str name="id">SP2514N</str>
+    <bool name="inStock">true</bool>
+    <str name="language_s">en</str>
+    <str name="manu">Samsung Electronics Co. Ltd.</str>
+    <date name="manufacturedate_dt">2006-02-13T15:26:37Z</date>
+    <str name="name">Samsung SpinPoint P120 SP2514N - hard drive - 250 GB - ATA-133</str>
+    <int name="popularity">6</int>
+    <float name="price">92.0</float>
+    <str name="store">35.0752,-97.032</str>
+  </doc>
+</result>
+<lst name="facet_counts">
+  <lst name="facet_queries">
+    <int name="ipod">3</int>
+    <int name="GB">3</int>
+  </lst>
+  <lst name="facet_fields">
+    <lst name="cat">
+      <int name="electronics">14</int>
+      <int name="memory">3</int>
+      <int name="connector">2</int>
+      <int name="graphics card">2</int>
+      <int name="hard drive">2</int>
+      <int name="monitor">2</int>
+      <int name="search">2</int>
+      <int name="software">2</int>
+      <int name="camera">1</int>
+      <int name="copier">1</int>
+      <int name="multifunction printer">1</int>
+      <int name="music">1</int>
+      <int name="printer">1</int>
+      <int name="scanner">1</int>
+    </lst>
+    <lst name="manu_exact">
+      <int name="Apache Software Foundation">2</int>
+      <int name="Belkin">2</int>
+      <int name="Canon Inc.">2</int>
+      <int name="Corsair Microsystems Inc.">2</int>
+      <int name="A-DATA Technology Inc.">1</int>
+      <int name="ASUS Computer Inc.">1</int>
+      <int name="ATI Technologies">1</int>
+      <int name="Apple Computer Inc.">1</int>
+      <int name="Dell, Inc.">1</int>
+      <int name="Maxtor Corp.">1</int>
+      <int name="Samsung Electronics Co. Ltd.">1</int>
+      <int name="ViewSonic Corp.">1</int>
+    </lst>
+  </lst>
+  <lst name="facet_dates"/>
+  <lst name="facet_ranges">
+    <lst name="price">
+      <lst name="counts">
+        <int name="0.0">5</int>
+        <int name="50.0">2</int>
+        <int name="150.0">2</int>
+        <int name="250.0">1</int>
+        <int name="300.0">1</int>
+        <int name="350.0">2</int>
+        <int name="450.0">1</int>
+      </lst>
+      <float name="gap">50.0</float>
+      <float name="start">0.0</float>
+      <float name="end">600.0</float>
+      <int name="after">2</int>
+    </lst>
+    <lst name="popularity">
+      <lst name="counts">
+        <int name="0">3</int>
+        <int name="3">1</int>
+        <int name="6">9</int>
+        <int name="9">2</int>
+      </lst>
+      <int name="gap">3</int>
+      <int name="start">0</int>
+      <int name="end">12</int>
+      <int name="after">0</int>
+    </lst>
+    <lst name="manufacturedate_dt">
+      <lst name="counts">
+        <int name="2005-01-01T00:00:00Z">2</int>
+        <int name="2006-01-01T00:00:00Z">9</int>
+      </lst>
+      <str name="gap">+1YEAR</str>
+      <date name="start">2002-01-01T00:00:00Z</date>
+      <date name="end">2013-01-01T00:00:00Z</date>
+      <int name="before">0</int>
+      <int name="after">0</int>
+    </lst>
+  </lst>
+</lst>
+<lst name="debug">
+  <null name="rawquerystring"/>
+  <null name="querystring"/>
+  <str name="parsedquery">BoostedQuery(boost(+*:*,float(price)))</str>
+  <str name="parsedquery_toString">boost(+*:*,float(price))</str>
+  <lst name="explain">
+    <str name="3007WFP">
+2199.0 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  2199.0 = float(price)=2199.0
+</str>
+    <str name="100-435805">
+649.99 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  649.99 = float(price)=649.99
+</str>
+    <str name="EN7800GTX/2DHTV/256M">
+479.95 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  479.95 = float(price)=479.95
+</str>
+    <str name="MA147LL/A">
+399.0 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  399.0 = float(price)=399.0
+</str>
+    <str name="6H500F0">
+350.0 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  350.0 = float(price)=350.0
+</str>
+    <str name="9885A004">
+329.95 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  329.95 = float(price)=329.95
+</str>
+    <str name="VA902B">
+279.95 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  279.95 = float(price)=279.95
+</str>
+    <str name="TWINX2048-3200PRO">
+185.0 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  185.0 = float(price)=185.0
+</str>
+    <str name="0579B002">
+179.99 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  179.99 = float(price)=179.99
+</str>
+    <str name="SP2514N">
+92.0 = (MATCH) boost(*:*,float(price)), product of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm
+  92.0 = float(price)=92.0
+</str>
+  </lst>
+  <str name="QParser">ExtendedDismaxQParser</str>
+  <str name="altquerystring">org.apache.lucene.search.MatchAllDocsQuery:*:*</str>
+  <null name="boostfuncs"/>
+  <lst name="timing">
+    <double name="time">20.0</double>
+    <lst name="prepare">
+      <double name="time">6.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">6.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">14.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">5.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">7.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.SpellCheckComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">2.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

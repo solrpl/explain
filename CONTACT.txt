@@ -1,0 +1,4 @@
+If You would like to contact us, You can reach us the following way:
+ * blog@solr.pl (general mail to Solr.pl team)
+ * m.rogozinski@solr.pl (mail to Marek Rogoziński)
+ * r.kuc@solr.pl (mail to Rafał Kuć)

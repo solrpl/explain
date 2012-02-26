@@ -1,0 +1,5 @@
+
+-1.0 = (MATCH) FunctionQuery(scale(sfloat(foo_f),-1.0,1.0)), product of:
+  -1.0 = scale(sfloat(foo_f)=-4.0,toMin=-1.0,toMax=1.0,fromMin=-4.0,fromMax=100.0)
+  1.0 = boost
+  1.0 = queryNorm

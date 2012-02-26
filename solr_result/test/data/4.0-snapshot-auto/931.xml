@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="500.0">
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_tf">0.0</float>
+    <float name="score">500.0</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">500.0</float></doc>
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_tf">100.0</float>
+    <float name="score">100.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_tf">25.0</float>
+    <float name="score">25.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_tf">10.0</float>
+    <float name="score">10.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_tf">5.0</float>
+    <float name="score">5.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_tf">-4.0</float>
+    <float name="score">-4.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}map(foo_tf,0,0,500)</str>
+  <str name="querystring">{!func}map(foo_tf,0,0,500)</str>
+  <str name="parsedquery">FunctionQuery(map(float(foo_tf),0.0,0.0,500.0))</str>
+  <str name="parsedquery_toString">map(float(foo_tf),0.0,0.0,500.0)</str>
+  <lst name="explain">
+    <str name="0.0">
+500.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  500.0 = map(float(foo_tf)=0.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+500.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  500.0 = map(float(foo_tf)=0.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="100.0">
+100.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  100.0 = map(float(foo_tf)=100.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+25.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  25.0 = map(float(foo_tf)=25.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+10.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  10.0 = map(float(foo_tf)=10.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+5.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  5.0 = map(float(foo_tf)=5.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+-4.0 = (MATCH) FunctionQuery(map(float(foo_tf),0.0,0.0,500.0)), product of:
+  -4.0 = map(float(foo_tf)=-4.0,min=0.0,max=0.0,target=500.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

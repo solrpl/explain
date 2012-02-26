@@ -1,0 +1,5 @@
+
+6.0 = (MATCH) FunctionQuery(maxdoc()), product of:
+  6.0 = maxdoc()=6
+  1.0 = boost
+  1.0 = queryNorm

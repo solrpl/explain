@@ -1,0 +1,21 @@
+
+0.0 = (NON-MATCH) Failure to meet condition(s) of required/prohibited clause(s)
+  0.0 = no match on required clause (contents:new)
+    0.0 = (NON-MATCH) weight(contents:new in 1), product of:
+      0.5463416 = queryWeight(contents:new), product of:
+        4.0186677 = idf(docFreq=27033, maxDocs=553224)
+        0.13595092 = queryNorm
+      0.0 = (NON-MATCH) fieldWeight(contents:new in 1), product of:
+        0.0 = tf(termFreq(contents:new)=0)
+        4.0186677 = idf(docFreq=27033, maxDocs=553224)
+        0.0625 = fieldNorm(field=contents, doc=1)
+  0.0 = no match on required clause (contents:youry)
+    0.0 = (NON-MATCH) weight(contents:youry in 1), product of:
+      0.83756244 = queryWeight(contents:youry), product of:
+        6.1607704 = idf(docFreq=3173, maxDocs=553224)
+        0.13595092 = queryNorm
+      0.0 = (NON-MATCH) fieldWeight(contents:youry in 1), product of:
+        0.0 = tf(termFreq(contents:youry)=0)
+        6.1607704 = idf(docFreq=3173, maxDocs=553224)
+        0.0625 = fieldNorm(field=contents, doc=1)
+

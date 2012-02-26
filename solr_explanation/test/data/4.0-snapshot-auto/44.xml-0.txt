@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(id:[0 TO 1]), product of:
+  1.0 = boost
+  1.0 = queryNorm

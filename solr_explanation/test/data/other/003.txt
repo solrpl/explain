@@ -1,0 +1,8 @@
+3.1857367 = (MATCH) weight(contents:"new york" in 87036), product of:
+    1.0 = queryWeight(contents:"new york"), product of:
+        10.194357 = idf(contents: new=27033 york=3126)
+        0.09809349 = queryNorm
+    3.1857367 = fieldWeight(contents:"new york" in 87036), product of:
+        1.0 = tf(phraseFreq=1.0)
+        10.194357 = idf(contents: new=27033 york=3126)
+        0.3125 = fieldNorm(field=contents, doc=87036)

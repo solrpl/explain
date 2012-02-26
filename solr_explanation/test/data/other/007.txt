@@ -1,0 +1,18 @@
+0.37328374 = (MATCH) sum of:
+    0.16064762 = (MATCH) weight(contents:jork^0.6666667 in 9613), product of:
+        0.09774277 = queryWeight(contents:jork^0.6666667), product of:
+            0.6666667 = boost
+            6.5743017 = idf(docFreq=2098, maxDocs=553224)
+            0.0223011 = queryNorm
+        1.6435754 = (MATCH) fieldWeight(contents:jork in 9613), product of:
+            1.0 = tf(termFreq(contents:jork)=1)
+            6.5743017 = idf(docFreq=2098, maxDocs=553224)
+            0.25 = fieldNorm(field=contents, doc=9613)
+    0.21263614 = (MATCH) weight(contents:york in 9613), product of:
+        0.13772465 = queryWeight(contents:york), product of:
+            6.1756887 = idf(docFreq=3126, maxDocs=553224)
+            0.0223011 = queryNorm
+        1.5439222 = (MATCH) fieldWeight(contents:york in 9613), product of:
+            1.0 = tf(termFreq(contents:york)=1)
+            6.1756887 = idf(docFreq=3126, maxDocs=553224)
+            0.25 = fieldNorm(field=contents, doc=9613)

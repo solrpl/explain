@@ -1,0 +1,80 @@
+#
+#   Copyright [2011-2012] [Solr.pl, Marek Rogoziński, Rafał Kuć]
+#
+#   Licensed under the Apache License, Version 2.0 (the "License");
+#   you may not use this file except in compliance with the License.
+#   You may obtain a copy of the License at
+#
+#       http://www.apache.org/licenses/LICENSE-2.0
+#
+#   Unless required by applicable law or agreed to in writing, software
+#   distributed under the License is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#   See the License for the specific language governing permissions and
+#   limitations under the License.
+#
+en:
+  application:
+    name: "Solr Explain"
+    hostname: "explain"
+    domain: "solr.pl"
+    motto: "A tool for finding out why the documents are where they are in the results list."
+    version: "(beta)"
+  explain:
+    list:
+      header: "History"
+    new:
+      header: "New explain"
+      label:
+        plan: "Paste your full Solr response here:"
+        public : "I want this explain to be visible on history page."
+        lineOne : "To add new explain please add the following parameters to your Solr query:"
+        lineTwo : "Then re-run the query with the above parameters and paste full raw Solr response. For example if you are using a web browser to see the results, paste the results page source."
+        optional: "optional"
+    show:
+      header: "Result:"
+      public: "This explain is available to public."
+      parse_failed: "Sorry, parsing failed."
+      info:
+       uniqueKeyGuessFailed: "Cannot guess unique key. Make sure you use your document ID in fl parameter." 
+       emptyDocList: "Cannot find documents in result. Propably your query does not return any."
+       emptyExplainOther: "Cannot find explainOther. Propably you use the query without this option."
+       emptyExplain: "Cannot find explains."
+  help:
+    header: "Help"
+  views:
+    pagination:
+      previous: "&lt; Previous"
+      next: "Next &gt;"
+      truncate: "..."
+  solr:
+    result:
+      component:
+        prepare: "Query preparation"
+        process: "Query processing"
+        org:
+          apache:
+            solr:
+              handler:
+                component:
+                  StatsComponent: "Statistics Info"
+                  DebugComponent: "Debug"
+                  QueryComponent: "Query"
+                  FacetComponent: "Faceting"
+                  HighlightComponent: "Highlighting"
+                  MoreLikeThisComponent: "More Like This"
+                  SpellCheckComponent: "SpellChecker"
+      info:
+        query:
+          used: "Current query: %{query}"
+          empty: "Cannot determine query parameter. Propably your configuration doesn't attach query parameter to the results."
+        result:
+          empty: "Empty result list. Use explainOther to check why concrete document wasn't found."
+        baseResult:
+          empty: "Empty result list. Your explainOther parameter didn't match doocuments either."
+        parse:
+          error: "XML parse error. Check the XML document you've pasted and the quality of your copy & paste engine ;) Make sure you pasted the COMPLETE xml document returned from Solr."
+          unique: "Cannot determine unique key field. Connection doc/explain may be inaccurate. Check the existence of the unique key field in the 'fl' parameter."
+          debug: "No debug section in the data. Make sure that you use debugQuery option."
+          debugOther: "No debugOther section in the data."
+          numFound: "XML parse error. 'numFound' attribute not found"

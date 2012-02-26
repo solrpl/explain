@@ -1,0 +1,5 @@
+
+NaN = (MATCH) FunctionQuery(scale(log(float(foo_tf)),-1000.0,1000.0)), product of:
+  NaN = scale(log(float(foo_tf)=-4.0),toMin=-1000.0,toMax=1000.0,fromMin=0.69897,fromMax=2.0)
+  1.0 = boost
+  1.0 = queryNorm

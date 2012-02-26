@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScoreQuery(frange(sdouble(foo_d)):{* TO 0.3333333333333334]), product of:
+  1.0 = boost
+  1.0 = queryNorm

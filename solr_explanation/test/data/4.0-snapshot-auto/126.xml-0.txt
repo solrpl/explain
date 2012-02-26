@@ -1,0 +1,12 @@
+
+2.098612 = (MATCH) weight(id:100 in 0) [DefaultSimilarity], result of:
+  2.098612 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+    0.99999994 = queryWeight, product of:
+      2.0986123 = idf(docFreq=4, maxDocs=15)
+      0.47650534 = queryNorm
+    2.0986123 = fieldWeight in 0, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      2.0986123 = idf(docFreq=4, maxDocs=15)
+      1.0 = fieldNorm(doc=0)

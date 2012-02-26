@@ -1,0 +1,28 @@
+
+0.1713657 = (MATCH) sum of:
+  0.13722876 = (MATCH) weight(id:`#8;#0;#0;#0;* in 0) [MockConfigurableSimilarity], result of:
+    0.13722876 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+      0.44721362 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        1.4574206 = queryNorm
+      0.30685282 = fieldWeight in 0, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        1.0 = fieldNorm(doc=0)
+  0.034136932 = (MATCH) weight(subword:"123 456"~110 in 0) [MockConfigurableSimilarity], result of:
+    0.034136932 = score(doc=0,freq=0.00990099 = phraseFreq=0.00990099
+), product of:
+      0.89442724 = queryWeight, product of:
+        0.61370564 = idf(), sum of:
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+        1.4574206 = queryNorm
+      0.038166247 = fieldWeight in 0, product of:
+        0.09950372 = tf(freq=0.00990099), with freq of:
+          0.00990099 = phraseFreq=0.00990099
+        0.61370564 = idf(), sum of:
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+          0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.625 = fieldNorm(doc=0)

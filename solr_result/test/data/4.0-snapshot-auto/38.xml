@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">25</int>
+</lst>
+<result name="response" numFound="4" start="0">
+  <doc>
+    <int name="id">105</int>
+    <int name="range_facet_si">105</int>
+    <arr name="range_facet_l">
+      <long>105</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>105</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:12:03.172Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">102</int>
+    <int name="range_facet_si">102</int>
+    <arr name="range_facet_l">
+      <long>102</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>102</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:12:03.187Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">103</int>
+    <int name="range_facet_si">103</int>
+    <arr name="range_facet_l">
+      <long>103</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>103</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:12:03.216Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+  <doc>
+    <int name="id">101</int>
+    <int name="range_facet_si">101</int>
+    <arr name="range_facet_l">
+      <long>101</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>101</long>
+    </arr>
+    <date name="timestamp">2012-01-09T19:12:03.252Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">id:[100 TO 110]</str>
+  <str name="querystring">id:[100 TO 110]</str>
+  <str name="parsedquery">id:[100 TO 110]</str>
+  <str name="parsedquery_toString">id:[100 TO 110]</str>
+  <lst name="explain">
+    <str name="105">
+1.0 = (MATCH) ConstantScore(id:[100 TO 110]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="102">
+1.0 = (MATCH) ConstantScore(id:[100 TO 110]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="103">
+1.0 = (MATCH) ConstantScore(id:[100 TO 110]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="101">
+1.0 = (MATCH) ConstantScore(id:[100 TO 110]), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">25.0</double>
+    <lst name="prepare">
+      <double name="time">3.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">3.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">22.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">18.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">4.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

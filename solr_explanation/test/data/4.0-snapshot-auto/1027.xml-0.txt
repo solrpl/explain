@@ -1,0 +1,5 @@
+
+0.47942555 = (MATCH) FunctionQuery(sin(const(0.5))), product of:
+  0.47942555 = sin(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

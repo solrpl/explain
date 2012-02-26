@@ -1,0 +1,5 @@
+
+0.84792185 = (MATCH) FunctionQuery(query(text:batman,def=0.0)), product of:
+  0.84792185 = query(text:batman,def=0.0)=0.84792185
+  1.0 = boost
+  1.0 = queryNorm

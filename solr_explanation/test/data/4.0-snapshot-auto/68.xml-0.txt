@@ -1,0 +1,24 @@
+
+5.9663916 = (MATCH) sum of:
+  2.9831958 = (MATCH) weight(homed_0_d1: #1;@GP#0;#0;#0;#0;#0;#0; in 1) [MockConfigurableSimilarity], result of:
+    2.9831958 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        4.218876 = idf(docFreq=1, maxDocs=50)
+        0.16760549 = queryNorm
+      4.218876 = fieldWeight in 1, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        4.218876 = idf(docFreq=1, maxDocs=50)
+        1.0 = fieldNorm(doc=1)
+  2.9831958 = (MATCH) weight(homed_1_d1: #1;@ab#0;#0;#0;#0;#0;#0; in 1) [MockConfigurableSimilarity], result of:
+    2.9831958 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        4.218876 = idf(docFreq=1, maxDocs=50)
+        0.16760549 = queryNorm
+      4.218876 = fieldWeight in 1, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        4.218876 = idf(docFreq=1, maxDocs=50)
+        1.0 = fieldNorm(doc=1)

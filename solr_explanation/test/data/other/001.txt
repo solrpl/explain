@@ -1,0 +1,2 @@
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="50" start="0" maxScore="1.0">
+  <doc>
+    <int name="id">0</int>
+    <int name="range_facet_si">0</int>
+    <arr name="range_facet_l">
+      <long>0</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>0</long>
+    </arr>
+    <str name="home">0,0</str>
+    <double name="homed_0_d1">0.0</double>
+    <double name="homed_1_d1">0.0</double>
+    <str name="homed">0,0</str>
+    <date name="timestamp">2012-01-09T19:16:28.39Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">1</int>
+    <int name="range_facet_si">1</int>
+    <arr name="range_facet_l">
+      <long>1</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>1</long>
+    </arr>
+    <str name="home">1,100</str>
+    <double name="homed_0_d1">1000.0</double>
+    <double name="homed_1_d1">10000.0</double>
+    <str name="homed">1000,10000</str>
+    <date name="timestamp">2012-01-09T19:16:28.394Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">2</int>
+    <int name="range_facet_si">2</int>
+    <arr name="range_facet_l">
+      <long>2</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>2</long>
+    </arr>
+    <str name="home">2,200</str>
+    <double name="homed_0_d1">2000.0</double>
+    <double name="homed_1_d1">20000.0</double>
+    <str name="homed">2000,20000</str>
+    <date name="timestamp">2012-01-09T19:16:28.397Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">3</int>
+    <int name="range_facet_si">3</int>
+    <arr name="range_facet_l">
+      <long>3</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>3</long>
+    </arr>
+    <str name="home">3,300</str>
+    <double name="homed_0_d1">3000.0</double>
+    <double name="homed_1_d1">30000.0</double>
+    <str name="homed">3000,30000</str>
+    <date name="timestamp">2012-01-09T19:16:28.399Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">4</int>
+    <int name="range_facet_si">4</int>
+    <arr name="range_facet_l">
+      <long>4</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>4</long>
+    </arr>
+    <str name="home">4,400</str>
+    <double name="homed_0_d1">4000.0</double>
+    <double name="homed_1_d1">40000.0</double>
+    <str name="homed">4000,40000</str>
+    <date name="timestamp">2012-01-09T19:16:28.402Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">5</int>
+    <int name="range_facet_si">5</int>
+    <arr name="range_facet_l">
+      <long>5</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>5</long>
+    </arr>
+    <str name="home">5,500</str>
+    <double name="homed_0_d1">5000.0</double>
+    <double name="homed_1_d1">50000.0</double>
+    <str name="homed">5000,50000</str>
+    <date name="timestamp">2012-01-09T19:16:28.405Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">6</int>
+    <int name="range_facet_si">6</int>
+    <arr name="range_facet_l">
+      <long>6</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>6</long>
+    </arr>
+    <str name="home">6,600</str>
+    <double name="homed_0_d1">6000.0</double>
+    <double name="homed_1_d1">60000.0</double>
+    <str name="homed">6000,60000</str>
+    <date name="timestamp">2012-01-09T19:16:28.409Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">7</int>
+    <int name="range_facet_si">7</int>
+    <arr name="range_facet_l">
+      <long>7</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>7</long>
+    </arr>
+    <str name="home">7,700</str>
+    <double name="homed_0_d1">7000.0</double>
+    <double name="homed_1_d1">70000.0</double>
+    <str name="homed">7000,70000</str>
+    <date name="timestamp">2012-01-09T19:16:28.412Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">8</int>
+    <int name="range_facet_si">8</int>
+    <arr name="range_facet_l">
+      <long>8</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>8</long>
+    </arr>
+    <str name="home">8,800</str>
+    <double name="homed_0_d1">8000.0</double>
+    <double name="homed_1_d1">80000.0</double>
+    <str name="homed">8000,80000</str>
+    <date name="timestamp">2012-01-09T19:16:28.415Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <int name="id">9</int>
+    <int name="range_facet_si">9</int>
+    <arr name="range_facet_l">
+      <long>9</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>9</long>
+    </arr>
+    <str name="home">9,900</str>
+    <double name="homed_0_d1">9000.0</double>
+    <double name="homed_1_d1">90000.0</double>
+    <str name="homed">9000,90000</str>
+    <date name="timestamp">2012-01-09T19:16:28.418Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int>
+    <float name="score">1.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">*:*</str>
+  <str name="querystring">*:*</str>
+  <str name="parsedquery">MatchAllDocsQuery(*:*)</str>
+  <str name="parsedquery_toString">*:*</str>
+  <lst name="explain">
+    <str name="0">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="1">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="2">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="3">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="4">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="5">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="6">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="7">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="8">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+    <str name="9">
+1.0 = (MATCH) MatchAllDocsQuery, product of:
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

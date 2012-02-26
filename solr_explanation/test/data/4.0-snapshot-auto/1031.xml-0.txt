@@ -1,0 +1,5 @@
+
+1.0471976 = (MATCH) FunctionQuery(acos(const(0.5))), product of:
+  1.0471976 = acos(const(0.5))
+  1.0 = boost
+  1.0 = queryNorm

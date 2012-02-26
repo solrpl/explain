@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(long_f:[0 TO 2]), product of:
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,20 @@
+
+1.8109303 = (MATCH) sum of:
+  1.8109303 = (MATCH) weight(text:aaaa in 6) [DefaultSimilarity], result of:
+    1.8109303 = fieldWeight in 6, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1.0
+      1.8109303 = idf(docFreq=3, maxDocs=9)
+      1.0 = fieldNorm(doc=6)
+  0.0 = (MATCH) weight(id:À฀#0;^0.0 in 6) [DefaultSimilarity], result of:
+    0.0 = score(doc=6,freq=1.0 = termFreq=1.0
+), product of:
+      0.0 = queryWeight, product of:
+        0.0 = boost
+        2.5040774 = idf(docFreq=1, maxDocs=9)
+        0.5522024 = queryNorm
+      2.5040774 = fieldWeight in 6, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        2.5040774 = idf(docFreq=1, maxDocs=9)
+        1.0 = fieldNorm(doc=6)

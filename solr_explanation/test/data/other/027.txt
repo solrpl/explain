@@ -1,0 +1,7 @@
+0.0 = (NON-MATCH) Failure to meet condition(s) of required/prohibited clause(s)
+  0.0 = no match on required clause (((company_publisher:new^1000000.0 | company_producer:new^1000000.0 | tag:new^0.1 | description_nostemm:new | person_composer:new^200000.0 | companies:new | persons:new | category_search:new^1000000.0 | title:new^1000.0 | top_tag:new^0.1 | company_brand:new^1000000.0 | person_starring:new^1000000.0 | description:new | isbn:new | person_director:new^300000.0 | title_nostemm:new^1000000.0)~0.01 (company_publisher:youry^1000000.0 | company_producer:youry^1000000.0 | tag:yourk^0.1 | description_nostemm:yourk | person_composer:youry^200000.0 | companies:youry | persons:youry | category_search:youry^1000000.0 | title:youry^1000.0 | top_tag:yourk^0.1 | company_brand:youry^1000000.0 | person_starring:youry^1000000.0 | description:youry | isbn:yourk | person_director:youry^300000.0 | title_nostemm:yourk^1000000.0)~0.01)~2)
+    0.0 = (NON-MATCH) Failure to match minimum number of optional clauses: 2
+  1.6234278E-8 = (MATCH) FunctionQuery(pow(int(sold),const(1.5))), product of:
+    2.828427 = pow(int(sold)=2,const(1.5))
+    1.0 = boost
+    5.7396843E-9 = queryNorm

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="12.0">
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">12.0</float></doc>
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_pf">100.0</float>
+    <float name="score">2.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_pf">-4.0</float>
+    <float name="score">2.0</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_pf">0.0</float>
+    <float name="score">2.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_pf">10.0</float>
+    <float name="score">2.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_pf">25.0</float>
+    <float name="score">2.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_pf">5.0</float>
+    <float name="score">2.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}sum(query($v1,5),query($v1,7))</str>
+  <str name="querystring">{!func}sum(query($v1,5),query($v1,7))</str>
+  <str name="parsedquery">FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0)))</str>
+  <str name="parsedquery_toString">sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))</str>
+  <lst name="explain">
+    <str name="88.0">
+12.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  12.0 = sum(query(foo_pf:[* TO *],def=5.0)=5.0,query(foo_pf:[* TO *],def=7.0)=7.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="100.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+2.0 = (MATCH) FunctionQuery(sum(query(foo_pf:[* TO *],def=5.0),query(foo_pf:[* TO *],def=7.0))), product of:
+  2.0 = sum(query(foo_pf:[* TO *],def=5.0)=1.0,query(foo_pf:[* TO *],def=7.0)=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">2.0</double>
+    <lst name="prepare">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">1.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

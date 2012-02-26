@@ -1,0 +1,21 @@
+
+0.16467257 = (MATCH) sum of:
+  0.022356195 = (MATCH) weight(tv_text:long in 0) [MockConfigurableSimilarity], result of:
+    0.022356195 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+      0.14571282 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.47486225 = queryNorm
+      0.15342641 = fieldWeight in 0, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.5 = fieldNorm(doc=0)
+  0.0 = (MATCH) FunctionQuery(ord(weight)), product of:
+    0.0 = ord(weight)=0
+    0.5 = boost
+    0.47486225 = queryNorm
+  0.14231637 = (MATCH) FunctionQuery(1000.0/(1.0*float(rord(iind))+1000.0)), product of:
+    0.999001 = 1000.0/(1.0*float(rord(iind)=1)+1000.0)
+    0.3 = boost
+    0.47486225 = queryNorm

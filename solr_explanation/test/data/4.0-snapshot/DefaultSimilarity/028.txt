@@ -1,0 +1,4 @@
+# q=*:* AND -price:0.0
+1.0 = (MATCH) sum of:
+  1.0 = (MATCH) MatchAllDocsQuery, product of:
+    1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+122.171875 = (MATCH) FunctionQuery(ghhsin(str(gh_s1),literal(djxy433vw867))), product of:
+  122.171875 = ghhsin(str(gh_s1)=djz4mjmx1kv7,djxy433vw867)
+  1.0 = boost
+  1.0 = queryNorm

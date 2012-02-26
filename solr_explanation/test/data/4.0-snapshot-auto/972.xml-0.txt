@@ -1,0 +1,5 @@
+
+0.84792185 = (MATCH) FunctionQuery(sub(div(sum(const(0.0),product(const(1),query(text:batman,def=0.0))),const(1)),const(0))), product of:
+  0.84792185 = sub(div(sum(const(0.0),product(const(1),query(text:batman,def=0.0)=0.84792185)),const(1)),const(0))
+  1.0 = boost
+  1.0 = queryNorm

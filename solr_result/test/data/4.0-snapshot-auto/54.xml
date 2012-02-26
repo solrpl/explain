@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">63</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <int name="id">42</int>
+    <int name="range_facet_si">42</int>
+    <arr name="range_facet_l">
+      <long>42</long>
+    </arr>
+    <arr name="range_facet_sl">
+      <long>42</long>
+    </arr>
+    <arr name="name">
+      <str>Tom Cruise</str>
+    </arr>
+    <arr name="subword">
+      <str>Top Gun</str>
+      <str>Risky Business</str>
+      <str>The Color of Money</str>
+      <str>Minority Report</str>
+      <str>Days of Thunder</str>
+      <str>Eyes Wide Shut</str>
+      <str>Far and Away</str>
+    </arr>
+    <arr name="foo_ti">
+      <int>10</int>
+    </arr>
+    <date name="timestamp">2012-01-09T19:13:33.877Z</date>
+    <arr name="multiDefault">
+      <str>muLti-Default</str>
+    </arr>
+    <int name="intDefault">42</int></doc>
+</result>
+<lst name="moreLikeThis">
+  <result name="42" numFound="2" start="0">
+    <doc>
+      <int name="id">46</int>
+      <int name="range_facet_si">46</int>
+      <arr name="range_facet_l">
+        <long>46</long>
+      </arr>
+      <arr name="range_facet_sl">
+        <long>46</long>
+      </arr>
+      <arr name="name">
+        <str>Nicole Kidman</str>
+      </arr>
+      <arr name="subword">
+        <str>Batman</str>
+        <str>Days of Thunder</str>
+        <str>Eyes Wide Shut</str>
+        <str>Far and Away</str>
+      </arr>
+      <date name="timestamp">2012-01-09T19:13:33.971Z</date>
+      <arr name="multiDefault">
+        <str>muLti-Default</str>
+      </arr>
+      <int name="intDefault">42</int></doc>
+    <doc>
+      <int name="id">43</int>
+      <int name="range_facet_si">43</int>
+      <arr name="range_facet_l">
+        <long>43</long>
+      </arr>
+      <arr name="range_facet_sl">
+        <long>43</long>
+      </arr>
+      <arr name="name">
+        <str>Tom Hanks</str>
+      </arr>
+      <arr name="subword">
+        <str>The Green Mile</str>
+        <str>Forest Gump</str>
+        <str>Philadelphia Story</str>
+        <str>Big</str>
+        <str>Cast Away</str>
+      </arr>
+      <arr name="foo_ti">
+        <int>10</int>
+      </arr>
+      <date name="timestamp">2012-01-09T19:13:33.959Z</date>
+      <arr name="multiDefault">
+        <str>muLti-Default</str>
+      </arr>
+      <int name="intDefault">42</int></doc>
+  </result>
+</lst>
+<lst name="debug">
+  <lst name="moreLikeThis">
+    <lst name="42">
+      <str name="rawMLTQuery">subword:minor subword:gun subword:report subword:busi subword:top subword:monei name:Cruise subword:riski subword:color subword:wide subword:thunder subword:shut subword:far subword:dai name:Tom subword:ey subword:awai</str>
+      <str name="boostedMLTQuery">subword:minor subword:gun subword:report subword:busi subword:top subword:monei name:Cruise subword:riski subword:color subword:wide subword:thunder subword:shut subword:far subword:dai name:Tom subword:ey subword:awai</str>
+      <str name="realMLTQuery">+(subword:minor subword:gun subword:report subword:busi subword:top subword:monei name:Cruise subword:riski subword:color subword:wide subword:thunder subword:shut subword:far subword:dai name:Tom subword:ey subword:awai) -id:`#8;#0;#0;#0;*</str>
+      <lst name="explain">
+        <str name="46">org.apache.lucene.search.ComplexExplanation:0.27501482 = (MATCH) sum of:
+  0.27501482 = (MATCH) product of:
+    0.6678931 = (MATCH) sum of:
+      0.100353114 = (MATCH) weight(subword:wide in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.100353114 = (MATCH) weight(subword:thunder in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.100353114 = (MATCH) weight(subword:shut in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.100353114 = (MATCH) weight(subword:far in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.100353114 = (MATCH) weight(subword:dai in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.100353114 = (MATCH) weight(subword:ey in 4) [MockConfigurableSimilarity], result of:
+        0.100353114 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.472133 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+      0.065774426 = (MATCH) weight(subword:awai in 4) [MockConfigurableSimilarity], result of:
+        0.065774426 = score(doc=4,freq=1.0 = termFreq=1.0
+), product of:
+          0.17207968 = queryWeight, product of:
+            1.2231436 = idf(docFreq=3, maxDocs=5)
+            0.14068641 = queryNorm
+          0.38223237 = fieldWeight in 4, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.2231436 = idf(docFreq=3, maxDocs=5)
+            0.3125 = fieldNorm(doc=4)
+    0.4117647 = coord(7/17)
+</str>
+        <str name="43">org.apache.lucene.search.ComplexExplanation:0.031350665 = (MATCH) sum of:
+  0.031350665 = (MATCH) product of:
+    0.26648065 = (MATCH) sum of:
+      0.20070623 = (MATCH) weight(name:Tom in 1) [MockConfigurableSimilarity], result of:
+        0.20070623 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+          0.21255264 = queryWeight, product of:
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.14068641 = queryNorm
+          0.944266 = fieldWeight in 1, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.5108256 = idf(docFreq=2, maxDocs=5)
+            0.625 = fieldNorm(doc=1)
+      0.065774426 = (MATCH) weight(subword:awai in 1) [MockConfigurableSimilarity], result of:
+        0.065774426 = score(doc=1,freq=1.0 = termFreq=1.0
+), product of:
+          0.17207968 = queryWeight, product of:
+            1.2231436 = idf(docFreq=3, maxDocs=5)
+            0.14068641 = queryNorm
+          0.38223237 = fieldWeight in 1, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            1.2231436 = idf(docFreq=3, maxDocs=5)
+            0.3125 = fieldNorm(doc=1)
+    0.11764706 = coord(2/17)
+</str>
+      </lst>
+    </lst>
+  </lst>
+  <str name="rawquerystring">id:42</str>
+  <str name="querystring">id:42</str>
+  <str name="parsedquery">id:42</str>
+  <str name="parsedquery_toString">id:`#8;#0;#0;#0;*</str>
+  <lst name="explain">
+    <str name="42">
+1.9162908 = (MATCH) weight(id:`#8;#0;#0;#0;* in 0) [MockConfigurableSimilarity], result of:
+  1.9162908 = fieldWeight in 0, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    1.9162908 = idf(docFreq=1, maxDocs=5)
+    1.0 = fieldNorm(doc=0)
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">63.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">62.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">61.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

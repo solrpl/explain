@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">0</int>
+</lst>
+<result name="response" numFound="20" start="0" maxScore="737.02783">
+  <doc>
+    <float name="id">54321.0</float>
+    <float name="score">737.02783</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="score">15.811388</float></doc>
+  <doc>
+    <float name="id">100.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">77.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">23.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">55.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-78.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-45.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-24.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">63.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">78.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">94.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">22.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">34.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">261.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-627.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="score">-3.4028235E38</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}sqrt(field("CoMpleX fieldName _extf"))</str>
+  <str name="querystring">{!func}sqrt(field("CoMpleX fieldName _extf"))</str>
+  <str name="parsedquery">FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=})))</str>
+  <str name="parsedquery_toString">sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))</str>
+  <lst name="explain">
+    <str name="54321.0">
+737.02783 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  737.02783 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=543210.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+15.811388 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  15.811388 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=250.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="100.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="77.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="23.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="55.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-78.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-45.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-24.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="63.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="78.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="94.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="22.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="34.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="261.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-627.0">
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+NaN = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  NaN = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=-999.0)
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">0.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

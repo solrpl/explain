@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">69</int>
+</lst>
+<lst name="grouped">
+  <lst name="foo_i">
+    <int name="matches">10</int>
+    <arr name="groups">
+      <lst>
+        <int name="groupValue">1</int>
+        <result name="doclist" numFound="3" start="0">
+          <doc>
+            <str name="id">8</str>
+            <int name="foo_i">1</int>
+            <int name="foo2_i">10</int></doc>
+        </result>
+      </lst>
+      <lst>
+        <int name="groupValue">3</int>
+        <result name="doclist" numFound="2" start="0">
+          <doc>
+            <str name="id">3</str>
+            <int name="foo_i">3</int>
+            <int name="foo2_i">7</int></doc>
+        </result>
+      </lst>
+      <lst>
+        <int name="groupValue">2</int>
+        <result name="doclist" numFound="3" start="0">
+          <doc>
+            <str name="id">4</str>
+            <int name="foo_i">2</int>
+            <int name="foo2_i">6</int></doc>
+        </result>
+      </lst>
+      <lst>
+        <int name="groupValue">5</int>
+        <result name="doclist" numFound="1" start="0">
+          <doc>
+            <str name="id">1</str>
+            <int name="foo_i">5</int>
+            <int name="foo2_i">4</int></doc>
+        </result>
+      </lst>
+      <lst>
+        <int name="groupValue">4</int>
+        <result name="doclist" numFound="1" start="0">
+          <doc>
+            <str name="id">2</str>
+            <int name="foo_i">4</int>
+            <int name="foo2_i">2</int></doc>
+        </result>
+      </lst>
+    </arr>
+  </lst>
+</lst>
+<lst name="debug">
+  <str name="rawquerystring">{!func}foo2_i</str>
+  <str name="querystring">{!func}foo2_i</str>
+  <str name="parsedquery">FunctionQuery(int(foo2_i))</str>
+  <str name="parsedquery_toString">int(foo2_i)</str>
+  <lst name="explain">
+    <str name="8">
+10.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  10.0 = int(foo2_i)=10
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="3">
+7.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  7.0 = int(foo2_i)=7
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="4">
+6.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  6.0 = int(foo2_i)=6
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="1">
+4.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  4.0 = int(foo2_i)=4
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="2">
+2.0 = (MATCH) FunctionQuery(int(foo2_i)), product of:
+  2.0 = int(foo2_i)=2
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <arr name="filter_queries">
+    <str>foo_i:[* TO *]</str>
+  </arr>
+  <arr name="parsed_filter_queries">
+    <str>foo_i:[* TO *]</str>
+  </arr>
+  <lst name="timing">
+    <double name="time">69.0</double>
+    <lst name="prepare">
+      <double name="time">5.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">5.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">64.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">62.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">2.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

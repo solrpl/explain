@@ -1,0 +1,5 @@
+
+Infinity = (MATCH) FunctionQuery(pow(sfloat(foo_f),sfloat(foo_f))), product of:
+  Infinity = pow(sfloat(foo_f)=100.0,sfloat(foo_f)=100.0)
+  1.0 = boost
+  1.0 = queryNorm

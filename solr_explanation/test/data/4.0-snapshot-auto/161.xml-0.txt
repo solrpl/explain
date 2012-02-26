@@ -1,0 +1,9 @@
+
+0.13424811 = (MATCH) weight(t_text:"text refer" in 0) [MockConfigurableSimilarity], result of:
+  0.13424811 = fieldWeight in 0, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = phraseFreq=1.0
+    0.61370564 = idf(), sum of:
+      0.30685282 = idf(docFreq=1, maxDocs=1)
+      0.30685282 = idf(docFreq=1, maxDocs=1)
+    0.21875 = fieldNorm(doc=0)

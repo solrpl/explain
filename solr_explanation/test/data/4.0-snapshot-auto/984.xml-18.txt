@@ -1,0 +1,5 @@
+
+0.0 = (MATCH) FunctionQuery(log(float(foo_extf{type=file,properties=}))), product of:
+  0.0 = log(float(foo_extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm

@@ -1,0 +1,5 @@
+
+1.39794 = (MATCH) FunctionQuery(log(sfloat(foo_f))), product of:
+  1.39794 = log(sfloat(foo_f)=25.0)
+  1.0 = boost
+  1.0 = queryNorm

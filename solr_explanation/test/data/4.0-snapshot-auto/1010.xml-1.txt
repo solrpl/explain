@@ -1,0 +1,5 @@
+
+1.0 = (MATCH) FunctionQuery(sqrt(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  1.0 = sqrt(float(CoMpleX fieldName _extf{type=file,properties=})=1.0)
+  1.0 = boost
+  1.0 = queryNorm

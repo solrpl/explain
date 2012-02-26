@@ -1,0 +1,13 @@
+# q=dell wild&defType=dismax&mm=1
+19.698519 = (MATCH) sum of:
+  19.698519 = (MATCH) product of:
+    39.397038 = (MATCH) sum of:
+      39.397038 = (MATCH) weight(text:dell in 10), product of:
+        0.63369715 = queryWeight(text:dell), product of:
+          3.1400661 = idf(docFreq=1, maxDocs=17)
+          0.20181012 = queryNorm
+        62.170135 = (MATCH) fieldWeight(text:dell in 10), product of:
+          1.4142135 = tf(termFreq(text:dell)=2)
+          3.1400661 = idf(docFreq=1, maxDocs=17)
+          14.0 = fieldNorm(field=text, doc=10)
+    0.5 = coord(1/2)

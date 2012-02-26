@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="7" start="0" maxScore="101.0">
+  <doc>
+    <float name="id">100.0</float>
+    <float name="foo_tf">100.0</float>
+    <float name="score">101.0</float></doc>
+  <doc>
+    <float name="id">25.0</float>
+    <float name="foo_tf">25.0</float>
+    <float name="score">26.0</float></doc>
+  <doc>
+    <float name="id">10.0</float>
+    <float name="foo_tf">10.0</float>
+    <float name="score">11.0</float></doc>
+  <doc>
+    <float name="id">5.0</float>
+    <float name="foo_tf">5.0</float>
+    <float name="score">6.0</float></doc>
+  <doc>
+    <float name="id">0.0</float>
+    <float name="foo_tf">0.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">88.0</float>
+    <float name="score">1.0</float></doc>
+  <doc>
+    <float name="id">-4.0</float>
+    <float name="foo_tf">-4.0</float>
+    <float name="score">-3.0</float></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">{!func}sum(foo_tf,1)</str>
+  <str name="querystring">{!func}sum(foo_tf,1)</str>
+  <str name="parsedquery">FunctionQuery(sum(float(foo_tf),const(1)))</str>
+  <str name="parsedquery_toString">sum(float(foo_tf),const(1))</str>
+  <lst name="explain">
+    <str name="100.0">
+101.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  101.0 = sum(float(foo_tf)=100.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="25.0">
+26.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  26.0 = sum(float(foo_tf)=25.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="10.0">
+11.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  11.0 = sum(float(foo_tf)=10.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="5.0">
+6.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  6.0 = sum(float(foo_tf)=5.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="0.0">
+1.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  1.0 = sum(float(foo_tf)=0.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="88.0">
+1.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  1.0 = sum(float(foo_tf)=0.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+    <str name="-4.0">
+-3.0 = (MATCH) FunctionQuery(sum(float(foo_tf),const(1))), product of:
+  -3.0 = sum(float(foo_tf)=-4.0,const(1))
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">FunctionQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">1.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

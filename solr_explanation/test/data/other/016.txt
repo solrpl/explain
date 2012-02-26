@@ -1,0 +1,89 @@
+0.8041408 = (MATCH) sum of:
+  0.6694156 = (MATCH) sum of:
+    0.31091586 = (MATCH) max plus 0.01 times others of:
+      2.7297586E-4 = (MATCH) weight(title:Adam^1000.0 in 54885), product of:
+        5.0594823E-5 = queryWeight(title:Adam^1000.0), product of:
+          1000.0 = boost
+          8.632531 = idf(docFreq=267, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        5.395332 = (MATCH) fieldWeight(title:Adam in 54885), product of:
+          1.0 = tf(termFreq(title:Adam)=1)
+          8.632531 = idf(docFreq=267, maxDocs=553224)
+          0.625 = fieldNorm(field=title, doc=54885)
+      0.31091312 = (MATCH) weight(title_nostemm:adam^1000000.0 in 54885), product of:
+        0.053996235 = queryWeight(title_nostemm:adam^1000000.0), product of:
+          1000000.0 = boost
+          9.212883 = idf(docFreq=149, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        5.758052 = (MATCH) fieldWeight(title_nostemm:adam in 54885), product of:
+          1.0 = tf(termFreq(title_nostemm:adam)=1)
+          9.212883 = idf(docFreq=149, maxDocs=553224)
+          0.625 = fieldNorm(field=title_nostemm, doc=54885)
+    0.3584997 = (MATCH) max plus 0.01 times others of:
+      6.3920226E-7 = (MATCH) weight(description_nostemm:mickiewicz^10.0 in 54885), product of:
+        5.474546E-7 = queryWeight(description_nostemm:mickiewicz^10.0), product of:
+          10.0 = boost
+          9.340716 = idf(docFreq=131, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        1.1675895 = (MATCH) fieldWeight(description_nostemm:mickiewicz in 54885), product of:
+          1.0 = tf(termFreq(description_nostemm:mickiewicz)=1)
+          9.340716 = idf(docFreq=131, maxDocs=553224)
+          0.125 = fieldNorm(field=description_nostemm, doc=54885)
+      3.0957794E-4 = (MATCH) weight(title:Mickiewicz^1000.0 in 54885), product of:
+        5.388017E-5 = queryWeight(title:Mickiewicz^1000.0), product of:
+          1000.0 = boost
+          9.19308 = idf(docFreq=152, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        5.745675 = (MATCH) fieldWeight(title:Mickiewicz in 54885), product of:
+          1.0 = tf(termFreq(title:Mickiewicz)=1)
+          9.19308 = idf(docFreq=152, maxDocs=553224)
+          0.625 = fieldNorm(field=title, doc=54885)
+      4.4538577E-8 = (MATCH) weight(description:Mickiewicz in 54885), product of:
+        4.569799E-8 = queryWeight(description:Mickiewicz), product of:
+          7.79703 = idf(docFreq=617, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        0.97462875 = (MATCH) fieldWeight(description:Mickiewicz in 54885), product of:
+          1.0 = tf(termFreq(description:Mickiewicz)=1)
+          7.79703 = idf(docFreq=617, maxDocs=553224)
+          0.125 = fieldNorm(field=description, doc=54885)
+      0.3584966 = (MATCH) weight(title_nostemm:mickiewicz^1000000.0 in 54885), product of:
+        0.057981104 = queryWeight(title_nostemm:mickiewicz^1000000.0), product of:
+          1000000.0 = boost
+          9.892785 = idf(docFreq=75, maxDocs=553224)
+          5.8609486E-9 = queryNorm
+        6.1829906 = (MATCH) fieldWeight(title_nostemm:mickiewicz in 54885), product of:
+          1.0 = tf(termFreq(title_nostemm:mickiewicz)=1)
+          9.892785 = idf(docFreq=75, maxDocs=553224)
+          0.625 = fieldNorm(field=title_nostemm, doc=54885)
+  0.13472502 = (MATCH) max plus 0.01 times others of:
+    0.0965851 = (MATCH) weight(title_pm:adam mickiewicz^100000.0 in 54885), product of:
+      0.007523831 = queryWeight(title_pm:adam mickiewicz^100000.0), product of:
+        100000.0 = boost
+        12.837224 = idf(docFreq=3, maxDocs=553224)
+        5.8609486E-9 = queryNorm
+      12.837224 = (MATCH) fieldWeight(title_pm:adam mickiewicz in 54885), product of:
+        1.0 = tf(termFreq(title_pm:adam mickiewicz)=1)
+        12.837224 = idf(docFreq=3, maxDocs=553224)
+        1.0 = fieldNorm(field=title_pm, doc=54885)
+    0.0046558264 = (MATCH) weight(title:"Adam Mickiewicz"~100^4000.0 in 54885), product of:
+      4.1789998E-4 = queryWeight(title:"Adam Mickiewicz"~100^4000.0), product of:
+        4000.0 = boost
+        17.825611 = idf(title: Adam=267 Mickiewicz=152)
+        5.8609486E-9 = queryNorm
+      11.141006 = fieldWeight(title:"Adam Mickiewicz" in 54885), product of:
+        1.0 = tf(phraseFreq=1.0)
+        17.825611 = idf(title: Adam=267 Mickiewicz=152)
+        0.625 = fieldNorm(field=title, doc=54885)
+    0.1337126 = (MATCH) weight(title_nostemm:"adam mickiewicz"~100^100000.0 in 54885), product of:
+      0.011197734 = queryWeight(title_nostemm:"adam mickiewicz"~100^100000.0), product of:
+        100000.0 = boost
+        19.105667 = idf(title_nostemm: adam=149 mickiewicz=75)
+        5.8609486E-9 = queryNorm
+      11.941042 = fieldWeight(title_nostemm:"adam mickiewicz" in 54885), product of:
+        1.0 = tf(phraseFreq=1.0)
+        19.105667 = idf(title_nostemm: adam=149 mickiewicz=75)
+        0.625 = fieldNorm(field=title_nostemm, doc=54885)
+  1.8533946E-7 = (MATCH) FunctionQuery(pow(int(sold),const(1.5))), product of:
+    31.622776 = pow(int(sold)=10,const(1.5))
+    1.0 = boost
+    5.8609486E-9 = queryNorm

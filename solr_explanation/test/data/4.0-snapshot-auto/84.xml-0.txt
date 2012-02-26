@@ -1,0 +1,5 @@
+
+8977.814 = (MATCH) FunctionQuery(hsin(point(point),vector(const(0),const(0)))), product of:
+  8977.814 = hsin(point(double(point_0___double)=32.5,double(point_1___double)=-79.0),vector(const(0),const(0)))
+  1.0 = boost
+  1.0 = queryNorm

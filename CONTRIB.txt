@@ -1,0 +1,7 @@
+1. Layout/GUI
+The layout and the actual GUI was made by Łukasz 'metys'
+Lewandowski - http://llewandowski.pl/. Thanks :)
+
+2. Idea
+Thanks for the idea goes to Hubert 'Depesz' Lubaczewski 
+and his http://explain.depesz.com

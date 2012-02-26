@@ -1,0 +1,27 @@
+# q=dell widescreen&defType=dismax&qf=text features&tie=0.4
+0.9274777 = (MATCH) sum of:
+  0.9274777 = (MATCH) sum of:
+    0.54330385 = (MATCH) max plus 0.4 times others of:
+      0.54330385 = (MATCH) weight(text:dell in 21) [DefaultSimilarity], result of:
+        0.54330385 = score(doc=21,freq=2.0 = termFreq=2.0
+), product of:
+          0.5630379 = queryWeight, product of:
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.1547208 = queryNorm
+          0.9649508 = fieldWeight in 21, product of:
+            1.4142135 = tf(freq=2.0), with freq of:
+              2.0 = termFreq=2.0
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.1875 = fieldNorm(doc=21)
+    0.38417384 = (MATCH) max plus 0.4 times others of:
+      0.38417384 = (MATCH) weight(text:widescreen in 21) [DefaultSimilarity], result of:
+        0.38417384 = score(doc=21,freq=1.0 = termFreq=1.0
+), product of:
+          0.5630379 = queryWeight, product of:
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.1547208 = queryNorm
+          0.6823233 = fieldWeight in 21, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            3.6390574 = idf(docFreq=1, maxDocs=28)
+            0.1875 = fieldNorm(doc=21)

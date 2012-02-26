@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScoreQuery(frange(sum(sfloat(id),const(100))):[100 TO 102]), product of:
+  1.0 = boost
+  1.0 = queryNorm

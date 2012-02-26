@@ -1,0 +1,5 @@
+
+NaN = (MATCH) FunctionQuery(log(float(CoMpleX fieldName _extf{type=file,properties=}))), product of:
+  NaN = log(float(CoMpleX fieldName _extf{type=file,properties=})=-999.0)
+  1.0 = boost
+  1.0 = queryNorm

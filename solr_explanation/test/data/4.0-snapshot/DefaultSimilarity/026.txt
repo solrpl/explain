@@ -1,0 +1,17 @@
+# q=dell&defType=dismax&bf=price^20
+2163.6514 = (MATCH) sum of:
+  0.17273942 = (MATCH) weight(text:dell in 21) [DefaultSimilarity], result of:
+    0.17273942 = score(doc=21,freq=2.0 = termFreq=2.0
+), product of:
+      0.1790137 = queryWeight, product of:
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+        0.049192328 = queryNorm
+      0.9649508 = fieldWeight in 21, product of:
+        1.4142135 = tf(freq=2.0), with freq of:
+          2.0 = termFreq=2.0
+        3.6390574 = idf(docFreq=1, maxDocs=28)
+        0.1875 = fieldNorm(doc=21)
+  2163.4785 = (MATCH) FunctionQuery(float(price)), product of:
+    2199.0 = float(price)=2199.0
+    20.0 = boost
+    0.049192328 = queryNorm

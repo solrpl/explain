@@ -1,0 +1,5 @@
+
+15.0 = (MATCH) FunctionQuery(sum(sfloat(foo_f),sfloat(foo_f),const(5))), product of:
+  15.0 = sum(sfloat(foo_f)=5.0,sfloat(foo_f)=5.0,const(5))
+  1.0 = boost
+  1.0 = queryNorm

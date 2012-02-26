@@ -1,0 +1,7 @@
+1.0797279 = (MATCH) sum of:
+  1.0797279 = (MATCH) weight(country:USA in 55536) [DefaultSimilarity], result of:
+    1.0797279 = fieldWeight in 55536, product of:
+      1.0 = tf(freq=1.0), with freq of:
+        1.0 = termFreq=1
+      1.0797279 = idf(docFreq=4207437, maxDocs=4556623)
+      1.0 = fieldNorm(doc=55536)

@@ -1,0 +1,133 @@
+0.18895942 = (MATCH) sum of:
+  0.18895942 = (MATCH) sum of:
+    0.06277894 = (MATCH) max plus 0.01 times others of:
+      0.06267489 = (MATCH) weight(model:canon^100000.0 in 3207), product of:
+        0.0178881 = queryWeight(model:canon^100000.0), product of:
+          100000.0 = boost
+          7.0074387 = idf(docFreq=414, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        3.5037193 = (MATCH) fieldWeight(model:canon in 3207), product of:
+          1.0 = tf(termFreq(model:canon)=1)
+          7.0074387 = idf(docFreq=414, maxDocs=168673)
+          0.5 = fieldNorm(field=model, doc=3207)
+      8.386349E-8 = (MATCH) weight(description:canon in 3207), product of:
+        1.3086813E-7 = queryWeight(description:canon), product of:
+          5.126595 = idf(docFreq=2721, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.6408244 = (MATCH) fieldWeight(description:canon in 3207), product of:
+          1.0 = tf(termFreq(description:canon)=1)
+          5.126595 = idf(docFreq=2721, maxDocs=168673)
+          0.125 = fieldNorm(field=description, doc=3207)
+      2.032653E-4 = (MATCH) weight(name:canon^1000.0 in 3207), product of:
+        1.17630094E-4 = queryWeight(name:canon^1000.0), product of:
+          1000.0 = boost
+          4.6080112 = idf(docFreq=4571, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        1.7280042 = (MATCH) fieldWeight(name:canon in 3207), product of:
+          1.0 = tf(termFreq(name:canon)=1)
+          4.6080112 = idf(docFreq=4571, maxDocs=168673)
+          0.375 = fieldNorm(field=name, doc=3207)
+      8.4705626E-8 = (MATCH) weight(description_nostemm:canon in 3207), product of:
+        1.3152356E-7 = queryWeight(description_nostemm:canon), product of:
+          5.152271 = idf(docFreq=2652, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.64403385 = (MATCH) fieldWeight(description_nostemm:canon in 3207), product of:
+          1.0 = tf(termFreq(description_nostemm:canon)=1)
+          5.152271 = idf(docFreq=2652, maxDocs=168673)
+          0.125 = fieldNorm(field=description_nostemm, doc=3207)
+      0.010202062 = (MATCH) weight(name_nostemm:canon^50000.0 in 3207), product of:
+        0.00589272 = queryWeight(name_nostemm:canon^50000.0), product of:
+          50000.0 = boost
+          4.6167984 = idf(docFreq=4531, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        1.7312994 = (MATCH) fieldWeight(name_nostemm:canon in 3207), product of:
+          1.0 = tf(termFreq(name_nostemm:canon)=1)
+          4.6167984 = idf(docFreq=4531, maxDocs=168673)
+          0.375 = fieldNorm(field=name_nostemm, doc=3207)
+    0.03616793 = (MATCH) max plus 0.01 times others of:
+      1.920304E-7 = (MATCH) weight(description:powershot in 3207), product of:
+        1.9803066E-7 = queryWeight(description:powershot), product of:
+          7.7576027 = idf(docFreq=195, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.96970034 = (MATCH) fieldWeight(description:powershot in 3207), product of:
+          1.0 = tf(termFreq(description:powershot)=1)
+          7.7576027 = idf(docFreq=195, maxDocs=168673)
+          0.125 = fieldNorm(field=description, doc=3207)
+      7.2321395E-4 = (MATCH) weight(name:powershot^1000.0 in 3207), product of:
+        2.2188106E-4 = queryWeight(name:powershot^1000.0), product of:
+          1000.0 = boost
+          8.691912 = idf(docFreq=76, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        3.259467 = (MATCH) fieldWeight(name:powershot in 3207), product of:
+          1.0 = tf(termFreq(name:powershot)=1)
+          8.691912 = idf(docFreq=76, maxDocs=168673)
+          0.375 = fieldNorm(field=name, doc=3207)
+      1.920304E-7 = (MATCH) weight(description_nostemm:powershot in 3207), product of:
+        1.9803066E-7 = queryWeight(description_nostemm:powershot), product of:
+          7.7576027 = idf(docFreq=195, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.96970034 = (MATCH) fieldWeight(description_nostemm:powershot in 3207), product of:
+          1.0 = tf(termFreq(description_nostemm:powershot)=1)
+          7.7576027 = idf(docFreq=195, maxDocs=168673)
+          0.125 = fieldNorm(field=description_nostemm, doc=3207)
+      0.036160696 = (MATCH) weight(name_nostemm:powershot^50000.0 in 3207), product of:
+        0.011094052 = queryWeight(name_nostemm:powershot^50000.0), product of:
+          50000.0 = boost
+          8.691912 = idf(docFreq=76, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        3.259467 = (MATCH) fieldWeight(name_nostemm:powershot in 3207), product of:
+          1.0 = tf(termFreq(name_nostemm:powershot)=1)
+          8.691912 = idf(docFreq=76, maxDocs=168673)
+          0.375 = fieldNorm(field=name_nostemm, doc=3207)
+    0.09001254 = (MATCH) max plus 0.01 times others of:
+      0.089669555 = (MATCH) weight(model:480^100000.0 in 3207), product of:
+        0.021396363 = queryWeight(model:480^100000.0), product of:
+          100000.0 = boost
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        4.1908784 = (MATCH) fieldWeight(model:480 in 3207), product of:
+          1.0 = tf(termFreq(model:480)=1)
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          0.5 = fieldNorm(field=model, doc=3207)
+      1.3388514E-7 = (MATCH) weight(description:480 in 3207), product of:
+        1.653536E-7 = queryWeight(description:480), product of:
+          6.4775195 = idf(docFreq=704, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.80968994 = (MATCH) fieldWeight(description:480 in 3207), product of:
+          1.0 = tf(termFreq(description:480)=1)
+          6.4775195 = idf(docFreq=704, maxDocs=168673)
+          0.125 = fieldNorm(field=description, doc=3207)
+      6.725217E-4 = (MATCH) weight(name:480^1000.0 in 3207), product of:
+        2.1396363E-4 = queryWeight(name:480^1000.0), product of:
+          1000.0 = boost
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        3.143159 = (MATCH) fieldWeight(name:480 in 3207), product of:
+          1.0 = tf(termFreq(name:480)=1)
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          0.375 = fieldNorm(field=name, doc=3207)
+      1.3388514E-7 = (MATCH) weight(description_nostemm:480 in 3207), product of:
+        1.653536E-7 = queryWeight(description_nostemm:480), product of:
+          6.4775195 = idf(docFreq=704, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        0.80968994 = (MATCH) fieldWeight(description_nostemm:480 in 3207), product of:
+          1.0 = tf(termFreq(description_nostemm:480)=1)
+          6.4775195 = idf(docFreq=704, maxDocs=168673)
+          0.125 = fieldNorm(field=description_nostemm, doc=3207)
+      0.033626083 = (MATCH) weight(name_nostemm:480^50000.0 in 3207), product of:
+        0.010698182 = queryWeight(name_nostemm:480^50000.0), product of:
+          50000.0 = boost
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          2.5527301E-8 = queryNorm
+        3.143159 = (MATCH) fieldWeight(name_nostemm:480 in 3207), product of:
+          1.0 = tf(termFreq(name_nostemm:480)=1)
+          8.381757 = idf(docFreq=104, maxDocs=168673)
+          0.375 = fieldNorm(field=name_nostemm, doc=3207)
+  0.0 = (MATCH) FunctionQuery(strdist(literal(480),str(name), dist=org.apache.lucene.search.spell.LevensteinDistance)), product of:
+    0.0 = strdist(480,str(name)=shot, dist=org.apache.lucene.search.spell.LevensteinDistance)
+    1.0 = boost
+    2.5527301E-8 = queryNorm
+  5.10546E-9 = (MATCH) FunctionQuery(strdist(literal(canon),str(name), dist=org.apache.lucene.search.spell.LevensteinDistance)), product of:
+    0.19999999 = strdist(canon,str(name)=shot, dist=org.apache.lucene.search.spell.LevensteinDistance)
+    1.0 = boost
+    2.5527301E-8 = queryNorm

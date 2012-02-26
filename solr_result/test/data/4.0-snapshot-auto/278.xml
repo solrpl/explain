@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">1</int>
+</lst>
+<result name="response" numFound="1" start="0">
+  <doc>
+    <str name="id">1</str>
+    <arr name="int_f">
+      <int>1</int>
+    </arr>
+    <arr name="float_f">
+      <float>1.0</float>
+    </arr>
+    <arr name="long_f">
+      <long>1</long>
+    </arr>
+    <arr name="double_f">
+      <double>1.0</double>
+    </arr>
+    <arr name="byte_f">
+      <int>1</int>
+    </arr>
+    <arr name="short_f">
+      <int>1</int>
+    </arr>
+    <arr name="bool_f">
+      <bool>false</bool>
+    </arr>
+    <arr name="date_f">
+      <date>2001-01-01T00:00:00Z</date>
+    </arr>
+    <str name="content">gangs hijklmn1</str>
+    <arr name="content_ws">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_rev">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_multi">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_lower_token">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_oldstyle">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <str name="content_charfilter">gangs hijklmn1</str>
+    <str name="content_multi_bad">gangs hijklmn1</str>
+    <arr name="content_straight">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_lower">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_folding">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_stemming">
+      <str>gangs hijklmn1</str>
+    </arr>
+    <arr name="content_keyword">
+      <str>gangs hijklmn1</str>
+    </arr></doc>
+</result>
+<lst name="debug">
+  <str name="rawquerystring">content_multi:HÏ*</str>
+  <str name="querystring">content_multi:HÏ*</str>
+  <str name="parsedquery">content_multi:hi*</str>
+  <str name="parsedquery_toString">content_multi:hi*</str>
+  <lst name="explain">
+    <str name="1">
+1.0 = (MATCH) ConstantScore(content_multi:hi*), product of:
+  1.0 = boost
+  1.0 = queryNorm
+</str>
+  </lst>
+  <str name="QParser">LuceneQParser</str>
+  <lst name="timing">
+    <double name="time">1.0</double>
+    <lst name="prepare">
+      <double name="time">0.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+    <lst name="process">
+      <double name="time">1.0</double>
+      <lst name="org.apache.solr.handler.component.QueryComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.FacetComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.MoreLikeThisComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.HighlightComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.StatsComponent">
+        <double name="time">0.0</double>
+      </lst>
+      <lst name="org.apache.solr.handler.component.DebugComponent">
+        <double name="time">0.0</double>
+      </lst>
+    </lst>
+  </lst>
+</lst>
+</response>

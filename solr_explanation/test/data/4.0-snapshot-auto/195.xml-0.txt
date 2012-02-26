@@ -1,0 +1,7 @@
+
+7.214608 = (MATCH) weight(id:Äؐ#0; in 900) [DefaultSimilarity], result of:
+  7.214608 = fieldWeight in 900, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    7.214608 = idf(docFreq=1, maxDocs=1000)
+    1.0 = fieldNorm(doc=900)

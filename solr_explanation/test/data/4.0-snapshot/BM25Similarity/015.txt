@@ -1,0 +1,13 @@
+# name:"Dell Ultrasharp"~2
+4.4131274 = (MATCH) weight(name:"dell ultrasharp"~2 in 21) [BM25Similarity], result of:
+  4.4131274 = score(doc=21,freq=0.5 = phraseFreq=0.5
+), product of:
+    5.923661 = idf(), sum of:
+      2.9618306 = idf(docFreq=1, maxDocs=28)
+      2.9618306 = idf(docFreq=1, maxDocs=28)
+    0.745 = tfNorm, computed from:
+      0.5 = phraseFreq=0.5
+      1.2 = parameter k1
+      0.75 = parameter b
+      5.321429 = avgFieldLength
+      4.0 = fieldLength

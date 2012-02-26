@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">2</int>
+</lst>
+<lst name="spellcheck">
+  <lst name="suggestions">
+    <lst name="ac">
+      <int name="numFound">2</int>
+      <int name="startOffset">0</int>
+      <int name="endOffset">2</int>
+      <arr name="suggestion">
+        <str>acquire</str>
+        <str>accommodate</str>
+      </arr>
+    </lst>
+  </lst>
+</lst>
+</response>

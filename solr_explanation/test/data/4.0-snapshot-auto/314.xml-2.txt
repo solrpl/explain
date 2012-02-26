@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(float_f:[0.0 TO 2.0]), product of:
+  1.0 = boost
+  1.0 = queryNorm

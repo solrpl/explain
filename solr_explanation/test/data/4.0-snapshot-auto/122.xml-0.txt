@@ -1,0 +1,7 @@
+
+2.609438 = (MATCH) weight(id:104 in 4) [DefaultSimilarity], result of:
+  2.609438 = fieldWeight in 4, product of:
+    1.0 = tf(freq=1.0), with freq of:
+      1.0 = termFreq=1.0
+    2.609438 = idf(docFreq=1, maxDocs=10)
+    1.0 = fieldNorm(doc=4)

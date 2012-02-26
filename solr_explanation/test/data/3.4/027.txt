@@ -1,0 +1,12 @@
+# q=*:* AND _query_:"price:0.0"
+2.6433713 = (MATCH) sum of:
+  0.37830475 = (MATCH) MatchAllDocsQuery, product of:
+    0.37830475 = queryNorm
+  2.2650666 = (MATCH) weight(price:`#8;#0;#0;#0;#0; in 0), product of:
+    0.92568105 = queryWeight(price:`#8;#0;#0;#0;#0;), product of:
+      2.446919 = idf(docFreq=3, maxDocs=17)
+      0.37830475 = queryNorm
+    2.446919 = (MATCH) fieldWeight(price:`#8;#0;#0;#0;#0; in 0), product of:
+      1.0 = tf(termFreq(price:`#8;#0;#0;#0;#0;)=1)
+      2.446919 = idf(docFreq=3, maxDocs=17)
+      1.0 = fieldNorm(field=price, doc=0)

@@ -1,0 +1,5 @@
+
+0.7853982 = (MATCH) FunctionQuery(rad(const(45))), product of:
+  0.7853982 = rad(const(45))
+  1.0 = boost
+  1.0 = queryNorm

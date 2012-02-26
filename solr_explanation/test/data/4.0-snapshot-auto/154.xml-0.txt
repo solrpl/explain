@@ -1,0 +1,24 @@
+
+0.13095762 = (MATCH) sum of:
+  0.0767132 = (MATCH) weight(textgap:foo in 0) [MockConfigurableSimilarity], result of:
+    0.0767132 = score(doc=0,freq=2.0 = termFreq=2.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        2.3043842 = queryNorm
+      0.10848885 = fieldWeight in 0, product of:
+        1.4142135 = tf(freq=2.0), with freq of:
+          2.0 = termFreq=2.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.25 = fieldNorm(doc=0)
+  0.054244425 = (MATCH) weight(textgap:bar in 0) [MockConfigurableSimilarity], result of:
+    0.054244425 = score(doc=0,freq=1.0 = termFreq=1.0
+), product of:
+      0.70710677 = queryWeight, product of:
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        2.3043842 = queryNorm
+      0.076713204 = fieldWeight in 0, product of:
+        1.0 = tf(freq=1.0), with freq of:
+          1.0 = termFreq=1.0
+        0.30685282 = idf(docFreq=1, maxDocs=1)
+        0.25 = fieldNorm(doc=0)

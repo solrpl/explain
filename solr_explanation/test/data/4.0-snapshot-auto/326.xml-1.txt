@@ -1,0 +1,4 @@
+
+1.0 = (MATCH) ConstantScore(date_f:[978307199999 TO 1009929601000]), product of:
+  1.0 = boost
+  1.0 = queryNorm

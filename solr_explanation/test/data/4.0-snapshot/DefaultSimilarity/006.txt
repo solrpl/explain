@@ -1,0 +1,6 @@
+# q=name:dell AND name:waidescreen
+0.0 = (NON-MATCH) Failure to meet condition(s) of required/prohibited clause(s)
+  0.0 = no match on required clause (name:dell)
+    0.0 = (NON-MATCH) no matching term
+  0.0 = no match on required clause (name:widescreen)
+    0.0 = (NON-MATCH) no matching term

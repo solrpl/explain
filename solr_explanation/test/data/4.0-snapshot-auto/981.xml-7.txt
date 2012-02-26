@@ -1,0 +1,5 @@
+
+NaN = (MATCH) FunctionQuery(sqrt(sfloat(CoMpleX " fieldName _f))), product of:
+  NaN = sqrt(sfloat(CoMpleX " fieldName _f)=-4.0)
+  1.0 = boost
+  1.0 = queryNorm

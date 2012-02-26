@@ -1,0 +1,16 @@
+
+0.0 = (MATCH) sum of:
+  0.0 = (MATCH) product of:
+    0.0 = (MATCH) sum of:
+      0.0 = (MATCH) weight(id:x in 3) [DefaultSimilarity], result of:
+        0.0 = score(doc=3,freq=1.0 = termFreq=1.0
+), product of:
+          0.0 = queryWeight, product of:
+            2.0986123 = idf(docFreq=1, maxDocs=6)
+            0.0 = queryNorm
+          2.0986123 = fieldWeight in 3, product of:
+            1.0 = tf(freq=1.0), with freq of:
+              1.0 = termFreq=1.0
+            2.0986123 = idf(docFreq=1, maxDocs=6)
+            1.0 = fieldNorm(doc=3)
+    0.33333334 = coord(1/3)
