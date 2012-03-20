@@ -31,7 +31,7 @@ module ExplainsHelper
     explanation = doc.explanation
     s = ''
     s += render(:partial => 'explains/explain_description_header', :locals => { :doc => doc })
-    s += render_if_exists(explanation_view(explanation), 'explains/description', { :locals => {:explanation => explanation.explanation }}) 
+    s += render_if_exists(explanation_view(explanation), 'explains/description', { :locals => {:explanation => explanation.explanation }})
     s += render(:partial => 'explains/explain_description_footer', :locals => { :doc => doc, :explanation => explanation })
     s.html_safe
   end
@@ -100,7 +100,7 @@ module ExplainsHelper
 
   def show_chart_for_performance(label,timing)
     return unless timing && timing.components.length > 0
-    data = timing.components.find_all{|comp| timing[comp].time > 0}.collect do |comp| 
+    data = timing.components.find_all{|comp| timing[comp].time > 0}.collect do |comp|
       [t("solr.result.component.#{comp.to_s}", :default => comp.to_s), timing[comp].time]
     end
     chart = LazyHighCharts::HighChart.new('pie') do |f|
@@ -109,7 +109,7 @@ module ExplainsHelper
       f.options[:chart][:width] = 650;
     end
 
-    high_chart("chart_perf_#{timing.id}", chart) do
+    high_chart("chart_perf_#{timing.object_id}", chart) do
       "options.tooltip.formatter = function() { return this.point.name + ' ('+ this.y +'ms)';}".html_safe
     end
   end
