@@ -25,7 +25,7 @@ require 'solr_result'
 class SolrResult_4_0SnapshotAutoTest < Test::Unit::TestCase
 
   def get_result(file)
-    content = File.read("data/4.0-snapshot-auto/#{file}.xml")
+    content = File.read("#{File.dirname(__FILE__)}/data/4.0-snapshot-auto/#{file}.xml")
     parser = SolrResult::Parser.parser
     result = parser.parse(content)
   end

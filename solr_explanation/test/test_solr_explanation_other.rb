@@ -7,7 +7,7 @@ require 'solr_explanation'
 
 class SolrExplanationOtherTest < Test::Unit::TestCase
   def get_explain(file)
-    content = File.read("data/other/#{file}.txt")
+    content = File.read("#{File.dirname(__FILE__)}/data/other/#{file}.txt")
     metadata = SolrExplanation::Metadata.new(:id => 'P_164345', :version => 'auto')
     parser = SolrExplanation::Parser.parser(metadata)
     explain = parser.parse(content)

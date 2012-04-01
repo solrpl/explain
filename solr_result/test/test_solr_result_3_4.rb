@@ -25,7 +25,7 @@ require 'solr_result'
 class SolrResult_3_4Test < Test::Unit::TestCase
 
   def get_result(file)
-    content = File.read("data/3.4/#{file}.xml")
+    content = File.read("#{File.dirname(__FILE__)}/data/3.4/#{file}.xml")
     parser = SolrResult::Parser.parser
     result = parser.parse(content)
   end

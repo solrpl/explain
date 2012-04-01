@@ -22,21 +22,39 @@ require 'test/unit'
 require 'solr_explanation'
 require 'solr_result'
 
-class SolrResult_3_5AutoTest < Test::Unit::TestCase
+class SolrResultOtherTest < Test::Unit::TestCase
 
   def get_result(file)
-    content = File.read("data/3.5-auto/#{file}.xml")
+    content = File.read("#{File.dirname(__FILE__)}/data/other/#{file}.xml")
     parser = SolrResult::Parser.parser
     result = parser.parse(content)
   end
 
-  (0..101).each do |x|
-    define_method "test_#{x}" do
-      puts "File: #{x}"
-      result = get_result x
-      assert_not_nil result
-      assert result.parsed?
-    end
+  def test_parse_002
+    result = get_result '002'
+    assert_not_nil result
+    assert result.parsed?
+    assert_equal(4, result.docs.length)
+    assert_equal(4, result.docs(:found).length)
+    assert_equal(0, result.docs(:other).length)
+    assert_equal(4, result.found)
+    assert result.params.on?(:debugQuery)
+    assert result.params.debug?
+    assert_equal(:id, result.docs[0].key)
+    assert_equal('48838193', result.docs[0].uniq_id)
   end
 
+  def test_parse_003
+    result = get_result '003'
+    assert_not_nil result
+    assert result.parsed?
+    assert_equal(4, result.docs.length)
+    assert_equal(4, result.docs(:found).length)
+    assert_equal(0, result.docs(:other).length)
+    assert_equal(4, result.found)
+    assert result.params.on?(:debugQuery)
+    assert result.params.debug?
+    assert_equal(:id, result.docs[0].key)
+    assert_equal('48838193', result.docs[0].uniq_id)
+  end
 end

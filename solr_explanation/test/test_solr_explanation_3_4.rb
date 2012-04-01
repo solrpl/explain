@@ -9,7 +9,7 @@ require 'pp'
 
 class SolrExplanation_3_4Test < Test::Unit::TestCase
   def get_explain(file)
-    content = File.read("data/3.4/#{file}.txt")
+    content = File.read("#{File.dirname(__FILE__)}/data/3.4/#{file}.txt")
     lines = content.split(/\r?\n/)
     puts "Check: #{lines.shift}"
     content = lines.join("\n")

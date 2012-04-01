@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Marek Rogozinski"]
   s.email       = ["m.rogozinski@solr.pl"]
-  s.homepage    = ""
+  s.homepage    = "http://solr.pl/"
   s.summary     = %q{Library for parsing solr debug information}
-  s.description = %q{Library for parsing solr debug information}
+  s.description = %q{SolrExplanation is simple library for parsing information produced by lucene explain() call or contained in solr response.}
 
   s.rubyforge_project = "solr_explanation"
 

@@ -23,9 +23,9 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Marek Rogozinski"]
   s.email       = ["m.rogozinski@solr.pl"]
-  s.homepage    = ""
+  s.homepage    = "http://solr.pl/"
   s.summary     = %q{Library for parsing solr xml output}
-  s.description = %q{Library for parsing solr xml output}
+  s.description = %q{Library parses solr XML information and fetch various debug information. This code is used in explain.solr.pl engine.}
 
   s.rubyforge_project = "solr_result"
 
