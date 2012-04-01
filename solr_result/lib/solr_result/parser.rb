@@ -48,7 +48,7 @@ module SolrResult
       docs = []
       explain_other_docs = []
       params = {}
-      debug = {}
+      debug = Debug.new({})
       found = 0
 
       begin

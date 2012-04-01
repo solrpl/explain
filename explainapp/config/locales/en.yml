@@ -34,7 +34,7 @@ en:
     show:
       header: "Result:"
       public: "This explain is available to public."
-      parse_failed: "Sorry, parsing failed."
+      parse_failed: "Parsing failed. No data to display."
       info:
        uniqueKeyGuessFailed: "Cannot guess unique key. Make sure you use your document ID in fl parameter." 
        emptyDocList: "Cannot find documents in result. Propably your query does not return any."

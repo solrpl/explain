@@ -18,6 +18,9 @@ module SolrResult
     attr_reader :time
 
     def self.create(data)
+      unless data
+        return Timing.new
+      end
       if data.length == 1
         return Timing.new(data[:time])
       end

@@ -48,11 +48,15 @@
             <% if @explain.result.parsed? %>
                 <%= render :partial => 'doc', :collection => @explain.result.docs, :locals => { :explain => @explain }, :spacer_template => "doc_ruler" %>
             <% else %>
-                <p class="parse-error"><%=t 'explains.show.parse_failed' %></p>
+                <p class="parse-error"><%=t 'explain.show.parse_failed' %></p>
             <% end %>
           </div>
         <div class="result-perf hidden">
-          <%= render :partial => 'explains/performance', :locals => { :result => @explain.result } %>
+          <% if @explain.result.parsed? %>
+          	<%= render :partial => 'explains/performance', :locals => { :result => @explain.result } %>
+          <% else %>
+                <p class="parse-error"><%=t 'explain.show.parse_failed' %></p>
+           <% end %>
         </div>
         <div class="result-unassigned hidden">
             <%#= render_explain_description( @explain, :unassigned ) %>

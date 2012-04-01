@@ -212,7 +212,7 @@ body div.messages p              {padding:8px 12px;margin-bottom:10px;border:1px
 body div.messages p.err          {border-color:#800;background:#fee}
 body div.messages p.warn         {border-color:#d90;background:#ffe}
 
-body.show .result-found p.parse-error {padding:1em;font-size:1.1em;font-weight:bold;color:#a00}
+p.parse-error {padding:1em;font-size:1.1em;font-weight:bold;color:#a00}
 
 .result                         {margin:0;padding:0}
  .result-found,
