@@ -1,11 +1,8 @@
 1. Supported versions of Apache Solr
 Explain.solr.pl supports the following versions of Apache Solr search server:
- * 3.0
- * 3.1
- * 3.2
- * 3.3
- * 3.4
- * 3.5
+ * 3.x
+ * 4.0 (beta)
+ 
 We plan to support Apache Solr 3.6 and newer, but support for versions older
 than 3.0 is not planned.
 
