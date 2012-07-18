@@ -50,6 +50,7 @@ module SolrResult
       params = {}
       debug = Debug.new({})
       found = 0
+      grouped = false
 
       begin
         doc = REXML::Document.new(content)
@@ -58,7 +59,8 @@ module SolrResult
         docs = parse_docs(doc, version, debug.explain, info)
         explain_other_docs = parse_explain_other_docs(doc, version, debug.explainOther, info)
         params = parse_params(doc)
-        found = get_num_found(doc, info)
+        grouped = is_grouped_result(doc, info)
+        found = get_num_found(doc, grouped, info)
       rescue REXML::ParseException => e
           pp e
           info << Info.new(:error, 'solr.result.info.parse.error')
@@ -79,7 +81,7 @@ module SolrResult
     private
       def parse_docs(doc, version, explain, info)
         docs = []
-        doc.elements.each("/response/result/doc") do |item|
+        doc.elements.each("//doc") do |item|
           params = {}
           item.elements.each do |field|
             params.merge! merge_item(field)
@@ -171,13 +173,32 @@ module SolrResult
         end
       end
 
-      def get_num_found(doc, info)
-        o = REXML::XPath.first(doc, "/response/result")
+      def get_num_found(doc, grouped, info)
+        if grouped 
+            o = REXML::XPath.first(doc, "/response/lst[@name='grouped']")
+            if o
+              REXML::XPath.first(doc, "/response/lst[@name='grouped']/lst/int").attributes['matches'].to_i
+            else
+              info << Info.new(:error, 'solr.result.info.parse.numFound')
+              0
+            end
+        else        
+            o = REXML::XPath.first(doc, "/response/result")
+            if o
+              REXML::XPath.first(doc, "/response/result").attributes['numFound'].to_i
+            else
+              info << Info.new(:error, 'solr.result.info.parse.numFound')
+              0
+            end
+        end
+      end
+      
+      def is_grouped_result(doc, info)
+        o = REXML::XPath.first(doc, "/response/lst[@name='grouped']")
         if o
-          REXML::XPath.first(doc, "/response/result").attributes['numFound'].to_i
+          true
         else
-          info << Info.new(:error, 'solr.result.info.parse.numFound')
-          0
+          false
         end
       end
 
